@@ -22,10 +22,10 @@
 <img src="screenshots/ts.png" />
 
 ### Kotlin
-<img src="screenshots/kotline.png" />
+<img src="screenshots/kotlin.png" />
 
 ### Gradle
-<img src="screenshots/gradlr.png" />
+<img src="screenshots/gradle.png" />
 
 ### Yaml
 <img src="screenshots/yml.png" />
