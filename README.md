@@ -16,16 +16,16 @@
 ## Examples
 
 ### Java
-[java]: https://github.com/Hiberbee/intellij-theme/raw/master/screenshots/java.png "Java"
+<img src="screenshots/java.png" />
 
 ### Typescript
-[ts]: https://github.com/Hiberbee/intellij-theme/raw/master/screenshots/ts.png "Typescript"
+<img src="screenshots/ts.png" />
 
 ### Kotlin
-[kotlin]: https://github.com/Hiberbee/intellij-theme/raw/master/screenshots/kotlin.png "Kotlin"
+<img src="screenshots/kotline.png" />
 
 ### Gradle
-[gradle]: https://github.com/Hiberbee/intellij-theme/raw/master/screenshots/gradle.png "Gradle"
+<img src="screenshots/gradlr.png" />
 
 ### Yaml
-[gradle]: https://github.com/Hiberbee/intellij-theme/raw/master/screenshots/yml.png "Yaml"
+<img src="screenshots/yml.png" />
