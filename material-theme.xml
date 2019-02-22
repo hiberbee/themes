@@ -1,0 +1,25 @@
+<mtTheme>
+  <id>hiberbee</id>
+  <editorColorsScheme>Hiberbee</editorColorsScheme>
+  <dark>true</dark>
+  <name>Hiberbee</name>
+  <colors>
+    <color id="background" value="292929ff"/>
+    <color id="foreground" value="9f9f9fff"/>
+    <color id="text" value="727272ff"/>
+    <color id="highlight" value="373737ff"/>
+    <color id="selectionBackground" value="5a5a5aff"/>
+    <color id="selectionForeground" value="ffffffff"/>
+    <color id="button" value="1e1e1eff"/>
+    <color id="secondaryBackground" value="373737ff"/>
+    <color id="disabled" value="4c4c4cff"/>
+    <color id="contrast" value="1e1e1eff"/>
+    <color id="tableSelected" value="4c4c4cff"/>
+    <color id="secondBorder" value="5a5a5aff"/>
+    <color id="treeSelection" value="292929c0"/>
+    <color id="notifications" value="0f0f0fff"/>
+    <color id="accent" value="f2bf44ff"/>
+    <color id="excluded" value="1e1e1eff"/>
+  </colors>
+  <themeId>hiberbee</themeId>
+</mtTheme>
