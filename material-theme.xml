@@ -1,25 +1,33 @@
+<!--
+  ~ Copyright (c) 2019. Hiberbee https://hiberbee.github.io/hiberbee.com
+  ~
+  ~ This file is part of the Hiberbee OSS. Licensed under the MIT License
+  ~ For the full copyright and license information, please view the LICENSE
+  ~ file that was distributed with this source code.
+  -->
+
 <mtTheme>
-  <id>hiberbee</id>
+  <id>Hiberbee</id>
   <editorColorsScheme>Hiberbee</editorColorsScheme>
   <dark>true</dark>
   <name>Hiberbee</name>
   <colors>
-    <color id="background" value="292929ff"/>
-    <color id="foreground" value="9f9f9fff"/>
-    <color id="text" value="727272ff"/>
-    <color id="highlight" value="373737ff"/>
-    <color id="selectionBackground" value="5a5a5aff"/>
-    <color id="selectionForeground" value="ffffffff"/>
-    <color id="button" value="1e1e1eff"/>
-    <color id="secondaryBackground" value="373737ff"/>
-    <color id="disabled" value="4c4c4cff"/>
-    <color id="contrast" value="1e1e1eff"/>
-    <color id="tableSelected" value="4c4c4cff"/>
-    <color id="secondBorder" value="5a5a5aff"/>
-    <color id="treeSelection" value="292929c0"/>
-    <color id="notifications" value="0f0f0fff"/>
-    <color id="accent" value="f2bf44ff"/>
-    <color id="excluded" value="1e1e1eff"/>
+    <color id="background" value="2d2a2eff"/>
+    <color id="foreground" value="acacacff"/>
+    <color id="text" value="939293ff"/>
+    <color id="highlight" value="5b595cff"/>
+    <color id="selectionBackground" value="403e41ff"/>
+    <color id="selectionForeground" value="e6b53eff"/>
+    <color id="button" value="403e41ff"/>
+    <color id="secondaryBackground" value="403e41ff"/>
+    <color id="disabled" value="5b595cff"/>
+    <color id="contrast" value="221f22ff"/>
+    <color id="tableSelected" value="1c1a1cff"/>
+    <color id="secondBorder" value="2d2a2eff"/>
+    <color id="treeSelection" value="2d2a2eff"/>
+    <color id="notifications" value="363437ff"/>
+    <color id="accent" value="e6b53eff"/>
+    <color id="excluded" value="3a3a3cff"/>
   </colors>
-  <themeId>hiberbee</themeId>
+  <themeId>Hiberbee</themeId>
 </mtTheme>
