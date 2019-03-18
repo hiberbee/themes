@@ -1,0 +1,26 @@
+<!--
+  ~ Copyright (c) 2019. Hiberbee https://hiberbee.github.io/hiberbee.com
+  ~
+  ~ This file is part of the Hiberbee OSS. Licensed under the MIT License
+  ~ For the full copyright and license information, please view the LICENSE
+  ~ file that was distributed with this source code.
+  -->
+
+<idea-plugin>
+  <id>com.hiberbee.intellij.hiberbee-theme</id>
+  <name>Hiberbee theme</name>
+  <version>1.0</version>
+  <vendor email="vlad@hiberbee.com" url="https://github.com/Hiberbee">Hiberbee</vendor>
+
+  <description><![CDATA[
+      Monokai & Intellij DarkPurple inspired color theme, with bright colors, with common color code for all languages. See description & screenshots on <a href="https://github.com/Hiberbee/intellij-theme">Github</a>
+    ]]></description>
+
+  <idea-version since-build="191.0"/>
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="683fb0ab-974f-4604-8b3d-8ed74934e18d" path="/Hiberbee.theme.json"/>
+  </extensions>
+
+</idea-plugin>
