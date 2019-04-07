@@ -1,18 +1,16 @@
-# Hiberbee IntelliJ theme
+# Intellij Theme
 
-## Examples
+## Status
+[![Github release](https://img.shields.io/github/release/hiberbee/intellij-theme.svg?style=flat-square)](https://travis-ci.com/hiberbee/intellij-theme/releases)
+[![Travis build](https://img.shields.io/travis/com/hiberbee/intellij-theme.svg?style=flat-square)](https://travis-ci.com/hiberbee/intellij-theme)
 
-### Java
-<img src="resources/screenshots/java.png" />
+## Documentation
+[![Docs](https://img.shields.io/badge/docs-github.io-blue.svg?style=flat-square)](https://hiberbee.github.io/intellij-theme/)
 
-### Typescript
-<img src="resources/screenshots/typescript.png" />
+## Contributing
+[![SemVer](https://img.shields.io/badge/SemVer-2.0.0-blue.svg?style=flat-square)](http://semver.org/spec/v2.0.0.html)
+[![License](https://img.shields.io/github/license/hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/hiberbee/intellij-theme/blob/master/LICENSE)
+[![Issues](https://img.shields.io/github/issues/hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/hiberbee/intellij-theme/issues)
 
-### Groovy
-<img src="resources/screenshots/groovy.png" />
-
-### Scala
-<img src="resources/screenshots/scala.png" />
-
-### Python
-<img src="resources/screenshots/python.png" />
+## Screenshots
+![](screenshots/default.png)
