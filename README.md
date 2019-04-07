@@ -1,8 +1,7 @@
 # Intellij Theme
 
 ## Status
-[![Github release](https://img.shields.io/github/release/hiberbee/intellij-theme.svg?style=flat-square)](https://travis-ci.com/hiberbee/intellij-theme/releases)
-[![Travis build](https://img.shields.io/travis/com/hiberbee/intellij-theme.svg?style=flat-square)](https://travis-ci.com/hiberbee/intellij-theme)
+[![Github release](https://img.shields.io/github/release/hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/hiberbee/intellij-theme/releases)
 
 ## Documentation
 [![Docs](https://img.shields.io/badge/docs-github.io-blue.svg?style=flat-square)](https://hiberbee.github.io/intellij-theme/)
