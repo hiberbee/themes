@@ -1,0 +1,111 @@
+@function tint($color, $percent) {
+  @return rgb((255 - red($color)) * $percent, (255 - blue($color)) * $percent, (255 - green($color)) * $percent)
+}
+
+$monokaiVibrantBackground: rgb(39, 40, 32);
+$monokaiVibrantBackground: rgb(56, 59, 51);
+$monokaiVibrantBackground: rgb(56, 59, 50);
+$monokaiVibrantBackground: rgb(69, 72, 63);
+$monokaiVibrantBackground: rgb(69, 72, 63);
+$monokaiVibrantYellow: rgb(248, 216, 98);
+$monokaiVibrantPink: rgb(213, 123,201);
+$monokaiVibrantBlue: rgb(96, 206, 226);
+$monokaiVibrantGreen: rgb(160, 245, 76);
+$monokaiVibrantOrange: rgb(241, 155, 56);
+$monokaiVibrantRed: rgb(236, 80, 85);
+
+
+$monokaiPing: rgb(249, 38, 114);
+$basePink: rgb(237, 108, 137);
+
+$monokaiGreen: rgb(167, 236, 33);
+$baseGreen: rgb(169, 220, 118);
+
+$monokaiBlue: rgb(102, 217, 239);
+$monokaiBlue: rgb(120, 220, 232);
+
+$yellow: rgb(255, 200, 60);
+$baseYellow: rgb(255, 215, 102);
+
+$monokaiPurple: rgb(147, 128, 255);
+$pink: rgb(171, 157, 242);
+
+$monokaiComment: rgb(204, 191, 175);
+$monokaiComment: rgb(88, 86, 75);
+
+$defaultBackground: rgb(43, 41, 45);
+$readOnlyBackground: rgb(33, 31, 35);
+$red: rgb(255, 100, 100);
+$pink: rgb(255, 30, 115);
+$yellowDarker: rgb(255, 225, 100);
+$orange: rgb(255, 150, 30);
+$green: rgb(165, 225, 45);
+$green: rgb(185, 230, 90);
+$green: rgb(210, 240, 100);
+$blue: rgb(100, 175, 235);
+$blue: rgb(125, 200, 255);
+$blue: rgb(50, 125, 255);
+$blue: rgb(170, 185, 215);
+$violet: rgb(130, 60, 140);
+
+//Keywords
+$pink1: rgb(217, 72, 106);
+$pink2: rgb(197, 33, 71);
+$pink3: rgb(244, 147, 170);
+$pink4: rgb(250, 192, 206);
+
+// Methods
+$green1: rgb(137, 181, 79);
+$green2: rgb(95, 140, 37);
+$green3: rgb(211, 238, 177);
+$green: rgb(232, 246, 214);
+
+// Strings
+$yellow: rgb(214, 178, 75);
+$yellow2: rgb(180, 144, 40);
+$yellow3: rgb(255, 231, 161);
+$yellow4: rgb(255, 241, 201);
+
+// Parameters
+$pink: rgb(251, 151, 103);
+$orange1: rgb(203, 116, 69);
+$orange2: rgb(169, 83, 37);
+// Values
+$orange3: rgb(255, 192, 158);
+$orange4: rgb(255, 218, 198);
+
+//Variables
+$violet1: rgb(132, 120, 218);
+$violet2: rgb(97, 84, 192);
+$violet3: rgb(208, 202, 248);
+$violet4: rgb(247, 246, 255);
+
+// Classes
+$blue1: rgb(101, 193, 206);
+$blue2: rgb(63, 160, 174);
+$blue3: rgb(193, 239, 246);
+$blue4: rgb(244, 253, 255);
+
+
+$violet: rgb(180, 110, 190);
+$red: rgb(235, 95, 95);
+$orange: rgb(230, 135, 60);
+$yellow: rgb(240, 185, 75);
+$green: rgb(120, 185, 85);
+$blue: rgb(50, 125, 245);
+$grey: rgb(140, 140, 140);
+
+$darkGrey: gray(30);
+$inactive: gray(40);
+$inactive: gray(45);
+$main: gray(50);
+$menu: gray(55);
+$header: gray(60);
+$separator: gray(70);
+$border: gray(90);
+$selected: gray(100);
+$border: gray(85);
+$text: gray(125);
+$text: gray(150);
+$text: gray(175);
+$defaultText: gray(200);

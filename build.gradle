@@ -1,0 +1,41 @@
+buildscript {
+  repositories {
+    mavenCentral()
+    maven {
+      url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven {
+      url 'https://dl.bintray.com/jetbrains/intellij-plugin-service'
+    }
+  }
+  dependencies {
+    classpath "org.jetbrains.intellij.plugins:gradle-intellij-plugin:0.5.0-SNAPSHOT"
+  }
+}
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
+group 'com.hiberbee'
+version '1.0.4'
+
+idea {
+  module {
+    excludeDirs += [file('.gradle'), file('gradle'), file('docs')]
+    downloadSources = false
+    inheritOutputDirs = true
+  }
+}
+intellij {
+  version 'IU-2019.1'
+  pluginName 'Hiberbee theme'
+  instrumentCode false
+  updateSinceUntilBuild true
+}
+patchPluginXml {
+  pluginDescription = 'Monokai Pro & MacOS Mojave inspired color themes, with bright colors & dark mode, with common color code for all languages. See description & screenshots on <a href="https://github.com/Hiberbee/intellij-theme">Github</a>'
+  changeNotes = 'Color scheme simplification. Used two monokai schemes - more & less saturated for different contexts.'
+}
+
+publishPlugin {
+  token System.getProperty("intellij.plugin.key")
+  version '1.0.4'
+}
