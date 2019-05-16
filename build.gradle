@@ -1,9 +1,9 @@
 /*
  * Copyright © 2019. Hiberbee https://hiberbee.com"
- *
- * This file is part of the Hiberbee package. Licensed under the MIT License
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ *   
+ *   This file is part of the Hiberbee package. Licensed under the MIT License
+ *   For the full copyright and license information, please view the LICENSE
+ *   file that was distributed with this source code.
  */
 plugins {
   id("org.jetbrains.intellij") version "0.4.8"
@@ -20,8 +20,8 @@ intellij {
   sandboxDirectory = new File(rootProject.projectDir, "dist/intellij-sandbox/${type}-${version}")
 }
 publishPlugin {
-  setUsername("volkov.vladyslav@gmail.com")
-  setPassword("9D9HTgTPYmijB7")
+  setUsername(System.getProperty("intellij.pluginRepository.username"))
+  setPassword(System.getProperty("intellij.pluginRepository.password"))
 }
 patchPluginXml {
   version(project.version)
