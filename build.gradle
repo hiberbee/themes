@@ -9,7 +9,7 @@ plugins {
   id("org.jetbrains.intellij") version "0.4.8"
 }
 
-version = "1.1.3"
+version = "1.1.4"
 
 intellij {
   updateSinceUntilBuild = false
@@ -24,5 +24,5 @@ publishPlugin {
 }
 patchPluginXml {
   version(project.version)
-  changeNotes("Minor fixes in color scheme - Scala support added & CLI output updates. New icons replacement")
+  changeNotes("One more icons replacement & files clean up")
 }
