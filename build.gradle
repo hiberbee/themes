@@ -1,6 +1,6 @@
 /*
  * Copyright © 2019. Hiberbee https://hiberbee.com"
- *   
+ *
  *   This file is part of the Hiberbee package. Licensed under the MIT License
  *   For the full copyright and license information, please view the LICENSE
  *   file that was distributed with this source code.
@@ -20,8 +20,7 @@ intellij {
   sandboxDirectory = new File(rootProject.projectDir, "dist/intellij-sandbox/${type}-${version}")
 }
 publishPlugin {
-  setUsername(System.getProperty("intellij.pluginRepository.username"))
-  setPassword(System.getProperty("intellij.pluginRepository.password"))
+  setToken(System.getProperty("intellij.pluginRepository.token"))
 }
 patchPluginXml {
   version(project.version)
