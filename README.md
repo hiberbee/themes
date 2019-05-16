@@ -1,10 +1,12 @@
 # Intellij Hiberbee Theme
 
+
+[![License](https://img.shields.io/github/license/hiberbee/intellij-theme.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Jetbrains Downloads](https://img.shields.io/jetbrains/plugin/d/12118-hiberbee-theme.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/12118-hiberbee-theme)
 [![Jetbrains Plugin](https://img.shields.io/jetbrains/plugin/v/12118-hiberbee-theme.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/12118-hiberbee-theme)
 [![Github release](https://img.shields.io/github/tag-pre/Hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/Hiberbee/intellij-theme/releases)
 [![SemVer](https://img.shields.io/badge/SemVer-2.0.0-blue.svg?style=flat-square)](http://semver.org/spec/v2.0.0.html)
-[![Issues](https://mg.shields.io/github/issues/hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/hiberbee/intellij-theme/issues)
+[![Issues](https://img.shields.io/github/issues-raw/hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/Hiberbee/intellij-theme/issues)
 
 ![](screenshots/java.png)
 
