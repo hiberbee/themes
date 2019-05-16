@@ -1,0 +1,18 @@
+<idea-plugin>
+  <change-notes>Fixed plugin page buttons colors. Updated theme colors for debugger, selections &amp; static/nonstatic
+    methods
+  </change-notes>
+  <id>com.hiberbee.intellij.hiberbee-theme</id>
+  <name>Hiberbee theme</name>
+  <version>1.1.2</version>
+  <vendor email="vlad@hiberbee.com" url="https://github.com/Hiberbee">Hiberbee</vendor>
+  <description>Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common
+    color code for all languages. See description &amp; screenshots on &lt;a
+    href="https://github.com/Hiberbee/intellij-theme"&gt;Github&lt;/a&gt;
+  </description>
+  <idea-version since-build="191.6183" until-build="191.*"/>
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="683fb0ab-974f-4604-8b3d-8ed74934e18d" path="/Hiberbee.theme.json"/>
+  </extensions>
+</idea-plugin>

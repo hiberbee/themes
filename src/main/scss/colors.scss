@@ -1,0 +1,45 @@
+@function tint($color, $percent) {
+  @return rgb((255 - red($color)) * $percent, (255 - blue($color)) * $percent, (255 - green($color)) * $percent)
+}
+
+// Monokai-based
+$baseRed: rgb(237, 107, 136);
+$baseOrange: rgb(238, 155, 112);
+$baseYellow: rgb(249, 215, 120);
+$baseGrn: rgb(180, 218, 130);
+$baseCyan: rgb(144, 218, 230);
+$baseBlue: rgb(156, 188, 233);
+$baseMagenta: rgb(168, 159, 236);
+
+// Monokai-based: vibrant
+$saturatedRed: rgb(255, 0, 114);
+$saturatedOrange: rgb(253, 151, 31);
+$saturatedYellow: rgb(242, 186, 75);
+$saturatedGreen: rgb(166, 226, 46);
+$saturatedCyan: rgb(73, 176, 241);
+$saturatedBlue: rgb(48, 123, 246);
+$saturatedMagenta: rgb(148, 120, 246);
+
+// macOS-based
+$macosRed: rgb(236, 95, 93);
+$macosOrange: rgb(232, 135, 58);
+$macosYellow: rgb(255, 200, 60);
+$macosGreen: rgb(120, 183, 86);
+$macosCyan: rgb(84, 153, 166);
+$macosBlue: rgb(48, 123, 246);
+$macosMagenta: rgb(154, 86, 163);
+
+// Fifty shades of grey
+$editorBackground: gray(25);
+$inactive: gray($editorBackground + 10);
+$main: gray($editorBackground + 20);
+$menu: gray($editorBackground + 30);
+$header: gray($editorBackground + 40);
+$separator: gray($editorBackground + 50);
+$border: gray($editorBackground + 60);
+$selected: gray($editorBackground + 70);
+$border: gray($editorBackground + 80);
+$text: gray($editorBackground + 100);
+$text: gray($editorBackground + 125);
+$text: gray($editorBackground + 150);
+$commentText: gray(200);
