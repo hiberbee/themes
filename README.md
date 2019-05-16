@@ -1,7 +1,8 @@
 # Intellij Hiberbee Theme
 
 [![Jetbrains Downloads](https://img.shields.io/jetbrains/plugin/d/12118-hiberbee-theme.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/12118-hiberbee-theme)
-[![Github release](https://img.shields.io/github/release/Hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/Hiberbee/intellij-theme/releases)
+[![Jetbrains Plugin](https://img.shields.io/jetbrains/plugin/v/12118-hiberbee-theme.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/12118-hiberbee-theme)
+[![Github release](https://img.shields.io/github/tag-pre/Hiberbee/intellij-theme.svg?style=flat-square)](https://github.com/Hiberbee/intellij-theme/releases)
 [![SemVer](https:/img.shields.io/badge/SemVer-2.0.0-blue.svg?style=flat-square)](http://semver.org/spec/v2.0.0.html)[![Issues](https:/img.shields.io/github/issues/hiberbee/intellij-theme.svg?style=flat-square)](https:/github.com/hiberbee/intellij-theme/issues)
 
 ![](screenshots/java.png)
