@@ -9,7 +9,7 @@ plugins {
   id("org.jetbrains.intellij") version "0.4.8"
 }
 
-version = "1.1.4"
+version = "1.1.6"
 
 intellij {
   updateSinceUntilBuild = false
@@ -17,12 +17,12 @@ intellij {
   configureDefaultDependencies = false
   instrumentCode = false
   downloadSources = true
-  sandboxDirectory = new File(rootProject.projectDir, "dist/intellij-sandbox/${type}-${version}")
+  setSandboxDirectory("$rootDir/dist/intellij-sandbox/${type}-${version}")
 }
 publishPlugin {
   setToken(System.getProperty("intellij.pluginRepository.token"))
 }
 patchPluginXml {
   version(project.version)
-  changeNotes("One more icons replacement & files clean up")
+  changeNotes("Toolbar panes icon highlighted. Replaced plugin icon.")
 }
