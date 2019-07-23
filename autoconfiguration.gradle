@@ -1,0 +1,16 @@
+/*
+ * Copyright © 2019. Hiberbee https://hiberbee.com"
+ *
+ *   This file is part of the Hiberbee package. Licensed under the MIT License
+ *   For the full copyright and license information, please view the LICENSE
+ *   file that was distributed with this source code.
+ */
+
+tasks.named("buildTemplates").configure {
+  it.convention.properties.put("templates", [
+    "LICENSE.MIT"    : file("LICENSE"),
+    "CONTRIBUTING.md": file("CONTRIBUTING.md"),
+    "README.md"      : file("README.md"),
+    ".gitignore"     : file(".gitignore")
+  ])
+}
