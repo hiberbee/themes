@@ -39,7 +39,7 @@
     "CompletionPopup.foreground": "#b3b3b3",
     "CompletionPopup.matchForeground": "#f7cd46",
     "CompletionPopup.selectionBackground": "#4d4d4d",
-    "CompletionPopup.selectionInactiveBackground": "#f7cd46",
+    "CompletionPopup.selectionInactiveBackground": "#333333",
     "Component.arc": "0",
     "Component.errorFocusColor": "#963232",
     "Component.focusColor": "#646464",
