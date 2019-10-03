@@ -9,7 +9,7 @@ plugins {
   id("org.jetbrains.intellij") version "0.4.1"
 }
 
-version = "1.4.1"
+version = "1.4.2"
 
 intellij {
   updateSinceUntilBuild = false
@@ -25,5 +25,5 @@ publishPlugin {
 
 patchPluginXml {
   version(project.version)
-  changeNotes("Radiobutton background regression fix.")
+  changeNotes("Added other themes' files, updated few language inconsistencies")
 }
