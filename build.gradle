@@ -9,7 +9,7 @@ plugins {
   id("org.jetbrains.intellij") version "0.4.1"
 }
 
-version = "1.5.2"
+version = "1.6.0"
 
 intellij {
   updateSinceUntilBuild = false
@@ -25,5 +25,5 @@ publishPlugin {
 
 patchPluginXml {
   version(project.version)
-  changeNotes("Upgraded background for evaluated expression checkbox")
+  changeNotes("GoLang, Go Templates, Ruby & PowerShell fixes. Background/selection improvements, contrast areas & highlights")
 }

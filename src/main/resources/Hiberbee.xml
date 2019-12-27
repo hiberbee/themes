@@ -1,16 +1,10 @@
 <scheme name="Hiberbee" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-11-06T22:01:25</property>
+    <property name="created">2019-12-27T12:29:39</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2019.3.0.0</property>
-    <property name="modified">2019-11-06T22:01:43</property>
-    <property name="originalScheme">_@user_Hiberbee</property>
+    <property name="ideVersion">2019.3.1.0.0</property>
+    <property name="modified">2019-12-27T12:30:03</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Fira Code Retina" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9adf66" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -47,7 +41,7 @@
     <option name="FILESTATUS_addedOutside" value="a9dc76" />
     <option name="FILESTATUS_changelistConflict" value="f65f87" />
     <option name="FILESTATUS_modifiedOutside" value="78dce8" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="808080" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="282828" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ed6b88" />
     <option name="HTML_TAG_TREE_LEVEL1" value="f9d778" />
@@ -127,6 +121,11 @@
         <option name="FOREGROUND" value="90dae6" />
       </value>
     </option>
+    <option name="ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="90dae6" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="f65f87" />
@@ -134,18 +133,16 @@
       </value>
     </option>
     <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="BASH.FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="c5e775" />
-      </value>
-    </option>
+    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="BASH.HERE_DOC_END" baseAttributes="DEFAULT_KEYWORD" />
     <option name="BASH.HERE_DOC_START" baseAttributes="DEFAULT_KEYWORD" />
     <option name="BASH.INTERNAL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="f92673" />
+        <option name="FOREGROUND" value="ff0072" />
       </value>
     </option>
+    <option name="BASH.REDIRECTION" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
     <option name="BASH.STRING2">
       <value>
@@ -231,9 +228,7 @@
       </value>
     </option>
     <option name="CODE_LENS_BORDER_COLOR">
-      <value>
-        <option name="BACKGROUND" value="333333" />
-      </value>
+      <value />
     </option>
     <option name="COFFEESCRIPT.BAD_CHARACTER">
       <value>
@@ -361,11 +356,7 @@
         <option name="FOREGROUND" value="646464" />
       </value>
     </option>
-    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="327dff" />
-      </value>
-    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT" baseAttributes="CONSOLE_BLUE_OUTPUT" />
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
         <option name="FOREGROUND" value="49b0f1" />
@@ -682,7 +673,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="fd971f" />
+        <option name="FOREGROUND" value="ed6b88" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -922,16 +913,20 @@
         <option name="FOREGROUND" value="f8b889" />
       </value>
     </option>
-    <option name="GO_FUNCTION_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="fc9867" />
-      </value>
-    </option>
-    <option name="GO_METHOD_RECEIVER">
-      <value>
-        <option name="FOREGROUND" value="fc9867" />
-      </value>
-    </option>
+    <option name="GO_BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GO_LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GRAPHQL_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="c1eff6" />
@@ -1146,7 +1141,6 @@
         <option name="FOREGROUND" value="fd971e" />
       </value>
     </option>
-    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JS.THIS_SUPER">
       <value>
         <option name="FOREGROUND" value="f92673" />
@@ -1182,7 +1176,11 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
+    <option name="JUPYTER_SELECTED_CELL">
+      <value>
+        <option name="FOREGROUND" value="848d9b" />
+      </value>
+    </option>
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
       <value />
     </option>
@@ -1286,6 +1284,7 @@
         <option name="FOREGROUND" value="ff0072" />
       </value>
     </option>
+    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="FOREGROUND" value="9adf66" />
@@ -1341,6 +1340,11 @@
         <option name="FOREGROUND" value="f9d778" />
       </value>
     </option>
+    <option name="LOMBOK_KEY">
+      <value>
+        <option name="FOREGROUND" value="a89fec" />
+      </value>
+    </option>
     <option name="LUA_FIELD">
       <value>
         <option name="FOREGROUND" value="fcfcfa" />
@@ -1368,7 +1372,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="ffd866" />
@@ -2346,12 +2349,18 @@
         <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
-    <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
+    <option name="PHP_ALIAS_REFERENCE">
+      <value />
+    </option>
     <option name="PHP_CONCATENATION">
       <value />
     </option>
     <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="PHP_EXEC_COMMAND_ID" baseAttributes="DEFAULT_STRING" />
+    <option name="PHP_EXEC_COMMAND_ID">
+      <value>
+        <option name="FOREGROUND" value="a5c25c" />
+      </value>
+    </option>
     <option name="PHP_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="90dae6" />
@@ -2402,14 +2411,10 @@
         <option name="FOREGROUND" value="49b0f1" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
-      <value>
-        <option name="FOREGROUND" value="ed6b88" />
-      </value>
-    </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="f2ba4b" />
+        <option name="FOREGROUND" value="ffc83c" />
       </value>
     </option>
     <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
@@ -2430,7 +2435,11 @@
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
-    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
+    <option name="PY.STRING.B">
+      <value>
+        <option name="FOREGROUND" value="ffc83c" />
+      </value>
+    </option>
     <option name="RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="f493aa" />
@@ -2537,22 +2546,38 @@
     </option>
     <option name="RUBY_BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
     <option name="RUBY_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
-    <option name="RUBY_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="RUBY_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="90dae6" />
+      </value>
+    </option>
     <option name="RUBY_CONSTANT_DECLARATION" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="RUBY_ESCAPE_SEQUENCE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="RUBY_HASH_ASSOC">
+      <value>
+        <option name="FOREGROUND" value="90dae6" />
+      </value>
+    </option>
     <option name="RUBY_HEREDOC_CONTENT" baseAttributes="TEXT" />
     <option name="RUBY_HEREDOC_ID" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="RUBY_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="RUBY_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="90dae6" />
+      </value>
+    </option>
     <option name="RUBY_PARAMDEF_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
     <option name="RUBY_REGEXP" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="RUBY_SPECIFIC_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="RUBY_SYMBOL" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="RUBY_WORDS" baseAttributes="DEFAULT_STRING" />
+    <option name="RUBY_WORDS">
+      <value>
+        <option name="FOREGROUND" value="ffc83c" />
+      </value>
+    </option>
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="4ddfea" />
@@ -2679,13 +2704,13 @@
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
+    <option name="SASS_COMMENT" baseAttributes="" />
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
-    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="SASS_VARIABLE" baseAttributes="" />
     <option name="SCOPE_KEY_All">
       <value />
     </option>
@@ -2731,13 +2756,11 @@
         <option name="EFFECT_COLOR" value="73a5f6" />
       </value>
     </option>
-    <option name="SQL_OUTER_QUERY_COLUMN" baseAttributes="SQL_COLUMN" />
     <option name="SQL_PROCEDURE">
       <value>
         <option name="FOREGROUND" value="a6e12d" />
       </value>
     </option>
-    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="4ddfea" />
@@ -2808,7 +2831,6 @@
     <option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TAPESTRY_COMPONENT_TAG">
       <value>
         <option name="FOREGROUND" value="78dce8" />
@@ -2822,7 +2844,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="c8c8c8" />
+        <option name="FOREGROUND" value="c8beb4" />
         <option name="BACKGROUND" value="191919" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -2843,11 +2865,18 @@
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="a89fec" />
+      </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="ff0072" />
+      </value>
+    </option>
+    <option name="TWIG_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="b4da82" />
       </value>
     </option>
     <option name="TYPEDEF">
@@ -2871,11 +2900,10 @@
         <option name="BACKGROUND" value="320a19" />
       </value>
     </option>
-    <option name="Unresolved reference access" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="VELOCITY_DIRECTIVE" baseAttributes="" />
-    <option name="VELOCITY_KEYWORD" baseAttributes="" />
-    <option name="VELOCITY_REFERENCE" baseAttributes="" />
-    <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="" />
+    <option name="VELOCITY_DIRECTIVE" baseAttributes="JSP_DIRECTIVE_NAME" />
+    <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="VELOCITY_REFERENCE" baseAttributes="JSP_ATTRIBUTE_NAME" />
+    <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="JSP_SCRIPTING_BACKGROUND" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="f9d778" />
@@ -2913,7 +2941,6 @@
       </value>
     </option>
     <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="YAML_SCALAR_DSTRING">
       <value>
         <option name="FOREGROUND" value="ffbd42" />
@@ -2929,6 +2956,15 @@
         <option name="FOREGROUND" value="b4da82" />
       </value>
     </option>
+    <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="com.plan9.INSTRUCTION">
+      <value>
+        <option name="FOREGROUND" value="b4da82" />
+      </value>
+    </option>
+    <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
+    <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="org.rust.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="78dce8" />
