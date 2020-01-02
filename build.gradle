@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.hiberbee"
-version = "1.6.2"
+version = "1.6.3"
 
 intellij {
   pluginName = "Hiberbee theme"
@@ -26,7 +26,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes("Migrated to new IntelliJ gradle version, actualized values")
+  changeNotes("Changed track color inlined with other configuration options.")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/color-schemes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
   sinceBuild("191.6183")
