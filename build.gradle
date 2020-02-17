@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.hiberbee"
-version = "1.6.3"
+version = "1.8.2"
 
 intellij {
   pluginName = "Hiberbee theme"
@@ -18,7 +18,7 @@ intellij {
   updateSinceUntilBuild = true
   configureDefaultDependencies = false
   instrumentCode = false
-  downloadSources = false
+  downloadSources = true
 }
 
 publishPlugin {
@@ -26,10 +26,9 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes("Changed track color inlined with other configuration options.")
-  pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/color-schemes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
+  changeNotes("Fixed label text issues & icons color - regression with black text & Atom icons")
+  pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
   sinceBuild("191.6183")
-  untilBuild("193.*")
   version(project.version)
 }

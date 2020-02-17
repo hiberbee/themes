@@ -4,18 +4,17 @@
   </change-notes>
   <id>com.hiberbee.intellij.hiberbee-theme</id>
   <name>Hiberbee theme</name>
-  <version>1.6.1</version>
+  <version>@version@</version>
   <vendor email="vlad@hiberbee.com" url="https://github.com/Hiberbee">Hiberbee</vendor>
   <description>Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common
-    color code for all languages. See description &amp; screenshots on &lt;a
-    href="https://github.com/Hiberbee/intellij-theme"&gt;Github&lt;/a&gt;
+    color code for all languages. See description &amp; screenshots on &lt;a href="https://github.com/Hiberbee/code-highlight-themes"&gt;Github&lt;/a&gt;
 
-    Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available
+    Check the sources, iTerm2, Windows and macOS Terminals and XCode color schemes also available
   </description>
-  <idea-version since-build="191.6183" until-build="193.*"/>
-  <!--suppress PluginXmlValidity -->
+  <idea-version since-build="191.6183"/>
   <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/Hiberbee" id="2adc3da4-e7de-43ff-992b-1505442df2c4" />
     <themeProvider id="683fb0ab-974f-4604-8b3d-8ed74934e18d" path="/Hiberbee.theme.json"/>
   </extensions>
 </idea-plugin>
