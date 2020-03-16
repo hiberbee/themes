@@ -1,17 +1,17 @@
-<scheme name="Hiberbee" version="142" parent_scheme="Darcula">
+<scheme name="Hiberbee Cabaret" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-02-17T15:55:53</property>
+    <property name="created">2020-03-16T19:04:41</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-02-17T15:56:11</property>
-    <property name="originalScheme">Hiberbee</property>
+    <property name="modified">2020-03-16T19:05:07</property>
+    <property name="originalScheme">Hiberbee Cabaret</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="ffc83c" />
     <option name="CARET_ROW_COLOR" value="f0a05" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="191714" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="141210" />
     <option name="DELETED_LINES_COLOR" value="ed005c" />
     <option name="DIAGRAM_ANNOTATION_EDGE" value="f2ba4b" />
     <option name="DIAGRAM_DEFAULT_EDGE" value="9380ff" />
@@ -118,7 +118,7 @@
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="87c0d0" />
+        <option name="FOREGROUND" value="b7c3" />
       </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -126,6 +126,35 @@
       <value>
         <option name="FOREGROUND" value="57d1eb" />
       </value>
+    </option>
+    <option name="ANSIBLE.BRACES">
+      <value>
+        <option name="FOREGROUND" value="a9dc76" />
+      </value>
+    </option>
+    <option name="ANSIBLE.JINJA">
+      <value>
+        <option name="FOREGROUND" value="ee9b70" />
+      </value>
+    </option>
+    <option name="ANSIBLE.KEY">
+      <value>
+        <option name="FOREGROUND" value="9380ff" />
+      </value>
+    </option>
+    <option name="ANSIBLE.MODULE">
+      <value>
+        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ANSIBLE.STRING">
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
+    </option>
+    <option name="ANSIBLE.VALUE">
+      <value />
     </option>
     <option name="ATTRIBUTE">
       <value>
@@ -156,11 +185,6 @@
       </value>
     </option>
     <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
-    <option name="BASH.STRING">
-      <value>
-        <option name="FOREGROUND" value="fdc40a" />
-      </value>
-    </option>
     <option name="BASH.VAR_DEF">
       <value>
         <option name="FOREGROUND" value="ab9df2" />
@@ -394,7 +418,11 @@
         <option name="FOREGROUND" value="646464" />
       </value>
     </option>
-    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT" baseAttributes="CONSOLE_BLUE_OUTPUT" />
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="7fff" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
         <option name="FOREGROUND" value="57d1eb" />
@@ -485,7 +513,7 @@
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
@@ -538,7 +566,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="ff8c00" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
@@ -586,7 +614,7 @@
     <option name="DEBUGGER_SMART_STEP_INTO_TARGET" baseAttributes="SEARCH_RESULT_ATTRIBUTES" />
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="87c0d0" />
+        <option name="FOREGROUND" value="35b1e6" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -616,7 +644,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="fd971f" />
+        <option name="FOREGROUND" value="ff8c00" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -626,7 +654,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="c8beb4" />
+        <option name="FOREGROUND" value="d2c3b4" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -645,11 +673,6 @@
         <option name="FOREGROUND" value="ffc83c" />
       </value>
     </option>
-    <option name="DEFAULT_ENTITY">
-      <value>
-        <option name="FOREGROUND" value="ccbfaf" />
-      </value>
-    </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="92d923" />
@@ -663,7 +686,6 @@
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="ab9df2" />
-        <option name="BACKGROUND" value="191919" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -674,7 +696,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="96e1" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -685,12 +707,13 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff6188" />
+        <option name="FOREGROUND" value="ef6950" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="FOREGROUND" value="87c0d0" />
+        <option name="FOREGROUND" value="ab9df2" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -705,7 +728,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="78d7" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -1036,6 +1059,11 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="HCL.BLOCK_NAME_KEY">
+      <value>
+        <option name="FOREGROUND" value="a9dc76" />
+      </value>
+    </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
@@ -1299,6 +1327,16 @@
     </option>
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
       <value />
+    </option>
+    <option name="KOTLIN_KEYWORD_VAL">
+      <value>
+        <option name="FOREGROUND" value="ed005c" />
+      </value>
+    </option>
+    <option name="KOTLIN_KEYWORD_VAR">
+      <value>
+        <option name="FOREGROUND" value="ed005c" />
+      </value>
     </option>
     <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
@@ -2445,7 +2483,7 @@
     </option>
     <option name="PHP_ALIAS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="96e1" />
       </value>
     </option>
     <option name="PHP_CONCATENATION">
@@ -2840,7 +2878,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ffbf40" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="35b1e6" />
       </value>
     </option>
     <option name="SMARTY_BRACKETS">
@@ -2956,6 +2995,7 @@
     <option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TAPESTRY_COMPONENT_TAG">
       <value>
         <option name="FOREGROUND" value="78dce8" />
@@ -2970,13 +3010,14 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="e5e9f0" />
-        <option name="BACKGROUND" value="191714" />
+        <option name="BACKGROUND" value="191919" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ffd280" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="ef6950" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -3055,7 +3096,8 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="EFFECT_COLOR" value="fd971f" />
+        <option name="ERROR_STRIPE_COLOR" value="fd971f" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3141,8 +3183,4 @@
       </value>
     </option>
   </attributes>
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="CONSOLE_FONT_NAME" value="Fira Code Retina" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.1" />
 </scheme>

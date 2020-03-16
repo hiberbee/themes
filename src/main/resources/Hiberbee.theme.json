@@ -98,15 +98,16 @@
     "ComboBox.ArrowButton.iconColor": "accent",
     "ComboBox.ArrowButton.nonEditableBackground": "greyDot70",
     "ComboBox.modifiedItemForeground": "accent",
-    "ComboBox.disabledForeground": "greyDot70",
+    "ComboBox.disabledForeground": "greyDot80",
     "ComboBox.nonEditableBackground": "greyDot75",
     "ComboPopup.border": "1,1,1,1,4d4d4d",
     "CompletionPopup": {
+      "nonFocusedMask": "#34343434",
+      "selectionBackground": "navyDot85",
       "foreground": "greyDot20",
       "matchForeground": "accent"
     },
     "Component.arc": "3",
-    "Label.foreground": "greyDot15",
     "Component.disabledBorderColor": "greyDot70",
     "Component.infoForeground": "greyDot50",
     "Component.errorFocusColor": "#F65F87",
@@ -148,7 +149,10 @@
     "Link.visitedForeground": "greyDot25",
     "MemoryIndicator.allocatedBackground": "green",
     "MemoryIndicator.usedBackground": "red",
-    "Menu.acceleratorForeground": "greyDot25",
+    "Menu":{
+      "borderColor": "greyDot75",
+      "acceleratorForeground": "greyDot25"
+    },
     "Notification.MoreButton.innerBorderColor": "greyDot65",
     "Notification.ToolWindow.errorBackground": "greyDot85",
     "Notification.ToolWindow.errorBorderColor": "#ed005c",
@@ -163,9 +167,14 @@
     "Notification.errorBackground": "greyDot85",
     "Notification.errorBorderColor": "#ed005c",
     "Notification.errorForeground": "#F65F87",
-    "OptionPane.background": "greyDot80",
-    "OptionPane.foreground": "greyDot33",
-    "Panel.background": "greyDot80",
+    "OptionPane": {
+      "background": "greyDot80",
+      "foreground": "greyDot20"
+    },
+    "Panel": {
+      "background": "greyDot80",
+      "foreground": "greyDot20"
+    },
     "Panel.foreground": "greyDot20",
     "ParameterInfo.background": "greyDot85",
     "ParameterInfo.foreground": "greyDot25",
@@ -181,7 +190,8 @@
     "Plugins.Button.installForeground": "accent",
     "Plugins.SearchField.background": "greyDot75",
     "Plugins.SectionHeader.background": "greyDot75",
-    "Plugins.Tab.hoverBackground": "greyDot65",
+    "Plugins.Tab.hoverBackground": "navyDot85",
+    "Plugins.Tab.selectedBackground": "greyDot85",
     "Plugins.background": "greyDot80",
     "Plugins.disabledForeground": "greyDot50",
     "Plugins.lightSelectionBackground": "navyDot85",
@@ -209,7 +219,8 @@
     "SearchEverywhere.SearchField.infoForeground": "greyDot33",
     "SearchEverywhere.SearchField.background": "greyDot75",
     "SearchEverywhere.Header.background": "greyDot80",
-    "SearchEverywhere.Tab.selectedBackground": "greyDot80",
+    "SearchEverywhere.Tab.selectedBackground": "greyDot85",
+    "SearchEverywhere.Tab.selectedForeground": "lightBlue",
     "SearchMatch.endBackground": "accent",
     "SearchMatch.startBackground": "accent",
     "SidePanel.background": "greyDot85",
