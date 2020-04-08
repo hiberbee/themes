@@ -6,27 +6,49 @@
  * file that was distributed with this source code.
  */
 plugins {
-  id("org.jetbrains.intellij") version "0.4.15"
+  id("idea")
+  id("org.jetbrains.gradle.plugin.idea-ext") version "0.7"
+  id("java-library")
+  id("org.jetbrains.intellij") version "0.4.16"
 }
 
-group = "com.hiberbee"
-version = "1.8.4"
+group = "com.hiberbee.themes"
+version = "1.9.1"
 
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
   updateSinceUntilBuild = true
-  configureDefaultDependencies = false
-  instrumentCode = false
+  configureDefaultDependencies = true
+  instrumentCode = true
   downloadSources = true
 }
 
+idea {
+  project {
+    settings {
+      copyright {
+        useDefault = "MIT"
+        profiles {
+          MIT {
+            notice = file("LICENSE").readLines().join("\n")
+          }
+        }
+      }
+    }
+
+  }
+  module {
+    setResourceDirs(files("src/main/resources", "src/chrome/resources", "src/iterm/resources", "src/windows-terminal/resources", "src/macos-terminal/resources", "src/fish/resources", "src/xcode/resources").toSet())
+  }
+}
+
 publishPlugin {
-  setToken("perm:YXNrZW50.OTItMTQzMQ==.g5KY9OHaXNctVT2U5ibDvBOakq5XPN")
+  setToken(System.getProperty("jetbrainsToken"))
 }
 
 patchPluginXml {
-  changeNotes("Small issues with Golang theme, and completion popup mask fixes")
+  changeNotes("Generic color updates, links & reference link change. Backgrounds in terminal and code editor saturated.")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
   sinceBuild("191.6183")
