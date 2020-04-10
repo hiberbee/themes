@@ -1,19 +1,13 @@
-/*
- * Copyright © 2019. Hiberbee https://hiberbee.com"
- *
- * This file is part of the Hiberbee package. Licensed under the MIT License
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
 plugins {
   id("idea")
   id("org.jetbrains.gradle.plugin.idea-ext") version "0.7"
   id("java-library")
-  id("org.jetbrains.intellij") version "0.4.16"
+  id("com.github.ben-manes.versions") version "0.28.0"
+  id("org.jetbrains.intellij") version "0.4.18"
 }
 
 group = "com.hiberbee.themes"
-version = "1.9.1"
+version = "1.9.3"
 
 intellij {
   pluginName = "Hiberbee theme"
@@ -44,11 +38,11 @@ idea {
 }
 
 publishPlugin {
-  setToken(System.getProperty("jetbrainsToken"))
+  setToken(System.getenv("JETBRAINS_TOKEN"))
 }
 
 patchPluginXml {
-  changeNotes("Generic color updates, links & reference link change. Backgrounds in terminal and code editor saturated.")
+  changeNotes("Fixed regression from 1.9.0 build after separating color schemes.")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
   sinceBuild("191.6183")

@@ -1,11 +1,4 @@
-<scheme name="Hiberbee Dark" version="142" parent_scheme="Darkula">
-  <metaInfo>
-    <property name="created">2020-04-09T00:54:44</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-04-09T00:55:03</property>
-    <property name="originalScheme">Darkula</property>
-  </metaInfo>
+<scheme name="Hiberbee Dark" version="142">
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923"/>
     <option name="ANNOTATIONS_COLOR" value="fffbf7"/>
