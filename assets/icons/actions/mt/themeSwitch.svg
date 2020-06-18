@@ -1,8 +1,1 @@
-<svg viewBox="0 0 24 24" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg">
-    <g>
-        <ellipse fill="#385154" cx="12" cy="12"
-                 id="svg_3" rx="11" ry="11"/>
-        <ellipse fill="#80CBC4" cx="12"
-                 cy="12" id="svg_4" rx="4" ry="4"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g><ellipse id="svg_3" cx="12" cy="12" fill="#385154" rx="11" ry="11"/><ellipse id="svg_4" cx="12" cy="12" fill="#80CBC4" rx="4" ry="4"/></g></svg>
