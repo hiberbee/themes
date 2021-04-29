@@ -1,0 +1,99 @@
+{
+  "semanticHighlighting": false,
+  "colors": {
+    "editor.background": "#1f1f1d",
+    "editor.foreground": "#f9f6ef",
+    "symbolIcon.classForeground": "#00A4EF",
+    "terminal.selectionBackground": "#42557B5A",
+    "terminal.foreground": "#F9F6EF",
+    "terminal.background": "#1F1F21",
+    "terminal.ansiBlack": "#555555",
+    "terminal.ansiBlue": "#409CFF",
+    "terminal.ansiBrightBlack": "#b3b3b3",
+    "terminal.ansiBrightBlue": "#00A4EF",
+    "terminal.ansiBrightCyan": "#66d9ef",
+    "terminal.ansiBrightGreen": "#7FBA00",
+    "terminal.ansiBrightMagenta": "#A97CF8",
+    "terminal.ansiBrightRed": "#F25022",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#FFB900",
+    "terminal.ansiCyan": "#70D7FF",
+    "terminal.ansiGreen": "#A9DC76",
+    "terminal.ansiMagenta": "#a89fec",
+    "terminal.ansiRed": "#EE7762",
+    "terminal.ansiYellow": "#FFB900",
+    "terminal.ansiWhite": "#F9F6EF"
+  },
+  "semanticTokenColors": {
+    "class": "#70D7FF",
+    "interface": "#409CFF"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#EE7762"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#D4CCFF"
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#EE9B70"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#FF8C00"
+      }
+    },
+    {
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#7FBA00"
+      }
+    },
+    {
+      "scope": "meta.function",
+      "settings": {
+        "foreground": "#A9DC76"
+      }
+    },
+    {
+      "scope": "meta.type",
+      "settings": {
+        "foreground": "#409CFF"
+      }
+    },
+    {
+      "scope": "meta.type.annotation",
+      "settings": {
+        "foreground": "#FFB900"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#0078D7"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#FFD866"
+      }
+    }
+  ]
+}

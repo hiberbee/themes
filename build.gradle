@@ -1,20 +1,28 @@
+import java.time.Instant
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+
 plugins {
   id("idea")
-  id("org.jetbrains.gradle.plugin.idea-ext") version "0.7"
-  id("java-library")
-  id("com.github.ben-manes.versions") version "0.28.0"
-  id("org.jetbrains.intellij") version "0.4.18"
+  id("org.jetbrains.gradle.plugin.idea-ext") version "1.0"
+  id("java")
+  id("com.github.ben-manes.versions") version "0.38.0"
+  id("org.jetbrains.intellij") version "0.7.3"
 }
 
 group = "com.hiberbee.themes"
-version = "1.9.3"
+version = new Date().format('yyyy.M.d.HHmm')
+
+repositories {
+  mavenCentral()
+}
 
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
   updateSinceUntilBuild = true
   configureDefaultDependencies = true
-  instrumentCode = true
+  instrumentCode = false
   downloadSources = true
 }
 
@@ -30,10 +38,6 @@ idea {
         }
       }
     }
-
-  }
-  module {
-    setResourceDirs(files("src/main/resources", "src/chrome/resources", "src/iterm/resources", "src/windows-terminal/resources", "src/macos-terminal/resources", "src/fish/resources", "src/xcode/resources").toSet())
   }
 }
 
@@ -42,7 +46,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes("Fixed regression from 1.9.0 build after separating color schemes.")
+  changeNotes("Distributed with Rust/Erlang/Perl alignments. Typescript colors tuning. Editor colors slight warm-up. Editor backgrounds refreshed and aligned with caret/selection colors. Minor changes and cleanup.")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
   sinceBuild("191.6183")
