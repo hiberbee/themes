@@ -2,7 +2,7 @@
   "name": "Hiberbee Dark",
   "author": "Vlad Volkov",
   "dark": true,
-  "editorScheme": "/colors/Hiberbee_Dark.icls",
+  "editorScheme": "/colors/Dark.xml",
   "colors": {
     "black": "#000000",
     "consoleBackground": "#171615",
