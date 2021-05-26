@@ -1,0 +1,36 @@
+name: Publish release
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - src/main/resources/**/*
+jobs:
+  verify:
+    name: Verify plugin compatibility
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: 16
+          distribution: adopt
+
+      - name: Publish to JetBrains marketplace
+        run: ./gradlew publish
+        env:
+          JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
+          JETBRAINS_VERSION: ${{ secrets.JETBRAINS_VERSION }}
+          RELEASE_NOTES: ${{ secrets.RELEASE_NOTES }}
+
+      - name: Publish to JetBrains marketplace
+        run: ./gradlew patchChangelog
+
+      - name: Commit updated changelog
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated changelog
+          file_pattern: CHANGELOG.md

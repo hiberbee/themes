@@ -1,12 +1,9 @@
-import java.time.Instant
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
-
 plugins {
   id("idea")
   id("org.jetbrains.gradle.plugin.idea-ext") version "1.0"
   id("java")
   id("com.github.ben-manes.versions") version "0.38.0"
+  id("org.jetbrains.changelog") version "1.1.2"
   id("org.jetbrains.intellij") version "0.7.3"
 }
 
@@ -15,6 +12,17 @@ version = new Date().format('yyyy.M.d.HHmm')
 
 repositories {
   mavenCentral()
+}
+
+changelog {
+  version = project.version
+  path = "${project.projectDir}/CHANGELOG.md"
+  header = { "[$version]" }
+  headerParserRegex = ~/\d+\.\d+\.\d+\.\d+/
+  itemPrefix = "-"
+  keepUnreleasedSection = true
+  unreleasedTerm = "[Unreleased]"
+  groups = ["Added", "Changed", "Removed", "Fixed"]
 }
 
 intellij {
@@ -46,9 +54,9 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes("IntelliJ 2021.2 EAP compatibility update bump. No other changes included, just have to pass release notes 40 chars limit.")
+  changeNotes({ changelog.getLatest().toHTML() })
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
-  untilBuild("212.*")
+  untilBuild(System.getenv("JETBRAINS_IDE_VERSION"))
   version(project.version)
 }
