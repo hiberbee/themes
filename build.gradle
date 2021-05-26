@@ -46,9 +46,9 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes("Distributed with Rust/Erlang/Perl alignments. Typescript colors tuning. Editor colors slight warm-up. Editor backgrounds refreshed and aligned with caret/selection colors. Minor changes and cleanup.")
+  changeNotes("IntelliJ 2021.2 EAP compatibility update bump. No other changes included, just have to pass release notes 40 chars limit.")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
-  sinceBuild("191.6183")
+  untilBuild("212.*")
   version(project.version)
 }
