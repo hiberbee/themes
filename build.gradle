@@ -28,7 +28,6 @@ changelog {
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
-  updateSinceUntilBuild = true
   configureDefaultDependencies = true
   instrumentCode = false
   downloadSources = true
@@ -54,9 +53,10 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes({ changelog.getLatest().toHTML() })
+  changeNotes("Updated project window colors for upcoming 2021.2 EAP compatibility. Selection/Caret colors beta.")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
-  untilBuild(System.getenv("JETBRAINS_IDE_VERSION"))
+  sinceBuild(System.getenv("JETBRAINS_IDE_FROM_VERSION"))
+  untilBuild(System.getenv("JETBRAINS_IDE_TO_VERSION"))
   version(project.version)
 }
