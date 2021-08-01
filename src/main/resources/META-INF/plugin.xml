@@ -13,7 +13,6 @@
   <idea-version since-build="191.6183"/>
   <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <bundledColorScheme path="/colors/Dark" id="2adc3da4-e7de-43ff-992b-1505442df2c4"/>
     <themeProvider id="683fb0ab-974f-4604-8b3d-8ed74934e18d" path="/HiberbeeDark.theme.json"/>
   </extensions>
 </idea-plugin>
