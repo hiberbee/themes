@@ -1,35 +1,27 @@
 plugins {
   id("idea")
-  id("org.jetbrains.gradle.plugin.idea-ext") version "1.0.1"
   id("java")
-  id("com.github.ben-manes.versions") version "0.38.0"
-  id("org.jetbrains.changelog") version "1.2.0"
+  id("org.jetbrains.gradle.plugin.idea-ext") version "1.0.1"
+  id("com.github.ben-manes.versions") version "0.39.0"
   id("org.jetbrains.intellij") version "0.7.3"
 }
 
 group = "com.hiberbee.themes"
 version = new Date().format('yyyy.M.d.HHmm')
 
+def properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
 repositories {
   mavenCentral()
-}
-
-changelog {
-  version = project.version
-  path = "${project.projectDir}/CHANGELOG.md"
-  header = { "[$version]" }
-  headerParserRegex = ~/\d+\.\d+\.\d+\.\d+/
-  itemPrefix = "-"
-  keepUnreleasedSection = true
-  unreleasedTerm = "[Unreleased]"
-  groups = ["Added", "Changed", "Removed", "Fixed"]
 }
 
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
+  version = "2021.2"
   configureDefaultDependencies = true
-  instrumentCode = false
+  updateSinceUntilBuild = true
   downloadSources = true
 }
 
@@ -54,9 +46,9 @@ publishPlugin {
 
 patchPluginXml {
   changeNotes("Updated project window colors for upcoming 2021.2 EAP compatibility. Selection/Caret colors beta.")
-  pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/code-highlight-themes\">Github</a>. Check the sources, iTerm2 and macOS Terminal and XCode color schemes also available")
+  pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/jetbrains-ide-theme\">Github</a>")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
-  sinceBuild(System.getenv("JETBRAINS_IDE_FROM_VERSION"))
-  untilBuild(System.getenv("JETBRAINS_IDE_TO_VERSION"))
+  sinceBuild("191")
+  untilBuild("213.*")
   version(project.version)
 }
