@@ -1,8 +1,11 @@
 <scheme name="Hiberbee Dark" version="142">
   <option name="FONT_SCALE" value="1.0"/>
   <metaInfo>
+    <property name="created">2021-08-14T08:46:38</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2021.2.0.0</property>
+    <property name="ideVersion">2021.2.1.0.0</property>
+    <property name="modified">2021-08-14T08:46:56</property>
+    <property name="originalScheme">Hiberbee Dark</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Fira Code"/>
   <option name="CONSOLE_FONT_SIZE" value="12"/>
@@ -26,7 +29,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="262626"/>
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b"/>
     <option name="DOCUMENTATION_COLOR" value="2d2b29"/>
-    <option name="ERROR_HINT" value="f25022"/>
+    <option name="ERROR_HINT" value="400020"/>
     <option name="FILESTATUS_ADDED" value="a9dc76"/>
     <option name="FILESTATUS_CHANGELIST_CONFLICT" value="f65f87"/>
     <option name="FILESTATUS_COPIED" value="a9dc76"/>
@@ -48,7 +51,7 @@
     <option name="FILESTATUS_SUPPRESSED" value="727072"/>
     <option name="FILESTATUS_SWITCHED" value="ab9df2"/>
     <option name="FILESTATUS_UNKNOWN" value="ffd866"/>
-    <option name="GUTTER_BACKGROUND" value="242221"/>
+    <option name="GUTTER_BACKGROUND" value="2d2b29"/>
     <option name="HTML_TAG_TREE_LEVEL0" value="ed6b88"/>
     <option name="HTML_TAG_TREE_LEVEL1" value="f9d778"/>
     <option name="HTML_TAG_TREE_LEVEL2" value="b4da82"/>
@@ -57,7 +60,7 @@
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1e320a"/>
     <option name="INDENT_GUIDE" value="333231"/>
     <option name="INFORMATION_HINT" value="2d2b29"/>
-    <option name="LINE_NUMBERS_COLOR" value="434241"/>
+    <option name="LINE_NUMBERS_COLOR" value="4d4c4b"/>
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="cccac8"/>
     <option name="LOOKUP_COLOR" value="2d2b29"/>
     <option name="METHOD_SEPARATORS_COLOR" value="333231"/>
@@ -65,7 +68,7 @@
     <option name="MODIFIED_TAB_ICON" value="fdb800"/>
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967"/>
     <option name="MT_SUPPRESSED" value="eeffff"/>
-    <option name="NOTIFICATION_BACKGROUND" value="333231"/>
+    <option name="NOTIFICATION_BACKGROUND" value="2d2b29"/>
     <option name="NOT_CHANGED" value="939393"/>
     <option name="PRESENTATION_ASSISTANT_HINT_BACKGROUND" value="2e2e2e"/>
     <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="c8c8c8"/>
@@ -84,6 +87,9 @@
     <option name="SOFT_WRAP_SIGN_COLOR" value="4b4b4b"/>
     <option name="ScrollBar.Mac.hoverThumbColor" value="404040"/>
     <option name="ScrollBar.Mac.thumbColor" value="2d2d2d"/>
+    <option name="ScrollBar.thumbColor" value="a6a6a647"/>
+    <option name="TAB_UNDERLINE" value="ffc800"/>
+    <option name="TAB_UNDERLINE_INACTIVE" value="2d2b29"/>
     <option name="TEARLINE_COLOR" value="404040"/>
     <option name="TOOLTIP" value="2d2b29"/>
     <option name="VCS_ANNOTATIONS_COLOR_1" value="ca0f5"/>
@@ -211,30 +217,32 @@
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="373533"/>
+        <option name="FOREGROUND" value="f9f6ef"/>
+        <option name="BACKGROUND" value="242220"/>
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
       <value>
-        <option name="FOREGROUND" value="ffffff"/>
-        <option name="BACKGROUND" value="f2ba4b"/>
+        <option name="FOREGROUND" value="f2ba4b"/>
+        <option name="BACKGROUND" value="2d2b29"/>
       </value>
     </option>
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="ffffff"/>
+        <option name="FOREGROUND" value="f9f6ef"/>
+        <option name="BACKGROUND" value="373533"/>
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
       <value>
-        <option name="FOREGROUND" value="ffffff"/>
-        <option name="BACKGROUND" value="f2ba4b"/>
+        <option name="FOREGROUND" value="f2ba4b"/>
+        <option name="BACKGROUND" value="1b1a19"/>
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="afafaf"/>
-        <option name="BACKGROUND" value="3c3c3c"/>
+        <option name="FOREGROUND" value="acacac"/>
+        <option name="BACKGROUND" value="1b1a19"/>
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -32498,7 +32506,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d5f5"/>
+        <option name="BACKGROUND" value="3b514d"/>
         <option name="FONT_TYPE" value="1"/>
       </value>
     </option>
@@ -32756,6 +32764,9 @@
         <option name="FOREGROUND" value="78dce8"/>
       </value>
     </option>
+    <option name="PACKAGE_PRIVATE_REFERENCE">
+      <value/>
+    </option>
     <option name="PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ee9b70"/>
@@ -32809,15 +32820,24 @@
         <option name="FOREGROUND" value="ffbdce"/>
       </value>
     </option>
+    <option name="PRIVATE_REFERENCE">
+      <value/>
+    </option>
     <option name="PROPERTIES.KEY">
       <value>
         <option name="FOREGROUND" value="9380ff"/>
       </value>
     </option>
+    <option name="PROTECTED_REFERENCE">
+      <value/>
+    </option>
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="219598"/>
       </value>
+    </option>
+    <option name="PUBLIC_REFERENCE">
+      <value/>
     </option>
     <option name="PY.ANNOTATION">
       <value>
@@ -33242,12 +33262,13 @@
     </option>
     <option name="TAB_SELECTED">
       <value>
-        <option name="FOREGROUND" value="242220"/>
+        <option name="FOREGROUND" value="ffc800"/>
+        <option name="BACKGROUND" value="2d2b29"/>
       </value>
     </option>
     <option name="TAB_SELECTED_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="333231"/>
+        <option name="FOREGROUND" value="acacac"/>
       </value>
     </option>
     <option name="TAPESTRY_COMPONENT_TAG">

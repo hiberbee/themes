@@ -41,11 +41,11 @@ idea {
 }
 
 publishPlugin {
-  setToken(System.getenv("JETBRAINS_TOKEN"))
+  setToken("perm:YXNrZW50.OTItMjI0Mg==.17V80aiewqCMJACKz0poZaAf5uK5D3")
 }
 
 patchPluginXml {
-  changeNotes("Updated project window colors for upcoming 2021.2 EAP compatibility. Selection/Caret colors beta.")
+  changeNotes("Fixed issue with visibility color behaviour - that colors are disabled so far. Tabs, gutter, breadcrumbs colors updated ")
   pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/jetbrains-ide-theme\">Github</a>")
   pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
   sinceBuild("191")
