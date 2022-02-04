@@ -2,7 +2,7 @@ plugins {
   id("idea")
   id("java")
   id("org.jetbrains.gradle.plugin.idea-ext") version "1.0.1"
-  id("com.github.ben-manes.versions") version "0.39.0"
+  id("com.github.ben-manes.versions") version "0.42.0"
   id("org.jetbrains.intellij") version "0.7.3"
 }
 
