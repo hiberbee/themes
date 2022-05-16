@@ -6,8 +6,9 @@ plugins {
   id("org.jetbrains.intellij") version "1.6.0-SNAPSHOT"
 }
 
+def APP_VERSION = !System.getenv("APP_VERSION").isEmpty() ? System.getenv("APP_VERSION") : new Date().format('yyyy.M.d.HHmm')
 group = "com.hiberbee.themes"
-version = System.getenv().getOrDefault("APP_VERSION", new Date().format('yyyy.M.d.HHmm'))
+version = APP_VERSION
 
 repositories {
   mavenCentral()
@@ -38,9 +39,9 @@ idea {
 }
 
 publishPlugin {
-  setToken("perm:${System.getenv("JETBRAINS_TOKEN")}")
+  setToken(System.getenv("JETBRAINS_TOKEN"))
 }
 
 patchPluginXml {
-  version(project.version)
+  version(APP_VERSION)
 }
