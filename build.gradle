@@ -7,10 +7,7 @@ plugins {
 }
 
 group = "com.hiberbee.themes"
-version = new Date().format('yyyy.M.d.HHmm')
-
-def properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
+version = System.getenv().getOrDefault("APP_VERSION", new Date().format('yyyy.M.d.HHmm'))
 
 repositories {
   mavenCentral()
