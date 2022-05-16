@@ -6,10 +6,17 @@
     "ColorPalette": {
       "Actions.Blue": "#78dce8",
       "Actions.Green": "#92d923",
-      "Actions.Yellow": "#FFB900",
-      "Objects.Red": "#fb3b45",
+      "Actions.Grey": "#93918c",
+      "Actions.Red": "#fb3b45",
+      "Actions.Yellow": "#FFD866",
+      "Objects.Blue": "#78dce8",
+      "Objects.Green": "#92d923",
       "Objects.Pink": "#ff6188",
-      "Actions.Red": "#fb3b45"
+      "Objects.Purple": "#ab9df2",
+      "Objects.Red": "#fb3b45",
+      "Objects.RedStatus": "#fb3b45",
+      "Objects.Yellow": "#FFD866",
+      "Objects.YellowDark": "#FFB900"
     }
   },
   "editorScheme": "/colors/Dark.xml",
@@ -32,7 +39,7 @@
     "deepBlue": "#3199b3",
     "orangeMonokaiPro": "#fc9867",
     "greenMonokaiPro": "#a9dc76",
-    "yellow": "#FFB900",
+    "yellow": "#ffd64c",
     "purpleWinPalette": "#b4a0ff",
     "purpleMonokaiPro": "#ab9df2",
     "greenWinPalette": "#40c5af",
