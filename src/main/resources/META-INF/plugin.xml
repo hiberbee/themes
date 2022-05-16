@@ -1,6 +1,6 @@
 <idea-plugin require-restart="false" allow-bundled-update="true">
   <change-notes>Updated plugin with some changes. Frankly, I don't remember which ones.</change-notes>
-  <id>Hiberbee Theme</id>
+  <id>com.hiberbee.intellij.hiberbee-theme</id>
   <vendor email="vlad@hiberbee.com" url="https://github.com/hiberbee">Hiberbee</vendor>
   <name>Hiberbee Theme</name>
   <version>@version@</version>
