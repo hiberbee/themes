@@ -21,4 +21,4 @@ jobs:
         run: ./gradlew publish
         env:
           JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
-          APP_VERSION: ${{ github.event.tag.name }}
+          APP_VERSION: ${{ github.event.release.tag_name }}
