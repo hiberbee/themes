@@ -3,7 +3,7 @@
   <vendor email="vlad@hiberbee.com" url="https://github.com/hiberbee">Hiberbee</vendor>
   <name>Hiberbee Theme</name>
   <version>@version@</version>
-  <description>Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common
+  <description>Monokai Pro &amp; MacOS inspired color themes, with bright colors &amp; dark mode, with common
     color code for all languages. See description &amp; screenshots on &lt;a href="https://github.com/Hiberbee/jetbrains-ide-theme"&gt;Github&lt;/a&gt;
   </description>
   <idea-version since-build="191.6183" />
