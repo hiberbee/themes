@@ -41,7 +41,7 @@ idea {
 }
 
 publishPlugin {
-  setToken("perm:YXNrZW50.OTItMjI0Mg==.17V80aiewqCMJACKz0poZaAf5uK5D3")
+  setToken("perm:${System.getenv("JETBRAINS_TOKEN")}")
 }
 
 patchPluginXml {

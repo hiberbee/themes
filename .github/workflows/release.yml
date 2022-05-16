@@ -2,13 +2,13 @@ name: Publish release
 on:
   push:
     branches:
-      - master
+      - latest
     paths:
       - src/main/resources/**/*
 jobs:
   verify:
     name: Verify plugin compatibility
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
@@ -23,8 +23,6 @@ jobs:
         run: ./gradlew publish
         env:
           JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
-          JETBRAINS_VERSION: ${{ secrets.JETBRAINS_VERSION }}
-          RELEASE_NOTES: ${{ secrets.RELEASE_NOTES }}
 
       - name: Publish to JetBrains marketplace
         run: ./gradlew patchChangelog

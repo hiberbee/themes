@@ -2,6 +2,16 @@
   "name": "Hiberbee Dark",
   "author": "Vlad Volkov",
   "dark": true,
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#78dce8",
+      "Actions.Green": "#92d923",
+      "Actions.Yellow": "#FFB900",
+      "Objects.Red": "#fb3b45",
+      "Objects.Pink": "#ff6188",
+      "Actions.Red": "#fb3b45"
+    }
+  },
   "editorScheme": "/colors/Dark.xml",
   "colors": {
     "black": "#000000",
@@ -49,7 +59,7 @@
     "transparentGreen": "#5B80217f",
     "transparentRed": "#F250227f",
     "transparentViolet": "#242221ff",
-    "transparentYellow": "#FFB9007f"
+    "transparentYellow": "#FFB9007a"
   },
   "ui": {
     "*": {
@@ -78,7 +88,6 @@
       "color": "border"
     },
     "Button": {
-      "arc": 5,
       "default": {
         "endBackground": "greyDot80",
         "endBorderColor": "greyDot70",
@@ -125,7 +134,6 @@
       "selectionInactiveBackground": "greyDot85"
     },
     "Component": {
-      "arc": "4",
       "iconColor": "yellow",
       "disabledBorderColor": "greyDot75",
       "infoForeground": "greyDot50",
@@ -174,9 +182,10 @@
       "Orange": "#2d2823",
       "Rose": "#2d2323",
       "Violet": "#2D232D",
-      "Yellow": "#2d2d23"
+      "Yellow": "#3b3b19"
     },
     "FormattedTextField": {
+      "caretForeground": "yellow",
       "foreground": "textColor",
       "selectionBackground": "greyDot95",
       "inactiveBackground": "greyDot80",
@@ -187,13 +196,22 @@
       "infoForeground": "greyDot33",
       "lineSeparatorColor": "greyDot70"
     },
-    "InformationHint.borderColor": "greyDot75",
-    "InplaceRefactoringPopup.borderColor": "greyDot75",
+    "InformationHint": {
+      "borderColor": "border"
+    },
+    "InplaceRefactoringPopup.borderColor": "border",
     "Label": {
       "disabledForeground": "greyDot33",
       "disabledText": "greyDot33",
       "foreground": "greyDot20",
       "infoForeground": "greyDot50"
+    },
+    "Link": {
+      "activeForeground": "blue",
+      "hoverForeground": "yellow",
+      "secondaryForeground": "lightBlue",
+      "visitedForeground": "purpleMonokaiPro",
+      "pressedForeground": "deepBlue"
     },
     "Link.hoverForeground": "yellow",
     "MemoryIndicator.allocatedBackground": "green",
