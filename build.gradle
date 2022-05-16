@@ -1,6 +1,3 @@
-import java.time.OffsetDateTime
-import java.time.ZoneId
-
 plugins {
   id("idea")
   id("java")
@@ -9,9 +6,8 @@ plugins {
   id("org.jetbrains.intellij") version "1.6.0-SNAPSHOT"
 }
 
-def APP_VERSION =  OffsetDateTime.now(ZoneId.of("UTC")).format('yyyy.M.d.HHmm')
 group = "com.hiberbee.themes"
-version = APP_VERSION
+version = System.getenv("APP_VERSION")
 
 repositories {
   mavenCentral()
@@ -46,7 +42,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes  = "Fixed issue with visibility color behaviour - that colors are disabled so far. Tabs, gutter, breadcrumbs colors updated "
-  version = APP_VERSION
+  changeNotes  = "Tabs issues addressed. Compatibility with 2022.1 functionality. Notifications colors updates. Icon colors update"
+  version = System.getenv("APP_VERSION")
   sinceBuild = "191"
 }
