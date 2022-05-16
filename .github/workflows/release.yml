@@ -1,11 +1,11 @@
 name: Release
 on:
-  push:
-    tags:
-      - '*.*.*.*'
+  release:
+    types: [ published ]
 
 env:
   APP_VERSION: ${{ github.event.release.tag_name }}
+  JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
 
 jobs:
   publish:
@@ -23,5 +23,3 @@ jobs:
 
       - name: Publish to JetBrains marketplace
         run: ./gradlew publishPlugin
-        env:
-          JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
