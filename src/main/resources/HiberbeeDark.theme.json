@@ -168,12 +168,13 @@
     },
     "EditorTabs": {
       "underlineHeight": 1,
-      "hoverBackground": "editorBg",
+      "hoverBackground": "greyDot95",
       "borderColor": "border",
       "background": "editorPaneBg",
       "inactiveColoredFileBackground": "editorPaneBg",
       "inactiveUnderlineColor": "editorPaneBg",
-      "underlinedTabForeground": "textColor"
+      "underlinedTabBackground": "editorPaneBg",
+      "underlinedTabForeground": "yellow"
     },
     "FileColor": {
       "Gray": "greyDot70",
