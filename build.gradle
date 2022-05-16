@@ -46,5 +46,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  version(APP_VERSION)
+  changeNotes  = "Fixed issue with visibility color behaviour - that colors are disabled so far. Tabs, gutter, breadcrumbs colors updated "
+  version = APP_VERSION
+  sinceBuild = "191"
 }
