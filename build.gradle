@@ -1,9 +1,9 @@
 plugins {
   id("idea")
   id("java")
-  id("org.jetbrains.gradle.plugin.idea-ext") version "1.0.1"
-  id("com.github.ben-manes.versions") version "0.39.0"
-  id("org.jetbrains.intellij") version "0.7.3"
+  id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.4"
+  id("com.github.ben-manes.versions") version "0.42.0"
+  id("org.jetbrains.intellij") version "1.6.0-SNAPSHOT"
 }
 
 group = "com.hiberbee.themes"
@@ -19,9 +19,9 @@ repositories {
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
-  version = "2021.2"
+  version = "LATEST-EAP-SNAPSHOT"
   configureDefaultDependencies = true
-  updateSinceUntilBuild = true
+  updateSinceUntilBuild = false
   downloadSources = true
 }
 
@@ -45,10 +45,5 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes("Fixed issue with visibility color behaviour - that colors are disabled so far. Tabs, gutter, breadcrumbs colors updated ")
-  pluginDescription("Monokai Pro &amp; MacOS Mojave inspired color themes, with bright colors &amp; dark mode, with common color code for all languages. See description &amp; screenshots on <a href=\"https://github.com/Hiberbee/jetbrains-ide-theme\">Github</a>")
-  pluginXmlFiles("src/main/resources/META-INF/plugin.xml")
-  sinceBuild("191")
-  untilBuild("213.*")
   version(project.version)
 }
