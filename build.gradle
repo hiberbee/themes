@@ -1,9 +1,9 @@
 plugins {
   id("idea")
   id("java")
-  id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.4"
-  id("com.github.ben-manes.versions") version "0.42.0"
-  id("org.jetbrains.intellij") version "1.6.0-SNAPSHOT"
+  id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.6"
+  id("com.github.ben-manes.versions") version "0.44.0"
+  id("org.jetbrains.intellij") version "1.11.0-SNAPSHOT"
 }
 
 group = "com.hiberbee.themes"
@@ -11,6 +11,11 @@ version = System.getenv("APP_VERSION")
 
 repositories {
   mavenCentral()
+}
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_17
+  targetCompatibility = JavaVersion.VERSION_17
 }
 
 intellij {
@@ -37,12 +42,16 @@ idea {
   }
 }
 
+buildSearchableOptions {
+  enabled = false
+}
+
 publishPlugin {
   setToken(System.getenv("JETBRAINS_TOKEN"))
 }
 
 patchPluginXml {
-  changeNotes  = "Tabs issues addressed. Compatibility with 2022.1 functionality. Notifications colors updates. Icon colors update"
+  changeNotes = "Compatibility fixes related to new UI changes in 2022.3. Code with me color fixes, minor alignment changes in html/xml markup highlighting"
   version = System.getenv("APP_VERSION")
-  sinceBuild = "191"
+  sinceBuild = "223"
 }

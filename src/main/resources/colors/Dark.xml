@@ -1,12 +1,18 @@
 <scheme name="Hiberbee Dark" version="142">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-05-16T17:32:13</property>
+    <property name="created">2022-11-18T23:25:41</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.1.1.0.0</property>
-    <property name="modified">2022-05-16T17:32:20</property>
+    <property name="ideVersion">2022.3.0.0</property>
+    <property name="modified">2022-11-18T23:25:50</property>
+    <property name="originalScheme">Hiberbee Dark</property>
   </metaInfo>
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="1.3" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LIGATURES" value="true" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
@@ -14,7 +20,6 @@
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="ffb900" />
     <option name="CARET_ROW_COLOR" value="212131" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="171615" />
     <option name="DELETED_LINES_COLOR" value="ed005c" />
     <option name="DIAGRAM_ANNOTATION_EDGE" value="f2ba4b" />
     <option name="DIAGRAM_DEFAULT_EDGE" value="9380ff" />
@@ -64,7 +69,7 @@
     <option name="LOOKUP_COLOR" value="2d2b29" />
     <option name="METHOD_SEPARATORS_COLOR" value="333231" />
     <option name="MODIFIED_LINES_COLOR" value="ffd64c" />
-    <option name="MODIFIED_TAB_ICON" value="fdb800" />
+    <option name="MODIFIED_TAB_ICON" value="4ddfea" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="MT_SUPPRESSED" value="eeffff" />
     <option name="NOTIFICATION_BACKGROUND" value="2d2b29" />
@@ -73,12 +78,12 @@
     <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="c8c8c8" />
     <option name="PROMOTION_PANE" value="2d2b29" />
     <option name="QUESTION_HINT" value="2d2b29" />
-    <option name="READONLY_BACKGROUND" value="181615" />
+    <option name="READONLY_BACKGROUND" value="171615" />
     <option name="RECENT_LOCATIONS_SELECTION" value="2d2b29" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="7d7d7d" />
     <option name="RIGHT_MARGIN_COLOR" value="333231" />
     <option name="SELECTED_INDENT_GUIDE" value="434241" />
-    <option name="SELECTED_TEARLINE_COLOR" value="ffc83c" />
+    <option name="SELECTED_TEARLINE_COLOR" value="ffb900" />
     <option name="SELECTION_BACKGROUND" value="323341" />
     <option name="SEPARATOR_ABOVE_COLOR" value="333231" />
     <option name="SEPARATOR_BELOW_COLOR" value="333231" />
@@ -86,7 +91,7 @@
     <option name="ScrollBar.Mac.hoverThumbColor" value="404040" />
     <option name="ScrollBar.Mac.thumbColor" value="2d2d2d" />
     <option name="ScrollBar.thumbColor" value="a6a6a647" />
-    <option name="TAB_UNDERLINE" value="ffc800" />
+    <option name="TAB_UNDERLINE" value="ffb900" />
     <option name="TAB_UNDERLINE_INACTIVE" value="2d2b29" />
     <option name="TEARLINE_COLOR" value="404040" />
     <option name="TOOLTIP" value="2d2b29" />
@@ -565,6 +570,31 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_1_MARKER">
+      <value>
+        <option name="FOREGROUND" value="4ddfea" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_MARKER">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_3_MARKER">
+      <value>
+        <option name="FOREGROUND" value="fd971f" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_4_MARKER">
+      <value>
+        <option name="FOREGROUND" value="9478f6" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_MARKER">
+      <value>
+        <option name="FOREGROUND" value="ed005c" />
+      </value>
+    </option>
     <option name="CodeWithMe.USER_6_SELECTION">
       <value>
         <option name="FOREGROUND" value="d4d0c8" />
@@ -594,7 +624,8 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="c1eff6" />
+        <option name="FOREGROUND" value="b7c3" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -650,7 +681,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -795,7 +826,7 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="96989b" />
+        <option name="FOREGROUND" value="737578" />
         <option name="EFFECT_COLOR" value="737578" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -824,11 +855,6 @@
         <option name="ERROR_STRIPE_COLOR" value="4ddfea" />
       </value>
     </option>
-    <option name="DJANGO_FILTER">
-      <value>
-        <option name="FOREGROUND" value="c5e775" />
-      </value>
-    </option>
     <option name="DJANGO_ID">
       <value>
         <option name="FOREGROUND" value="9478f6" />
@@ -836,7 +862,7 @@
     </option>
     <option name="DJANGO_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="ee7762" />
       </value>
     </option>
     <option name="DJANGO_TAG_START_END">
@@ -867,12 +893,7 @@
     </option>
     <option name="EJS_OPEN">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
-      </value>
-    </option>
-    <option name="EJS_OPEN_EQ">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="b4da82" />
       </value>
     </option>
     <option name="EJS_OPEN_EQ_EQ">
@@ -943,7 +964,7 @@
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="9380ff" />
-        <option name="ERROR_STRIPE_COLOR" value="b48ead" />
+        <option name="ERROR_STRIPE_COLOR" value="9380ff" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1002,9 +1023,24 @@
         <option name="FOREGROUND" value="57d1eb" />
       </value>
     </option>
+    <option name="GRAPHQL_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
     <option name="GRAPHQL_FRAGMENT_DEFINITION">
       <value>
         <option name="FOREGROUND" value="589df6" />
+      </value>
+    </option>
+    <option name="GRAPHQL_FRAGMENT_SPREAD">
+      <value>
+        <option name="FOREGROUND" value="b7c3" />
+      </value>
+    </option>
+    <option name="GRAPHQL_OBJECT_FIELD">
+      <value>
+        <option name="FOREGROUND" value="9896ff" />
       </value>
     </option>
     <option name="GRAPHQL_TYPE_NAME">
@@ -1013,6 +1049,11 @@
       </value>
     </option>
     <option name="GRAPHQL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ee9b70" />
+      </value>
+    </option>
+    <option name="GRAPHQL_VARIABLE_DEFINITION">
       <value>
         <option name="FOREGROUND" value="ee9b70" />
       </value>
@@ -1057,6 +1098,11 @@
     <option name="HCL.BLOCK_NAME_KEY">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
+      </value>
+    </option>
+    <option name="HCL.BLOCK_TYPES_KEY">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
       </value>
     </option>
     <option name="HTML_CODE">
@@ -1138,6 +1184,11 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -1465,7 +1516,7 @@
     </option>
     <option name="LUA_LONGSTRING">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="LUA_PARAMETER">
@@ -1593,7 +1644,7 @@
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_6">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="MARKDOWN_ITALIC">
@@ -31417,8 +31468,9 @@
     </option>
     <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="969696" />
+        <option name="FOREGROUND" value="737578" />
         <option name="EFFECT_COLOR" value="737578" />
+        <option name="ERROR_STRIPE_COLOR" value="737578" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -31443,6 +31495,16 @@
     <option name="Map key">
       <value>
         <option name="FOREGROUND" value="57d1eb" />
+      </value>
+    </option>
+    <option name="NG.EXPANSION_FORM_DELIMITERS">
+      <value>
+        <option name="FOREGROUND" value="57d1eb" />
+      </value>
+    </option>
+    <option name="NG.SCRIPT_DELIMITERS">
+      <value>
+        <option name="FOREGROUND" value="fd971f" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -31775,7 +31837,7 @@
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
@@ -31795,7 +31857,7 @@
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="RAINBOW_COLOR0">
@@ -31934,7 +31996,7 @@
     </option>
     <option name="RUBY_WORDS">
       <value>
-        <option name="FOREGROUND" value="ffc83c" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="RUNTIME_ERROR">
@@ -32076,6 +32138,27 @@
     <option name="SCOPE_KEY_All">
       <value />
     </option>
+    <option name="SCOPE_KEY_All Changed Files">
+      <value />
+    </option>
+    <option name="SCOPE_KEY_Non-Project Files">
+      <value />
+    </option>
+    <option name="SCOPE_KEY_Open Files">
+      <value />
+    </option>
+    <option name="SCOPE_KEY_Production">
+      <value />
+    </option>
+    <option name="SCOPE_KEY_Project Files">
+      <value />
+    </option>
+    <option name="SCOPE_KEY_Scratches and Consoles">
+      <value />
+    </option>
+    <option name="SCOPE_KEY_Tests">
+      <value />
+    </option>
     <option name="SCOPE_KEY_yaml">
       <value>
         <option name="FOREGROUND" value="bc9660" />
@@ -32209,7 +32292,7 @@
     </option>
     <option name="TAB_SELECTED">
       <value>
-        <option name="FOREGROUND" value="ffc800" />
+        <option name="FOREGROUND" value="fdb800" />
         <option name="BACKGROUND" value="2d2b29" />
       </value>
     </option>
@@ -32307,7 +32390,7 @@
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="320a19" />
+        <option name="BACKGROUND" value="ed005c" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
@@ -32340,11 +32423,6 @@
       <value>
         <option name="FOREGROUND" value="ccbfaf" />
         <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="XML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="b4da82" />
       </value>
     </option>
     <option name="XPATH.XPATH_NAME">
