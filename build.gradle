@@ -14,8 +14,8 @@ repositories {
 }
 
 java {
-  sourceCompatibility = JavaVersion.VERSION_17
-  targetCompatibility = JavaVersion.VERSION_17
+  sourceCompatibility = JavaVersion.VERSION_1_8
+  targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 intellij {
@@ -53,5 +53,5 @@ publishPlugin {
 patchPluginXml {
   changeNotes = "Compatibility fixes related to new UI changes in 2022.3. Code with me color fixes, minor alignment changes in html/xml markup highlighting"
   version = System.getenv("APP_VERSION")
-  sinceBuild = "223"
+  sinceBuild = "191"
 }

@@ -7,5 +7,7 @@ version: 2
 updates:
   - package-ecosystem: "gradle"
     directory: "/"
+    rebase-strategy: auto
+    target-branch: latest
     schedule:
-      interval: "daily"
+      interval: "weekly"

@@ -1,5 +1,4 @@
-<idea-plugin require-restart="false" allow-bundled-update="true">
-  <change-notes>Updated plugin with some changes. Frankly, I don't remember which ones.</change-notes>
+<idea-plugin require-restart="false"  allow-bundled-update="true">
   <id>com.hiberbee.intellij.hiberbee-theme</id>
   <vendor email="vlad@hiberbee.com" url="https://github.com/hiberbee">Hiberbee</vendor>
   <name>Hiberbee Theme</name>
@@ -7,9 +6,10 @@
   <description>Monokai Pro &amp; MacOS inspired color themes, with bright colors &amp; dark mode, with common
     color code for all languages. See description &amp; screenshots on &lt;a href="https://github.com/Hiberbee/jetbrains-ide-theme"&gt;Github&lt;/a&gt;
   </description>
-  <idea-version since-build="191.6183" />
-  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="191" />
+  <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="683fb0ab-974f-4604-8b3d-8ed74934e18d" path="/HiberbeeDark.theme.json"/>
+    <bundledColorScheme path="/colors/Dark" />
+    <themeProvider id="HiberbeeDark" path="/HiberbeeDark.theme.json"/>
   </extensions>
 </idea-plugin>

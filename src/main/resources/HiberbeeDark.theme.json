@@ -4,6 +4,7 @@
   "dark": true,
   "icons": {
     "ColorPalette": {
+      "Tree.iconColor": "#ffd64c",
       "Actions.Blue": "#78dce8",
       "Actions.Green": "#92d923",
       "Actions.Grey": "#93918c",
@@ -30,7 +31,8 @@
     "panelBackground": "#333231",
     "textColor": "#f9f6ef",
     "textColorTransparent": "#f9f6ef7f",
-    "border": "#4d4c4b",
+    "border": "#424140",
+    "borderFocus": "#595959",
     "redMac": "#fb3b45",
     "redWin": "#ef6950",
     "redMonokaiPro": "#ff6188",
@@ -70,6 +72,7 @@
   },
   "ui": {
     "*": {
+      "arc": 4,
       "background": "panelBackground",
       "caretForeground": "yellow",
       "color": "greyDot60",
@@ -84,31 +87,30 @@
     },
     "ActionButton": {
       "pressedBackground": "greyDot95",
-      "hoverBorderColor": "greyDot65",
-      "pressedBorderColor": "greyDot60"
+      "hoverBorderColor": "borderFocus",
+      "pressedBorderColor": "borderFocus"
     },
     "Borders": {
-      "ContrastBorderColor": "greyDot60",
+      "ContrastBorderColor": "borderFocus",
       "color": "border"
     },
     "Button": {
       "default": {
         "endBackground": "greyDot80",
-        "endBorderColor": "greyDot70",
-        "focusColor": "greyDot60",
-        "focusedBorderColor": "greyDot50",
+        "endBorderColor": "border",
+        "focusColor": "borderFocus",
+        "focusedBorderColor": "borderFocus",
         "foreground": "greyDot33",
         "startBackground": "greyDot80",
-        "startBorderColor": "greyDot70"
+        "startBorderColor": "border"
       },
-      "shadowWidth": 1,
       "endBackground": "greyDot80",
-      "endBorderColor": "greyDot70",
-      "focusedBorderColor": "greyDot50",
+      "endBorderColor": "border",
+      "focusedBorderColor": "borderFocus",
       "foreground": "greyDot20",
       "disabledBorderColor": "greyDot75",
       "startBackground": "greyDot80",
-      "startBorderColor": "greyDot70"
+      "startBorderColor": "border"
     },
     "CheckBox": {
       "CheckBox.disabledText": "greyDot50",
@@ -148,8 +150,7 @@
       "disabledBorderColor": "greyDot75",
       "infoForeground": "greyDot50",
       "errorFocusColor": "red",
-      "focusColor": "greyDot60",
-      "focusWidth": 0,
+      "focusColor": "borderFocus",
       "focusedBorderColor": "greyDot65",
       "inactiveErrorFocusColor": "transparentRed",
       "inactiveWarningFocusColor": "transparentYellow",
@@ -165,7 +166,7 @@
       "borderColor": "border",
       "inactiveUnderlineColor": "border",
       "underlineColor": "yellow",
-      "underlineHeight": 1,
+      "underlineHeight": 2,
       "underlinedTabForeground": "yellow"
     },
     "DragAndDrop": {
@@ -219,7 +220,9 @@
     "InformationHint": {
       "borderColor": "border"
     },
-    "InplaceRefactoringPopup.borderColor": "border",
+    "InplaceRefactoringPopup": {
+      "borderColor": "yellow"
+    },
     "Label": {
       "disabledForeground": "greyDot33",
       "disabledText": "greyDot33",
@@ -238,7 +241,7 @@
     "Menu": {
       "background": "greyDot80",
       "disabledForeground": "greyDot70",
-      "separatorColor": "border",
+      "separatorColor": "borderFocus",
       "foreground": "textColor",
       "borderColor": "border",
       "acceleratorForeground": "greyDot33"
@@ -279,7 +282,7 @@
     "ParameterInfo.currentParameterForeground": "yellow",
     "ParameterInfo.foreground": "greyDot25",
     "ParameterInfo.infoForeground": "greyDot33",
-    "ParameterInfo.lineSeparatorColor": "greyDot75",
+    "ParameterInfo.lineSeparatorColor": "borderFocus",
     "PasswordField.background": "greyDot75",
     "Plugins.Button.installBackground": "greyDot80",
     "Plugins.Button.installBorderColor": "border",
@@ -323,7 +326,6 @@
     "SearchEverywhere.Tab.selectedForeground": "yellow",
     "SearchMatch.endBackground": "yellow",
     "SearchMatch.startBackground": "yellow",
-    "SettingsTree.rowHeight": 0,
     "SidePanel.background": "greyDot85",
     "SpeedSearch.errorForeground": "red",
     "SpeedSearch.foreground": "yellow",
@@ -331,7 +333,6 @@
     "TabbedPane.disabledUnderlineColor": "editorPaneBg",
     "TabbedPane.focus": "greyDot75",
     "TabbedPane.focusColor": "greyDot33",
-    "TabbedPane.tabSelectionHeight": 1,
     "TabbedPane.underlineColor": "yellow",
     "Table.dropLineColor": "greyDot75",
     "Table.dropLineShortColor": "greyDot70",
@@ -340,7 +341,7 @@
     "Table.sortIconColor": "yellow",
     "Table.stripeColor": "greyDot75",
     "TableHeader.background": "greyDot85",
-    "TableHeader.bottomSeparatorColor": "greyDot65",
+    "TableHeader.bottomSeparatorColor": "borderFocus",
     "TextArea.background": "greyDot75",
     "TextArea.caretForeground": "yellow",
     "TextArea.inactiveBackground": "greyDot80",
@@ -372,13 +373,11 @@
     "ToolWindow.HeaderTab.hoverBackground": "consoleBackground",
     "ToolWindow.HeaderTab.hoverInactiveBackground": "editorBg",
     "ToolWindow.HeaderTab.underlineColor": "yellow",
-    "ToolWindow.HeaderTab.underlineHeight": 1,
-    "Tooltip.separatorColor": "border",
+    "Tooltip.separatorColor": "borderFocus",
     "Tree.background": "greyDot85",
     "Tree.foreground": "textColor",
     "Tree.hoverBackground": "greyDot95",
     "Tree.modifiedItemForeground": "yellow",
-    "Tree.rowHeight": 0,
     "Tree.selectionBackground": "greyDot95",
     "Tree.selectionInactiveBackground": "greyDot95",
     "ValidationTooltip.errorBackground": "greyDot95",
@@ -395,7 +394,7 @@
     "WelcomeScreen.SidePanel.background": "greyDot80",
     "WelcomeScreen.background": "greyDot80",
     "WelcomeScreen.borderColor": "border",
-    "WelcomeScreen.separatorColor": "border",
+    "WelcomeScreen.separatorColor": "borderFocus",
     "Window.border": "0,0,0,0,4d4d4d"
   }
 }
