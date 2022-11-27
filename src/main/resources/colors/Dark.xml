@@ -1,4 +1,11 @@
 <scheme name="Hiberbee Dark" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2022-11-27T12:14:10</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2022.3.0.0</property>
+    <property name="modified">2022-11-27T12:14:25</property>
+    <property name="originalScheme">_@user_Hiberbee Dark</property>
+  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -1102,10 +1109,7 @@
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
-      <value>
-        <option name="FOREGROUND" value="ccbfaf" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
+      <value />
     </option>
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
@@ -32475,9 +32479,21 @@
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
+    <option name="XML_PROLOGUE" baseAttributes="TEXT">
+      <value>
+        <option name="FOREGROUND" value="ed005c" />
+        <option name="BACKGROUND" value="1b1a19" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
+    <option name="XML_TAG_DATA" baseAttributes="TEXT">
+      <value>
+        <option name="FOREGROUND" value="c8b9aa" />
+        <option name="BACKGROUND" value="1b1a19" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="a9dc76" />

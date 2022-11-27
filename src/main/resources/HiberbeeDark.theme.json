@@ -2,8 +2,12 @@
   "name": "Hiberbee Dark",
   "author": "Vlad Volkov",
   "dark": true,
+  "editorScheme": "/colors/Dark.xml",
   "icons": {
     "ColorPalette": {
+      "Checkbox.Border.Default": "#424140",
+      "Checkbox.Border.Selected": "#585756",
+      "Checkbox.Background.Selected": "#78dce8",
       "Tree.iconColor": "#FFB900",
       "Actions.Blue": "#78dce8",
       "Actions.Green": "#92d923",
@@ -20,70 +24,64 @@
       "Objects.YellowDark": "#FFB900"
     }
   },
-  "editorScheme": "/colors/Dark.xml",
   "colors": {
     "black": "#000000",
-    "editorDarkerBg": "#2D2B29",
-    "shortcutForeground": "#2d2b29",
-    "editorBg": "#1B1A19",
-    "consoleBackground": "#171615",
-    "editorPaneBg": "#333231",
-    "panelBackground": "#333231",
-    "textColor": "#f9f6ef",
-    "textColorTransparent": "#f9f6ef7f",
-    "border": "#424140",
-    "borderFocus": "#595959",
-    "redMac": "#fb3b45",
-    "redWin": "#ef6950",
-    "redMonokaiPro": "#ff6188",
-    "blueWinPalette": "#409AE1",
     "blue": "#78dce8",
+    "blueWinPalette": "#409AE1",
+    "border": "#424140",
+    "borderFocus": "#585756",
+    "separatorColor": "#4d4c4b",
+    "consoleBackground": "#1b1a19",
     "deepBlue": "#3199b3",
-    "orangeMonokaiPro": "#fc9867",
-    "greenMonokaiPro": "#a9dc76",
-    "yellow": "#FFB900",
-    "purpleWinPalette": "#b4a0ff",
-    "purpleMonokaiPro": "#ab9df2",
-    "greenWinPalette": "#40c5af",
-    "greyWinPalette": "#b2b2b2",
-    "panelText": "#acacac",
     "desaturatedOrange": "#8049117f",
+    "editorBg": "#1B1A19",
+    "editorDarkerBg": "#2D2B29",
+    "editorPaneBg": "#333231",
     "green": "#92d923",
-    "greyDot15": "#f9f6ef",
+    "greenMonokaiPro": "#a9dc76",
+    "greenWinPalette": "#40c5af",
     "greyDot20": "#c0c0c0",
     "greyDot25": "#bfbfbf",
     "greyDot33": "#aaaaaa",
     "greyDot50": "#7d7d7d",
-    "greyDot60": "#666666",
     "greyDot65": "#5a5a5a",
     "greyDot70": "#4d4c4b",
     "greyDot75": "#434241",
     "greyDot80": "#333231",
     "greyDot85": "#2d2b29",
     "greyDot90": "#1f1e1d",
-    "greyDot95": "#242220",
-    "greyDot100": "#181615",
+    "greyDot95": "#1b1a19",
+    "greyWinPalette": "#b2b2b2",
     "lightBlue": "#70D7FF",
+    "orangeMonokaiPro": "#fc9867",
+    "panelBackground": "#333231",
+    "panelText": "#acacac",
+    "purpleMonokaiPro": "#ab9df2",
+    "purpleWinPalette": "#b4a0ff",
     "red": "#800040",
+    "redMac": "#fb3b45",
+    "redMonokaiPro": "#ff6188",
+    "redWin": "#ef6950",
+    "shortcutForeground": "#CCBFAF",
+    "textColor": "#fbf6ef",
+    "textColorTransparent": "#f9f6ef7f",
     "transparentGreen": "#5B80217f",
     "transparentRed": "#F250227f",
     "transparentViolet": "#242221ff",
-    "transparentYellow": "#FFB9007a"
+    "transparentYellow": "#FFB9007a",
+    "yellow": "#FFB900"
   },
   "ui": {
     "*": {
-      "arc": 4,
+      "arc": 0,
       "background": "panelBackground",
-      "caretForeground": "yellow",
-      "color": "greyDot60",
       "foreground": "textColor",
-      "hoverBackground": "greyDot85",
+      "hoverBackground": "greyDot80",
       "selectedBackground": "greyDot90",
-      "selectedForeground": "textColor",
-      "selectedInactiveBackground": "greyDot75",
-      "selectionBackground": "greyDot95",
+      "selectedInactiveBackground": "greyDot70",
+      "selectionBackground": "greyDot90",
       "selectionForeground": "yellow",
-      "separatorColor": "border"
+      "separatorColor": "separatorColor"
     },
     "ActionButton": {
       "pressedBackground": "greyDot95",
@@ -96,20 +94,20 @@
     },
     "Button": {
       "default": {
-        "endBackground": "greyDot80",
+        "endBackground": "editorPaneBg",
         "endBorderColor": "border",
         "focusColor": "borderFocus",
         "focusedBorderColor": "borderFocus",
-        "foreground": "greyDot33",
-        "startBackground": "greyDot80",
+        "foreground": "text",
+        "startBackground": "editorPaneBg",
         "startBorderColor": "border"
       },
-      "endBackground": "greyDot80",
+      "endBackground": "editorPaneBg",
       "endBorderColor": "border",
       "focusedBorderColor": "borderFocus",
-      "foreground": "greyDot20",
+      "foreground": "textColor",
       "disabledBorderColor": "greyDot75",
-      "startBackground": "greyDot80",
+      "startBackground": "editorPaneBg",
       "startBorderColor": "border"
     },
     "CheckBox": {
@@ -136,8 +134,8 @@
       "disabledForeground": "greyDot50",
       "foreground": "greyDot20",
       "modifiedItemForeground": "yellow",
-      "nonEditableBackground": "greyDot75",
-      "selectionBackground": "greyDot95"
+      "nonEditableBackground": "greyDot70",
+      "selectionBackground": "greyDot90"
     },
     "CompletionPopup": {
       "foreground": "greyDot20",
@@ -146,13 +144,13 @@
       "selectionInactiveBackground": "greyDot85"
     },
     "Component": {
+      "arc" : 0,
       "iconColor": "yellow",
-      "arc": 8,
-      "disabledBorderColor": "greyDot75",
+      "disabledBorderColor": "greyDot70",
       "infoForeground": "greyDot50",
       "errorFocusColor": "red",
       "focusColor": "borderFocus",
-      "focusedBorderColor": "greyDot65",
+      "focusedBorderColor": "borderFocus",
       "inactiveErrorFocusColor": "transparentRed",
       "inactiveWarningFocusColor": "transparentYellow",
       "warningFocusColor": "yellow"
@@ -180,7 +178,7 @@
       "background": "editorPaneBg",
       "Toolbar.borderColor": "border",
       "foreground": "textColor",
-      "shortcutForeground": "greyDot20"
+      "shortcutForeground": "shortcutForeground"
     },
     "EditorPane": {
       "background": "editorPaneBg",
@@ -188,12 +186,13 @@
       "inactiveForeground": "greyDot50",
       "selectionBackground": "editorBg",
       "foreground": "textColor",
+      "caretForeground": "yellow",
       "splitBorder": "border"
     },
     "EditorTabs": {
       "hoverBackground": "greyDot95",
       "borderColor": "border",
-      "background": "editorPaneBg",
+      "background": "#60605f",
       "inactiveUnderlineColor": "blue",
       "underlinedTabBackground": "editorPaneBg",
       "underlinedTabForeground": "yellow"
@@ -218,7 +217,7 @@
     },
     "GutterTooltip": {
       "infoForeground": "greyDot33",
-      "lineSeparatorColor": "greyDot70"
+      "lineSeparatorColor": "separatorColor"
     },
     "InformationHint": {
       "borderColor": "border"
@@ -243,14 +242,14 @@
     "MemoryIndicator.usedBackground": "red",
     "Menu": {
       "background": "greyDot80",
-      "disabledForeground": "greyDot70",
-      "separatorColor": "borderFocus",
+      "disabledForeground": "greyDot60",
       "foreground": "textColor",
+      "Selection.arc": 0,
       "borderColor": "border",
-      "acceleratorForeground": "greyDot33"
+      "acceleratorForeground": "greyDot60"
     },
+    "Popup.Advertiser.borderColor": "separatorColor",
     "Notification": {
-      "MoreButton.innerBorderColor": "greyDot65",
       "ToolWindow.errorBackground": "greyDot95",
       "ToolWindow.errorBorderColor": "red",
       "ToolWindow.errorForeground": "#EE7762",
@@ -283,9 +282,9 @@
     "ParameterInfo.borderColor": "border",
     "ParameterInfo.currentOverloadBackground": "greyDot65",
     "ParameterInfo.currentParameterForeground": "yellow",
-    "ParameterInfo.foreground": "greyDot25",
-    "ParameterInfo.infoForeground": "greyDot33",
-    "ParameterInfo.lineSeparatorColor": "borderFocus",
+    "ParameterInfo.foreground": "textColor",
+    "ParameterInfo.infoForeground": "shortcutForeground",
+    "ParameterInfo.lineSeparatorColor": "separatorColor",
     "PasswordField.background": "greyDot75",
     "Plugins.Button.installBackground": "greyDot80",
     "Plugins.Button.installBorderColor": "border",
@@ -306,6 +305,7 @@
     "Popup.Advertiser.foreground": "greyDot50",
     "Popup.Header.activeBackground": "greyDot75",
     "Popup.Header.inactiveBackground": "greyDot85",
+    "Popup.Selection.arc": 0,
     "Popup.paintBorder": true,
     "PopupMenu.background": "greyDot80",
     "ProgressBar.failedColor": "red",
@@ -322,7 +322,7 @@
     "ScrollPane.background": "greyDot80",
     "SearchEverywhere.Advertiser.foreground": "greyDot50",
     "SearchEverywhere.Header.background": "greyDot80",
-    "SearchEverywhere.List.separatorForeground": "greyDot50",
+    "SearchEverywhere.List.separatorForeground": "separatorColor",
     "SearchEverywhere.SearchField.background": "greyDot75",
     "SearchEverywhere.SearchField.infoForeground": "greyDot33",
     "SearchEverywhere.Tab.selectedBackground": "greyDot95",
@@ -336,6 +336,7 @@
     "TabbedPane.disabledUnderlineColor": "editorPaneBg",
     "TabbedPane.focus": "greyDot75",
     "TabbedPane.focusColor": "greyDot33",
+    "TabbedPane.tabSelectionArc": 0,
     "TabbedPane.underlineColor": "yellow",
     "Table.dropLineColor": "greyDot75",
     "Table.dropLineShortColor": "greyDot70",
@@ -344,7 +345,7 @@
     "Table.sortIconColor": "yellow",
     "Table.stripeColor": "greyDot75",
     "TableHeader.background": "greyDot85",
-    "TableHeader.bottomSeparatorColor": "borderFocus",
+    "TableHeader.bottomSeparatorColor": "separatorColor",
     "TextArea.background": "greyDot75",
     "TextArea.caretForeground": "yellow",
     "TextArea.inactiveBackground": "greyDot80",
@@ -376,7 +377,7 @@
     "ToolWindow.HeaderTab.hoverBackground": "consoleBackground",
     "ToolWindow.HeaderTab.hoverInactiveBackground": "editorBg",
     "ToolWindow.HeaderTab.underlineColor": "yellow",
-    "Tooltip.separatorColor": "borderFocus",
+    "Tooltip.separatorColor": "separatorColor",
     "Tree.background": "greyDot85",
     "Tree.foreground": "textColor",
     "Tree.hoverBackground": "greyDot95",
@@ -394,10 +395,9 @@
     "WelcomeScreen.Details.background": "greyDot80",
     "WelcomeScreen.Projects.background": "greyDot85",
     "WelcomeScreen.Projects.selectionBackground": "greyDot95",
-    "WelcomeScreen.SidePanel.background": "greyDot80",
+    "WelcomeScreen.SidePanel.background": "editorDarkerBg",
     "WelcomeScreen.background": "greyDot80",
     "WelcomeScreen.borderColor": "border",
-    "WelcomeScreen.separatorColor": "borderFocus",
-    "Window.border": "0,0,0,0,4d4d4d"
+    "WelcomeScreen.separatorColor": "separatorColor"
   }
 }
