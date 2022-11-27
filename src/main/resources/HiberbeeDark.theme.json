@@ -4,7 +4,7 @@
   "dark": true,
   "icons": {
     "ColorPalette": {
-      "Tree.iconColor": "#ffd64c",
+      "Tree.iconColor": "#FFB900",
       "Actions.Blue": "#78dce8",
       "Actions.Green": "#92d923",
       "Actions.Grey": "#93918c",
@@ -41,7 +41,7 @@
     "deepBlue": "#3199b3",
     "orangeMonokaiPro": "#fc9867",
     "greenMonokaiPro": "#a9dc76",
-    "yellow": "#ffd64c",
+    "yellow": "#FFB900",
     "purpleWinPalette": "#b4a0ff",
     "purpleMonokaiPro": "#ab9df2",
     "greenWinPalette": "#40c5af",
@@ -147,6 +147,7 @@
     },
     "Component": {
       "iconColor": "yellow",
+      "arc": 8,
       "disabledBorderColor": "greyDot75",
       "infoForeground": "greyDot50",
       "errorFocusColor": "red",
@@ -164,7 +165,9 @@
     },
     "DefaultTabs": {
       "borderColor": "border",
-      "inactiveUnderlineColor": "border",
+      "background": "editorPaneBg",
+      "underlinedTabBackground": "greyDot50",
+      "inactiveUnderlineColor": "blue",
       "underlineColor": "yellow",
       "underlineHeight": 2,
       "underlinedTabForeground": "yellow"
@@ -184,14 +187,14 @@
       "inactiveBackground": "editorDarkerBg",
       "inactiveForeground": "greyDot50",
       "selectionBackground": "editorBg",
+      "foreground": "textColor",
       "splitBorder": "border"
     },
     "EditorTabs": {
       "hoverBackground": "greyDot95",
       "borderColor": "border",
       "background": "editorPaneBg",
-      "inactiveColoredFileBackground": "editorPaneBg",
-      "inactiveUnderlineColor": "editorPaneBg",
+      "inactiveUnderlineColor": "blue",
       "underlinedTabBackground": "editorPaneBg",
       "underlinedTabForeground": "yellow"
     },
