@@ -1,4 +1,4 @@
-<scheme name="Hiberbee Dark" version="142" parent_scheme="New Dark">
+<scheme name="Hiberbee Dark" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
