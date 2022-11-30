@@ -62,7 +62,7 @@
     <option name="LOOKUP_COLOR" value="2d2b29" />
     <option name="METHOD_SEPARATORS_COLOR" value="333231" />
     <option name="MODIFIED_LINES_COLOR" value="ffd64c" />
-    <option name="MODIFIED_TAB_ICON" value="4ddfea" />
+    <option name="MODIFIED_TAB_ICON" value="ffb900" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="MT_SUPPRESSED" value="eeffff" />
     <option name="NOTIFICATION_BACKGROUND" value="2d2b29" />
@@ -81,11 +81,10 @@
     <option name="SEPARATOR_ABOVE_COLOR" value="333231" />
     <option name="SEPARATOR_BELOW_COLOR" value="333231" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="4b4b4b" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="404040" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="424140" />
     <option name="ScrollBar.Mac.thumbColor" value="2d2d2d" />
     <option name="TAB_UNDERLINE" value="ffb900" />
-    <option name="TAB_UNDERLINE_INACTIVE" value="2d2b29" />
-    <option name="TEARLINE_COLOR" value="404040" />
+    <option name="TEARLINE_COLOR" value="424140" />
     <option name="TOOLTIP" value="2d2b29" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="232d28" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="2d2323" />
@@ -95,6 +94,7 @@
     <option name="VISUAL_INDENT_GUIDE" value="333231" />
     <option name="WHITESPACES" value="555555" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4ddfea" />
+    <option name="TAB_UNDERLINE_INACTIVE" value="916f15" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
@@ -569,9 +569,19 @@
         <option name="FOREGROUND" value="4ddfea" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_1_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="23282d" />
+      </value>
+    </option>
     <option name="CodeWithMe.USER_2_MARKER">
       <value>
         <option name="FOREGROUND" value="92d923" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="2d2323" />
       </value>
     </option>
     <option name="CodeWithMe.USER_3_MARKER">
@@ -579,14 +589,29 @@
         <option name="FOREGROUND" value="fd971f" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_3_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="232d28" />
+      </value>
+    </option>
     <option name="CodeWithMe.USER_4_MARKER">
       <value>
         <option name="FOREGROUND" value="9478f6" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_4_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="2d232d" />
+      </value>
+    </option>
     <option name="CodeWithMe.USER_5_MARKER">
       <value>
         <option name="FOREGROUND" value="ed005c" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="3b3b19" />
       </value>
     </option>
     <option name="CodeWithMe.USER_6_SELECTION">
@@ -969,6 +994,11 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GHERKIN_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="787776" />
+      </value>
+    </option>
     <option name="GHERKIN_REGEXP_PARAMETER">
       <value>
         <option name="FOREGROUND" value="c5e776" />
@@ -977,6 +1007,13 @@
     <option name="GHERKIN_TABLE_PIPE">
       <value>
         <option name="FOREGROUND" value="4ddfea" />
+      </value>
+    </option>
+    <option name="GHERKIN_TEXT">
+      <value>
+        <option name="FOREGROUND" value="c8b9aa" />
+        <option name="BACKGROUND" value="1b1a19" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="GIT_TOOLBOX.CHANGED_COUNT_ATTRIBUTES">
@@ -31863,9 +31900,10 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="409cff" />
       </value>
     </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="ffb900" />
@@ -31873,9 +31911,11 @@
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="c1eff6" />
+        <option name="FOREGROUND" value="b7c3" />
       </value>
     </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="ed005c" />
@@ -32349,13 +32389,12 @@
     </option>
     <option name="TAB_SELECTED">
       <value>
-        <option name="FOREGROUND" value="fdb800" />
-        <option name="BACKGROUND" value="2d2b29" />
+        <option name="BACKGROUND" value="1b1a19" />
       </value>
     </option>
     <option name="TAB_SELECTED_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="acacac" />
+        <option name="BACKGROUND" value="21201f" />
       </value>
     </option>
     <option name="TAPESTRY_COMPONENT_TAG">
@@ -32479,7 +32518,7 @@
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="XML_PROLOGUE" baseAttributes="TEXT">
+    <option name="XML_PROLOGUE">
       <value>
         <option name="FOREGROUND" value="ed005c" />
         <option name="BACKGROUND" value="1b1a19" />
@@ -32487,7 +32526,7 @@
       </value>
     </option>
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="XML_TAG_DATA" baseAttributes="TEXT">
+    <option name="XML_TAG_DATA">
       <value>
         <option name="FOREGROUND" value="c8b9aa" />
         <option name="BACKGROUND" value="1b1a19" />
