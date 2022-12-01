@@ -84,6 +84,7 @@
     <option name="ScrollBar.Mac.hoverThumbColor" value="424140" />
     <option name="ScrollBar.Mac.thumbColor" value="2d2d2d" />
     <option name="TAB_UNDERLINE" value="ffb900" />
+    <option name="TAB_UNDERLINE_INACTIVE" value="916f15" />
     <option name="TEARLINE_COLOR" value="424140" />
     <option name="TOOLTIP" value="2d2b29" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="232d28" />
@@ -94,7 +95,6 @@
     <option name="VISUAL_INDENT_GUIDE" value="333231" />
     <option name="WHITESPACES" value="555555" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4ddfea" />
-    <option name="TAB_UNDERLINE_INACTIVE" value="916f15" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
@@ -127,6 +127,7 @@
         <option name="FOREGROUND" value="b7c3" />
       </value>
     </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="57d1eb" />
@@ -659,7 +660,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="70d7ff" />
+        <option name="FOREGROUND" value="4ddfea" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -674,7 +675,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ff8c00" />
+        <option name="FOREGROUND" value="f25022" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -715,7 +716,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="409cff" />
+        <option name="FOREGROUND" value="ff8c00" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -795,7 +796,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="ff6188" />
+        <option name="FOREGROUND" value="ff638a" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -1081,11 +1082,6 @@
         <option name="FOREGROUND" value="9896ff" />
       </value>
     </option>
-    <option name="GRAPHQL_TYPE_NAME">
-      <value>
-        <option name="FOREGROUND" value="57d1eb" />
-      </value>
-    </option>
     <option name="GRAPHQL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ee9b70" />
@@ -1191,29 +1187,35 @@
     </option>
     <option name="IGNORE.NEGATION">
       <value>
-        <option name="FOREGROUND" value="ff6188" />
+        <option name="FOREGROUND" value="ed005c" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IGNORE.SECTION">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
     <option name="IGNORE.SYNTAX">
       <value>
-        <option name="FOREGROUND" value="b4da82" />
+        <option name="FOREGROUND" value="92d923" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IGNORE.UNUSED_ENTRY">
       <value>
         <option name="FOREGROUND" value="808080" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="IGNORE.VALUE">
       <value>
         <option name="FOREGROUND" value="fcfcfa" />
+      </value>
+    </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9380ff" />
       </value>
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
@@ -1514,6 +1516,92 @@
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d4ccff" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_KEY">
+      <value>
+        <option name="FOREGROUND" value="9380ff" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_KVALUE">
+      <value>
+        <option name="FOREGROUND" value="ed6b88" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_REGEX_KVALUE">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_STRING_KVALUE">
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ASSERT">
+      <value>
+        <option name="FOREGROUND" value="9380ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_DEBUG">
+      <value>
+        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ERROR">
+      <value>
+        <option name="FOREGROUND" value="f25022" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_INFO">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="acacac" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_WARNING">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_ASSERT">
+      <value>
+        <option name="FOREGROUND" value="9380ff" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_DEBUG">
+      <value>
+        <option name="FOREGROUND" value="57d1eb" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_ERROR">
+      <value>
+        <option name="FOREGROUND" value="f25022" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_INFO">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="acacac" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_WARNING">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
@@ -31566,30 +31654,9 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="OC.BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="727072" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="OC.BRACES">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
-      </value>
-    </option>
-    <option name="OC.BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
-      </value>
-    </option>
     <option name="OC.CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ffd866" />
-      </value>
-    </option>
-    <option name="OC.COMMA">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
     <option name="OC.CONDITIONALLY_NOT_COMPILED">
@@ -31600,24 +31667,15 @@
         <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
-    <option name="OC.DIRECTIVE">
-      <value>
-        <option name="FOREGROUND" value="ab9df2" />
-      </value>
-    </option>
-    <option name="OC.DOT">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
-      </value>
-    </option>
     <option name="OC.ENUM_CONST">
       <value>
-        <option name="FOREGROUND" value="f59762" />
+        <option name="FOREGROUND" value="9380ff" />
       </value>
     </option>
     <option name="OC.EXTERN_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fcfcfa" />
+        <option name="FOREGROUND" value="ffb900" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="OC.FORMAT_TOKEN">
@@ -31635,20 +31693,9 @@
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
-    <option name="OC.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="fcfcfa" />
-      </value>
-    </option>
     <option name="OC.HEADER_PATH">
       <value>
         <option name="FOREGROUND" value="e6ffd6" />
-      </value>
-    </option>
-    <option name="OC.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="EFFECT_COLOR" value="f65f87" />
-        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.IVAR">
@@ -31656,14 +31703,9 @@
         <option name="FOREGROUND" value="fcfcfa" />
       </value>
     </option>
-    <option name="OC.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="ab9df2" />
-      </value>
-    </option>
     <option name="OC.LABEL">
       <value>
-        <option name="FOREGROUND" value="fcfcfa" />
+        <option name="FOREGROUND" value="b7c3" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -31673,15 +31715,9 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="OC.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="fcfcfa" />
-      </value>
-    </option>
     <option name="OC.MACRONAME">
       <value>
-        <option name="FOREGROUND" value="a9dc76" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="ed6b88" />
       </value>
     </option>
     <option name="OC.MACRO_PARAMETER">
@@ -31699,29 +31735,19 @@
         <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
-    <option name="OC.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="f59762" />
-      </value>
-    </option>
     <option name="OC.OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
     <option name="OC.OVERLOADED_OPERATOR">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="b7c3" />
       </value>
     </option>
     <option name="OC.PARAMETER">
       <value>
         <option name="FOREGROUND" value="f59762" />
-      </value>
-    </option>
-    <option name="OC.PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
     <option name="OC.PROPERTY">
@@ -31743,47 +31769,27 @@
     </option>
     <option name="OC.SELFSUPERTHIS">
       <value>
-        <option name="FOREGROUND" value="ab9df2" />
-      </value>
-    </option>
-    <option name="OC.SEMICOLON">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
-      </value>
-    </option>
-    <option name="OC.STRING">
-      <value>
-        <option name="FOREGROUND" value="a9dc76" />
+        <option name="FOREGROUND" value="ed005c" />
       </value>
     </option>
     <option name="OC.STRUCT_FIELD">
       <value>
-        <option name="FOREGROUND" value="fcfcfa" />
+        <option name="FOREGROUND" value="9380ff" />
       </value>
     </option>
     <option name="OC.STRUCT_LIKE">
       <value>
-        <option name="FOREGROUND" value="ffd866" />
-      </value>
-    </option>
-    <option name="OC.TEMPLATE_TYPE">
-      <value>
-        <option name="FOREGROUND" value="ffd866" />
+        <option name="FOREGROUND" value="57d1eb" />
       </value>
     </option>
     <option name="OC.TEMPLATE_VALUE">
       <value>
-        <option name="FOREGROUND" value="f59762" />
+        <option name="FOREGROUND" value="ff8c00" />
       </value>
     </option>
     <option name="OC.TYPEDEF">
       <value>
-        <option name="FOREGROUND" value="ab9df2" />
-      </value>
-    </option>
-    <option name="OC.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="ed005c" />
       </value>
     </option>
     <option name="PACKAGE_PRIVATE_REFERENCE">
@@ -32365,6 +32371,7 @@
         <option name="FOREGROUND" value="9478f6" />
       </value>
     </option>
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="SUGGESTION">
       <value>
         <option name="EFFECT_COLOR" value="939393" />
@@ -32624,5 +32631,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
   </attributes>
 </scheme>
