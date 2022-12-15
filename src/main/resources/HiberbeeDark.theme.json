@@ -26,7 +26,7 @@
     "blue": "#78dce8",
     "blueWinPalette": "#409AE1",
     "border": "#424140",
-    "borderFocus": "#585756",
+    "borderFocus": "#5f5f5e",
     "separatorColor": "#4d4c4b",
     "consoleBackground": "#1b1a19",
     "deepBlue": "#3199b3",
@@ -72,20 +72,24 @@
   },
   "ui": {
     "*": {
-      "arc": 0,
+      "Selection.arc": 5,
+      "arc": 5,
       "background": "panelBackground",
+      "borderColor": "border",
       "foreground": "textColor",
       "hoverBackground": "hoverBackground",
       "selectedBackground": "greyDot90",
       "selectedInactiveBackground": "greyDot70",
       "selectionBackground": "selectionBackground",
       "selectionForeground": "yellow",
-      "separatorColor": "separatorColor"
+      "separatorColor": "separatorColor",
+      "shortcutForeground": "shortcutForeground"
     },
     "ActionButton": {
-      "pressedBackground": "greyDot95",
+      "pressedBackground": "editorDarkerBg",
       "hoverBorderColor": "borderFocus",
-      "pressedBorderColor": "borderFocus"
+      "hoverBackground": "selectionBackground",
+      "pressedBorderColor": "separatorColor"
     },
     "Borders": {
       "ContrastBorderColor": "borderFocus",
@@ -94,18 +98,20 @@
     "Button": {
       "default": {
         "endBackground": "editorPaneBg",
-        "endBorderColor": "border",
-        "focusColor": "borderFocus",
-        "focusedBorderColor": "borderFocus",
-        "foreground": "text",
+        "endBorderColor": "separatorColor",
+        "focusColor": "shortcutForeground",
+        "focusedBorderColor": "shortcutForeground",
+        "foreground": "shortcutForeground",
         "startBackground": "editorPaneBg",
         "startBorderColor": "border"
       },
+      "shadowColor": "#2d2b29",
       "endBackground": "editorPaneBg",
-      "endBorderColor": "border",
+      "endBorderColor": "separatorColor",
+      "shadowWidth": 1,
       "focusedBorderColor": "borderFocus",
       "foreground": "textColor",
-      "disabledBorderColor": "greyDot75",
+      "disabledBorderColor": "border",
       "startBackground": "editorPaneBg",
       "startBorderColor": "border"
     },
@@ -144,7 +150,6 @@
       "selectionInactiveBackground": "greyDot75"
     },
     "Component": {
-      "arc": 0,
       "borderColor": "border",
       "disabledBorderColor": "#434241",
       "errorFocusColor": "red",
@@ -209,6 +214,8 @@
       "inactiveForeground": "greyDot33",
       "background": "#434241"
     },
+    "FormattedTextField.selectionForeground": "yellow",
+    "FormattedTextField.selectionBackground": "hoverBackground",
     "GutterTooltip": {
       "infoForeground": "greyDot33",
       "lineSeparatorColor": "separatorColor"
@@ -232,18 +239,22 @@
       "visitedForeground": "purpleMonokaiPro",
       "pressedForeground": "deepBlue"
     },
-    "List.Tag.background": "editorPaneBg",
-    "List.Tag.foreground": "yellow",
+    "List": {
+      "Button.hoverBackground": "hoverBackground",
+      "Tag": {
+        "background": "editorDarkerBg",
+        "foreground": "shortcutForeground"
+      }
+    },
     "MemoryIndicator.allocatedBackground": "green",
     "MemoryIndicator.usedBackground": "red",
     "Menu": {
       "background": "greyDot80",
-      "disabledForeground": "greyDot60",
+      "disabledForeground": "greyDot65",
       "foreground": "textColor",
-      "Selection.arc": 0,
       "selectionBackground": "hoverBackground",
       "borderColor": "border",
-      "acceleratorForeground": "greyDot60"
+      "acceleratorForeground": "greyDot65"
     },
     "Notification": {
       "ToolWindow.errorBackground": "greyDot95",
@@ -275,6 +286,7 @@
       "background": "editorPaneBg",
       "foreground": "textColor"
     },
+    "List.Line.hoverBackground": "hoverBackground",
     "ParameterInfo.background": "greyDot85",
     "ParameterInfo.borderColor": "border",
     "ParameterInfo.currentOverloadBackground": "greyDot65",
@@ -301,7 +313,6 @@
     "Popup.Advertiser.foreground": "greyDot50",
     "Popup.Header.activeBackground": "greyDot75",
     "Popup.Header.inactiveBackground": "greyDot85",
-    "Popup.Selection.arc": 0,
     "Popup.paintBorder": true,
     "PopupMenu.background": "greyDot80",
     "ProgressBar.failedColor": "red",
@@ -317,6 +328,12 @@
       "disabledText": "greyDot50"
     },
     "RadioButtonMenuItem.disabledBackground": "greyDot80",
+    "RunWidget": {
+      "background": "editorDarkerBg",
+      "hoverBackground": "hoverBackground",
+      "pressedBackground": "selectionBackground",
+      "runningBackground": "editorBg"
+    },
     "ScrollPane.background": "greyDot80",
     "SearchEverywhere.Advertiser.foreground": "greyDot50",
     "SearchEverywhere.Header.background": "greyDot80",
@@ -334,7 +351,7 @@
     "SplitPane.highlight": "yellow",
     "TabbedPane.disabledUnderlineColor": "editorPaneBg",
     "TabbedPane.focusColor": "borderFocus",
-    "TabbedPane.tabSelectionArc": 0,
+    "TabbedPane.tabSelectionArc": 16,
     "TabbedPane.underlineColor": "yellow",
     "Table.dropLineColor": "greyDot75",
     "Table.dropLineShortColor": "greyDot70",
@@ -365,7 +382,7 @@
     "ToggleButton.offForeground": "greyDot25",
     "ToggleButton.onBackground": "yellow",
     "ToggleButton.onForeground": "greyDot80",
-    "ToolBar.borderHandleColor": "greyDot65",
+    "ToolBar.borderHandleColor": "border",
     "ToolTip.Actions.background": "greyDot80",
     "ToolTip.Actions.infoForeground": "greyDot50",
     "ToolTip.background": "greyDot80",
@@ -379,12 +396,12 @@
     "ToolWindow.HeaderTab.hoverBackground": "consoleBackground",
     "ToolWindow.HeaderTab.hoverInactiveBackground": "editorBg",
     "ToolWindow.HeaderTab.underlineColor": "yellow",
-    "Tooltip.separatorColor": "separatorColor",
+    "ToolWindow.background": "editorPaneBg",
     "Tree.background": "editorDarkerBg",
     "Tree.foreground": "textColor",
+    "Tree.hoverInactiveBackground": "greyDot75",
     "Tree.hoverBackground": "greyDot95",
     "Tree.modifiedItemForeground": "yellow",
-    "Tree.selectionBackground": "hoverBackground",
     "Tree.selectionInactiveBackground": "greyDot95",
     "ValidationTooltip.errorBackground": "greyDot95",
     "ValidationTooltip.errorBorderColor": "red",
@@ -394,13 +411,11 @@
     "VersionControl.Log.Commit.currentBranchBackground": "greyDot85",
     "VersionControl.Log.Commit.hoveredBackground": "greyDot95",
     "VersionControl.Log.Commit.selectionBackground": "hoverBackground",
-    "FormattedTextField.selectionBackground": "hoverBackground",
     "WelcomeScreen.Details.background": "greyDot80",
     "WelcomeScreen.Projects.background": "greyDot85",
     "WelcomeScreen.Projects.selectionBackground": "hoverBackground",
     "WelcomeScreen.SidePanel.background": "editorDarkerBg",
-    "WelcomeScreen.background": "greyDot80",
-    "WelcomeScreen.borderColor": "border",
+    "WelcomeScreen.background": "editorPaneBg",
     "WelcomeScreen.separatorColor": "separatorColor"
   }
 }
