@@ -7,7 +7,7 @@
     color code for all languages. See description &amp; screenshots on &lt;a href="https://github.com/Hiberbee/jetbrains-ide-theme"&gt;Github&lt;/a&gt;
   </description>
   <idea-version since-build="191" />
-  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
     <bundledColorScheme path="/colors/Dark" />
     <themeProvider id="HiberbeeDark" path="/HiberbeeDark.theme.json"/>
