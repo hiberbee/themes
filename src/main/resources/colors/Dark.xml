@@ -1,16 +1,10 @@
 <scheme name="Hiberbee Dark" version="142">
-  <metaInfo>
-    <property name="created">2022-11-27T12:14:10</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2022.3.0.0</property>
-    <property name="modified">2022-11-27T12:14:25</property>
-  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="ffb900" />
-    <option name="CARET_ROW_COLOR" value="212131" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1b1a19" />
+    <option name="CARET_ROW_COLOR" value="252423" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="171615" />
     <option name="DELETED_LINES_COLOR" value="ed005c" />
     <option name="DIAGRAM_ANNOTATION_EDGE" value="f2ba4b" />
     <option name="DIAGRAM_DEFAULT_EDGE" value="9380ff" />
@@ -22,7 +16,6 @@
     <option name="DIAGRAM_REALIZATION_EDGE" value="92d923" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="262626" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
-    <option name="DOCUMENTATION_COLOR" value="2d2b29" />
     <option name="ERROR_HINT" value="400020" />
     <option name="FILESTATUS_ADDED" value="a9dc76" />
     <option name="FILESTATUS_CHANGELIST_CONFLICT" value="f65f87" />
@@ -53,12 +46,10 @@
     <option name="HTML_TAG_TREE_LEVEL4" value="78dce8" />
     <option name="HTML_TAG_TREE_LEVEL5" value="b6b3eb" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1e320a" />
-    <option name="IMAGES_WHITE_CELL_COLOR" value="1b1a19" />
+    <option name="IMAGES_WHITE_CELL_COLOR" value="171615" />
     <option name="INDENT_GUIDE" value="333231" />
-    <option name="INFORMATION_HINT" value="2d2b29" />
     <option name="LINE_NUMBERS_COLOR" value="666564" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="cccac8" />
-    <option name="LOOKUP_COLOR" value="2d2b29" />
     <option name="METHOD_SEPARATORS_COLOR" value="333231" />
     <option name="MODIFIED_LINES_COLOR" value="ffd64c" />
     <option name="MODIFIED_TAB_ICON" value="ffb900" />
@@ -68,15 +59,12 @@
     <option name="NOT_CHANGED" value="939393" />
     <option name="PRESENTATION_ASSISTANT_HINT_BACKGROUND" value="2e2e2e" />
     <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="c8c8c8" />
-    <option name="PROMOTION_PANE" value="2d2b29" />
-    <option name="QUESTION_HINT" value="2d2b29" />
     <option name="READONLY_BACKGROUND" value="171615" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="2d2b29" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="7d7d7d" />
     <option name="RIGHT_MARGIN_COLOR" value="333231" />
     <option name="SELECTED_INDENT_GUIDE" value="434241" />
     <option name="SELECTED_TEARLINE_COLOR" value="ffb900" />
-    <option name="SELECTION_BACKGROUND" value="323341" />
+    <option name="SELECTION_BACKGROUND" value="2d2c2b" />
     <option name="SEPARATOR_ABOVE_COLOR" value="333231" />
     <option name="SEPARATOR_BELOW_COLOR" value="333231" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="4b4b4b" />
@@ -85,7 +73,6 @@
     <option name="TAB_UNDERLINE" value="ffb900" />
     <option name="TAB_UNDERLINE_INACTIVE" value="916f15" />
     <option name="TEARLINE_COLOR" value="424140" />
-    <option name="TOOLTIP" value="2d2b29" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="232d28" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="2d2323" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="23282d" />
@@ -94,6 +81,14 @@
     <option name="VISUAL_INDENT_GUIDE" value="333231" />
     <option name="WHITESPACES" value="555555" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4ddfea" />
+    <option name="DOCUMENTATION_COLOR" value="2d2c2b" />
+    <option name="HINT_BORDER" value="33312f" />
+    <option name="INFORMATION_HINT" value="2d2c2b" />
+    <option name="LOOKUP_COLOR" value="2d2c2b" />
+    <option name="PROMOTION_PANE" value="2d2c2b" />
+    <option name="QUESTION_HINT" value="2d2c2b" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="2d2c2b" />
+    <option name="TOOLTIP" value="2d2c2b" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
@@ -123,7 +118,7 @@
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b7c3" />
+        <option name="FOREGROUND" value="00b7c3" />
       </value>
     </option>
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
@@ -296,13 +291,13 @@
     <option name="BREADCRUMBS_HOVERED">
       <value>
         <option name="FOREGROUND" value="f2ba4b" />
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
         <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -329,7 +324,7 @@
     </option>
     <option name="CODE_LENS_BORDER_COLOR">
       <value>
-        <option name="BACKGROUND" value="2d2b29" />
+        <option name="BACKGROUND" value="2d2c2b" />
       </value>
     </option>
     <option name="COFFEESCRIPT.BAD_CHARACTER">
@@ -581,6 +576,11 @@
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="f25022" />
+      </value>
+    </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="9380ff" />
@@ -670,6 +670,59 @@
     <option name="CodeWithMe.USER_6_SELECTION">
       <value>
         <option name="FOREGROUND" value="d4d0c8" />
+      </value>
+    </option>
+    <option name="DART_ENUM">
+      <value>
+        <option name="FOREGROUND" value="b7c3" />
+      </value>
+    </option>
+    <option name="DART_LOCAL_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+      </value>
+    </option>
+    <option name="DART_STATIC_GETTER_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9896ff" />
+      </value>
+    </option>
+    <option name="DART_SYMBOL_LITERAL">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
+      </value>
+    </option>
+    <option name="DART_TOP_LEVEL_GETTER_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="DART_TOP_LEVEL_SETTER_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="DART_TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="409cff" />
+      </value>
+    </option>
+    <option name="DART_TYPE_NAME_DYNAMIC">
+      <value>
+        <option name="FOREGROUND" value="ff6188" />
+      </value>
+    </option>
+    <option name="DART_TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ed005c" />
+      </value>
+    </option>
+    <option name="DART_UNRESOLVED_INSTANCE_MEMBER_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ab9df2" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES">
@@ -795,7 +848,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="ec5f5d" />
+        <option name="EFFECT_COLOR" value="f25022" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -963,6 +1016,11 @@
         <option name="FOREGROUND" value="9380ff" />
       </value>
     </option>
+    <option name="DUNE_ATOM">
+      <value>
+        <option name="FOREGROUND" value="f25022" />
+      </value>
+    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="EFFECT_COLOR" value="ab9df2" />
@@ -1002,6 +1060,11 @@
     <option name="ERL_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="ee7762" />
+      </value>
+    </option>
+    <option name="ERL_TYPE">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -1064,7 +1127,7 @@
     <option name="GHERKIN_TEXT">
       <value>
         <option name="FOREGROUND" value="c8b9aa" />
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1428,6 +1491,11 @@
         <option name="FOREGROUND" value="ee7762" />
       </value>
     </option>
+    <option name="JSONPATH.CONTEXT">
+      <value>
+        <option name="FOREGROUND" value="ed005c" />
+      </value>
+    </option>
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
@@ -1709,6 +1777,17 @@
         <option name="FOREGROUND" value="9380ff" />
       </value>
     </option>
+    <option name="LUA_DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LUA_GLOBAL_FUNCTION_ID">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+      </value>
+    </option>
     <option name="LUA_GLOBAL_VAR">
       <value>
         <option name="FOREGROUND" value="fd971f" />
@@ -1739,6 +1818,11 @@
       <value>
         <option name="FOREGROUND" value="a9dc76" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="LUA_TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="a2ca" />
       </value>
     </option>
     <option name="MACRONAME">
@@ -32267,11 +32351,6 @@
         <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
-    <option name="SASS_GLOBAL">
-      <value>
-        <option name="FOREGROUND" value="ff8c00" />
-      </value>
-    </option>
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
@@ -32439,7 +32518,7 @@
     </option>
     <option name="TAB_SELECTED">
       <value>
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
       </value>
     </option>
     <option name="TAB_SELECTED_INACTIVE">
@@ -32466,7 +32545,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f9f6ef" />
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -32504,7 +32583,7 @@
     </option>
     <option name="TS.TYPE_GUARD">
       <value>
-        <option name="FOREGROUND" value="a89fec" />
+        <option name="FOREGROUND" value="9380ff" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
@@ -32568,14 +32647,14 @@
     <option name="XML_PROLOGUE">
       <value>
         <option name="FOREGROUND" value="ed005c" />
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
       <value>
         <option name="FOREGROUND" value="c8b9aa" />
-        <option name="BACKGROUND" value="1b1a19" />
+        <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -32655,10 +32734,29 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="org.rust.MODULE">
+      <value>
+        <option name="FOREGROUND" value="ff8c00" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="org.rust.STRUCT">
+      <value>
+        <option name="FOREGROUND" value="409cff" />
+      </value>
+    </option>
     <option name="org.rust.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="78dce8" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.UNSAFE_CODE">
+      <value />
+    </option>
+    <option name="org.toml.KEY">
+      <value>
+        <option name="FOREGROUND" value="ee7762" />
       </value>
     </option>
     <option name="osmorc.headerName">

@@ -46,7 +46,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes = "Compatibility fixes related to new UI changes in 2022.3. Code with me color fixes, minor alignment changes in html/xml markup highlighting"
+  changeNotes = "Compatibility fixes related to new UI changes in 2022.3. Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting."
   version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION"):  new Date().format("yyyy.MM.dd.HHmm")
   sinceBuild = "223"
 }
