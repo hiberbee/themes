@@ -5,8 +5,16 @@
   "editorScheme": "/colors/Dark.icls",
   "icons": {
     "ColorPalette": {
+      "Actions.GreyInline.Dark": "#454443",
+      "Checkbox.Background.Disabled.Dark": "#323130",
+      "Checkbox.Background.Default.Dark": "#454443",
+      "Checkbox.Background.Selected.Dark": "#FFB900",
+      "Checkbox.Border.Default.Dark": "#c9c8c7",
+      "Checkbox.Border.Disabled.Dark": "#827f7d",
+      "Checkbox.Border.Selected.Dark": "#FFB900",
       "Tree.iconColor": "#FFB900",
       "Actions.Blue": "#78dce8",
+      "Actions.GreyInline": "#827f7d",
       "Actions.Green": "#92d923",
       "Actions.Grey": "#93918c",
       "Actions.Red": "#e81123",
@@ -17,7 +25,7 @@
       "Objects.Purple": "#9380ff",
       "Objects.Red": "#e81123",
       "Objects.RedStatus": "#e81123",
-      "Objects.Grey": "#ffffff",
+      "Objects.Grey": "#c9c8c7",
       "Objects.Yellow": "#FFB900",
       "Objects.YellowDark": "#ff8c00"
     }
@@ -120,7 +128,7 @@
       },
       "background": "dark6",
       "disabledForeground": "light1",
-      "disabledBackground": "dark5",
+      "disabledBackground": "dark6",
       "modifiedItemForeground": "yellow",
       "nonEditableBackground": "dark6"
     },
@@ -128,6 +136,8 @@
       "Advertiser.background": "dark3",
       "Advertiser.foreground": "light1",
       "foreground": "light5",
+      "selectionInnerInsets": "2,2,2,2",
+      "Body.insets": "2,2,2,2",
       "matchForeground": "yellow",
       "selectionBackground": "dark3",
       "selectionInactiveBackground": "dark4"
@@ -192,10 +202,10 @@
       "Yellow": "#3b3b19"
     },
     "FormattedTextField": {
-      "background": "dark6",
+      "background": "dark7",
       "caretForeground": "yellow",
       "foreground": "light5",
-      "inactiveBackground": "dark5",
+      "inactiveBackground": "dark6",
       "inactiveForeground": "light1",
       "selectionBackground": "dark3",
       "selectionForeground": "yellow"
@@ -273,7 +283,7 @@
       "background": "dark4",
       "foreground": "light5"
     },
-    "PackageSearch.PackagesList.rowHeight": 24,
+    "Editor.SearchField.background": "dark6",
     "Panel": {
       "background": "dark5",
       "foreground": "light5"
@@ -315,13 +325,11 @@
       "tagBackground": "dark3",
       "tagForeground": "light10"
     },
-    "Settings.Spotlight.borderColor": "yellow",
     "Popup.Advertiser.background": "dark4",
-    "Popup.Advertiser.borderColor": "dark7",
+    "Popup.Advertiser.borderColor": "dark6",
     "Popup.Advertiser.foreground": "light1",
     "Popup.Header.activeBackground": "dark4",
     "Popup.Header.inactiveBackground": "dark5",
-    "Popup.paintBorder": true,
     "PopupMenu.background": "dark5",
     "ProgressBar.failedColor": "red",
     "ProgressBar.failedEndColor": "dark5",
@@ -331,12 +339,9 @@
     "ProgressBar.passedEndColor": "dark5",
     "ProgressBar.progressColor": "yellow",
     "ProgressBar.trackColor": "dark5",
-    "RadioButton": {
-      "background": "dark7"
-    },
     "RadioButtonMenuItem": {
-      "disabledBackground": "dark7",
-      "background": "dark6",
+      "disabledBackground": "dark6",
+      "background": "dark7",
       "foreground": "light5",
       "acceleratorForeground": "yellow",
       "selectionForeground": "yellow"
@@ -347,7 +352,6 @@
       "pressedBackground": "dark2",
       "runningBackground": "dark4"
     },
-    "ScrollPane.background": "dark5",
     "SearchEverywhere.Advertiser.background": "dark4",
     "SearchEverywhere.Advertiser.foreground": "light1",
     "SearchEverywhere.Header.background": "dark4",
@@ -366,13 +370,14 @@
     "SpeedSearch.borderColor": "dark7",
     "SpeedSearch.errorForeground": "red",
     "SpeedSearch.foreground": "yellow",
+    "SplitPane.background": "dark4",
     "SplitPane.highlight": "yellow",
     "TabbedPane": {
       "contentAreaColor": "dark6",
       "disabledForeground": "light1",
       "disabledUnderlineColor": "blue",
       "focusColor": "dark3",
-      "focus": "dark4",
+      "focus": "dark7",
       "tabSelectionArc": 0,
       "underlineColor": "yellow"
     },
@@ -382,7 +387,7 @@
       "dropLineShortColor": "dark8",
       "focusCellBackground": "dark3",
       "focusCellForeground": "yellow",
-      "gridColor": "dark8",
+      "gridColor": "dark7",
       "sortIconColor": "yellow",
       "stripeColor": "dark7"
     },
