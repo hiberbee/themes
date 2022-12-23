@@ -25,11 +25,6 @@ ij_wrap_on_typing = false
 [{*.neon, .gitmodules, Caddyfile, .gitconfig, ssh_config}]
 indent_style = tab
 
-[{*.tf, *.tfvars}]
-ij_hcl-terraform_array_wrapping = 0
-ij_hcl-terraform_object_wrapping = 0
-ij_hcl-terraform_property_alignment = 2
-
 [gradlew.bat]
 end_of_line = crlf
 
