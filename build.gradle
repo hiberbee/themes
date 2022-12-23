@@ -3,7 +3,7 @@ plugins {
   id("java")
   id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.7"
   id("com.github.ben-manes.versions") version "0.44.0"
-  id("org.jetbrains.intellij") version "1.11.0-SNAPSHOT"
+  id("org.jetbrains.intellij") version "1.11.0"
 }
 
 group = "com.hiberbee.themes"
@@ -46,7 +46,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes = "Compatibility fixes related to new UI changes in 2022.3. Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting."
+  changeNotes = "Compatibility fixes related to new UI changes in 2022.3. Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting. Added registry keys reverting old behaviour of selection in lists and trees"
   version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION"):  new Date().format("yyyy.MM.dd.HHmm")
-  sinceBuild = "223"
+  sinceBuild = "191"
 }

@@ -37,27 +37,22 @@
     "dark9": "#716f6d",
     "dark10": "#827f7d",
     "deepBlue": "#3199b3",
-    "greenS": "#498205",
-    "green": "#498205",
-    "greenL": "#92D923",
+    "green": "#92D923",
     "lightBlue": "#70D7FF",
-    "orangeMonokaiPro": "#fc9867",
-    "purpleMonokaiPro": "#ab9df2",
-    "purpleWinPalette": "#b4a0ff",
-    "red": "#ff4e4e",
+    "purple": "#ab9df2",
+    "red": "#e81123",
+    "yellow": "#FFB900",
     "separatorColor": "#3e3c3a",
     "light1": "#827f7d",
-    "light10": "#fffafe",
     "light2": "#868584",
     "light3": "#91908f",
     "light4": "#9c9b9a",
     "light5": "#c9c8c7",
     "light6": "#d3d2d1",
+    "light10": "#fffafe",
     "transparentGreen": "#5B80217f",
     "transparentRed": "#e811237f",
-    "transparentViolet": "#242221ff",
-    "transparentYellow": "#FFB9007a",
-    "yellow": "#FFB900"
+    "transparentYellow": "#FFB9007f"
   },
   "ui": {
     "*": {
@@ -65,6 +60,7 @@
       "background": "dark5",
       "foreground": "light5",
       "disabledForeground": "light1",
+      "disabledText": "light1",
       "hoverBackground": "dark3",
       "selectedBackground": "dark2",
       "selectedInactiveBackground": "dark4",
@@ -75,9 +71,9 @@
     },
     "ActionButton": {
       "pressedBackground": "dark2",
-      "hoverBorderColor": "dark9",
+      "hoverBorderColor": "dark7",
       "hoverBackground": "dark3",
-      "pressedBorderColor": "dark2"
+      "pressedBorderColor": "dark8"
     },
     "Borders": {
       "ContrastBorderColor": "dark7",
@@ -87,8 +83,8 @@
       "default": {
         "endBackground": "dark6",
         "endBorderColor": "dark7",
-        "focusColor": "dark5",
-        "focusedBorderColor": "yellow",
+        "focusColor": "yellow",
+        "focusedBorderColor": "dark6",
         "foreground": "yellow",
         "startBackground": "dark6",
         "startBorderColor": "dark7"
@@ -132,26 +128,28 @@
       "nonEditableBackground": "dark6"
     },
     "ComboPopup.border": "1,1,1,1,484644",
+    "IconBadge.infoBackground": "green",
     "CompletionPopup": {
       "Advertiser.background": "dark3",
       "Advertiser.foreground": "light1",
       "foreground": "light5",
       "matchForeground": "yellow",
       "selectionBackground": "dark3",
+      "Body.insets": "2,2,2,2",
       "selectionInactiveBackground": "dark4"
     },
     "ComplexPopup": {
-      "Header.background": "dark4",
       "Header": {
         "background": "dark4"
       }
     },
     "Component": {
+      "arc": 0,
       "disabledBorderColor": "dark6",
       "errorFocusColor": "red",
       "focusColor": "dark8",
-      "focusedBorderColor": "dark8",
-      "iconColor": "yellow",
+      "focusedBorderColor": "dark7",
+      "iconColor": "light1",
       "borderColor": "dark7",
       "inactiveErrorFocusColor": "transparentRed",
       "inactiveWarningFocusColor": "transparentYellow",
@@ -159,31 +157,31 @@
       "warningFocusColor": "yellow",
       "hoverIconColor": "yellow"
     },
-    "Counter.background": "dark3",
+    "Counter.background": "dark5",
     "Counter.foreground": "yellow",
     "Debugger": {
       "Variables": {
         "changedValueForeground": "yellow",
-        "evaluatingExpressionForeground": "lightBlue"
+        "evaluatingExpressionForeground": "blue"
       }
     },
     "DefaultTabs": {
       "background": "dark4",
-      "inactiveUnderlineColor": "dark8",
+      "inactiveUnderlineColor": "blue",
       "underlineColor": "yellow",
       "hoverBackground": "dark3",
-      "underlinedTabBackground": "dark2",
+      "underlinedTabBackground": "dark3",
       "underlineHeight": 1
     },
     "DragAndDrop": {
       "areaBackground": "dark6",
-      "areaForeground": "light10"
+      "areaForeground": "light3"
     },
     "Editor": {
       "SearchField.background": "dark6",
       "Toolbar.borderColor": "dark6",
       "background": "dark5",
-      "foreground": "light5",
+      "foreground": "light10",
       "shortcutForeground": "light1"
     },
     "EditorPane": {
@@ -218,10 +216,13 @@
       "lineSeparatorColor": "dark7"
     },
     "IconBadge": {
-      "successBackground": "greenS"
+      "warningBackground": "yellow",
+      "errorBackground": "red",
+      "borderWidth": 1,
+      "successBackground": "green"
     },
     "InformationHint": {
-      "borderColor": "greenL"
+      "borderColor": "green"
     },
     "InplaceRefactoringPopup": {
       "borderColor": "yellow"
@@ -237,14 +238,14 @@
       "activeForeground": "blue",
       "hoverForeground": "yellow",
       "secondaryForeground": "lightBlue",
-      "visitedForeground": "purpleMonokaiPro",
+      "visitedForeground": "purple",
       "pressedForeground": "yellow"
     },
     "List": {
       "Button": {
-        "hoverBackground": "dark2"
+        "hoverBackground": "dark3"
       },
-      "background": "dark5",
+      "background": "dark6",
       "Tag": {
         "background": "dark4",
         "foreground": "light5"
@@ -309,15 +310,15 @@
     },
     "Plugins": {
       "Button": {
-        "installBackground": "dark4",
+        "installBackground": "dark6",
         "installBorderColor": "dark7",
-        "installFillBackground": "dark4",
-        "installFillForeground": "light10",
-        "installFocusedBackground": "dark3",
-        "installForeground": "yellow"
+        "installFillBackground": "dark6",
+        "installFillForeground": "light5",
+        "installFocusedBackground": "dark4",
+        "installForeground": "light10"
       },
       "SearchField": {
-        "background": "dark6"
+        "background": "dark7"
       },
       "SectionHeader": {
         "background": "dark4",
@@ -371,10 +372,10 @@
     "SearchEverywhere.Header.background": "dark4",
     "SearchEverywhere.List.separatorForeground": "dark7",
     "SearchEverywhere.List.settingsBackground": "dark5",
-    "SearchEverywhere.SearchField.background": "dark6",
+    "SearchEverywhere.SearchField.background": "dark7",
     "SearchEverywhere.SearchField.borderColor": "dark7",
     "SearchEverywhere.SearchField.infoForeground": "light1",
-    "SearchEverywhere.Tab.selectedBackground": "dark2",
+    "SearchEverywhere.Tab.selectedBackground": "dark3",
     "SearchEverywhere.Tab.selectedForeground": "light10",
     "SearchMatch.endBackground": "yellow",
     "SearchMatch.startBackground": "yellow",
@@ -385,10 +386,10 @@
     "SpeedSearch.foreground": "yellow",
     "SplitPane.highlight": "yellow",
     "TabbedPane": {
-      "contentAreaColor": "dark5",
+      "contentAreaColor": "dark6",
       "disabledForeground": "light1",
       "disabledUnderlineColor": "blue",
-      "focusColor": "dark2",
+      "focusColor": "dark3",
       "focus": "dark4",
       "tabSelectionArc": 0,
       "underlineColor": "yellow"

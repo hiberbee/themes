@@ -13,5 +13,6 @@
     <registryKey key="ide.tree.experimental.preferred.width" defaultValue="false" restartRequired="false" description="Enable full-width selection in project tree"/>
     <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false" description="Enable full-width selection in project tree"/>
     <registryKey key="ide.popup.rounded.corners" defaultValue="false" restartRequired="false" description="Disable border radius on popups and menus"/>
+    <registryKey key="ide.wide.selection.list.ui" defaultValue="false" restartRequired="false" description="Shows a wide selection in all JBList instances. Affects Windows and Linux only."/>
   </extensions>
 </idea-plugin>
