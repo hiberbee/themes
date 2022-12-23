@@ -91,7 +91,6 @@
       "disabledText": "light1",
       "endBackground": "dark6",
       "endBorderColor": "dark7",
-      "shadowWidth": 0,
       "foreground": "light5",
       "disabledBorderColor": "dark6",
       "startBackground": "dark6",
@@ -140,7 +139,6 @@
     },
     "Component": {
       "arc": 0,
-      "focusWidth": 1,
       "disabledBorderColor": "dark6",
       "errorFocusColor": "red",
       "focusColor": "dark9",
