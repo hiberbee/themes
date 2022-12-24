@@ -300,7 +300,7 @@
       "errorBackground": "dark4",
       "errorBorderColor": "red",
       "errorForeground": "light10",
-      "foreground": "red"
+      "foreground": "light10"
     },
     "NotificationsToolwindow": {
       "newNotification.background": "dark4",
@@ -471,7 +471,7 @@
       "background": "dark8",
       "caretForeground": "yellow",
       "foreground": "light6",
-      "highlight": "blueDark",
+      "highlight": "blue",
       "inactiveForeground": "light2",
       "selectionBackground": "dark4",
       "selectionForeground": "yellow"
@@ -508,7 +508,7 @@
         "selectedForeground": "yellow"
       },
       "Header": {
-        "background": "dark5",
+        "background": "dark4",
         "inactiveBackground": "dark5"
       },
       "HeaderTab": {
@@ -516,12 +516,14 @@
         "hoverInactiveBackground": "dark5",
         "inactiveUnderlineColor": "yellowDark",
         "selectedInactiveBackground": "dark5",
-        "underlinedTabBackground": "dark3",
+        "underlinedTabInactiveBackground": "dark3",
+        "underlinedTabBackground": "dark2",
         "underlineColor": "yellow"
       },
       "background": "dark6"
     },
     "Tree": {
+      "hash": "dark9",
       "foreground": "light6",
       "background": "dark7",
       "hoverBackground": "dark4",
