@@ -3,7 +3,7 @@
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="ffb900" />
-    <option name="CARET_ROW_COLOR" value="252423" />
+    <option name="CARET_ROW_COLOR" value="222120" />
     <option name="CONSOLE_BACKGROUND_KEY" value="171615" />
     <option name="DELETED_LINES_COLOR" value="ed005c" />
     <option name="DIAGRAM_ANNOTATION_EDGE" value="f2ba4b" />
@@ -16,6 +16,7 @@
     <option name="DIAGRAM_REALIZATION_EDGE" value="92d923" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="262626" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
+    <option name="DOCUMENTATION_COLOR" value="2d2c2b" />
     <option name="ERROR_HINT" value="400020" />
     <option name="FILESTATUS_ADDED" value="a9dc76" />
     <option name="FILESTATUS_CHANGELIST_CONFLICT" value="f65f87" />
@@ -39,6 +40,7 @@
     <option name="FILESTATUS_SWITCHED" value="ab9df2" />
     <option name="FILESTATUS_UNKNOWN" value="ffd866" />
     <option name="GUTTER_BACKGROUND" value="2d2b29" />
+    <option name="HINT_BORDER" value="33312f" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ed6b88" />
     <option name="HTML_TAG_TREE_LEVEL1" value="f9d778" />
     <option name="HTML_TAG_TREE_LEVEL2" value="b4da82" />
@@ -48,9 +50,11 @@
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1e320a" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="171615" />
     <option name="INDENT_GUIDE" value="333231" />
-    <option name="LINE_NUMBERS_COLOR" value="666564" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="cccac8" />
-    <option name="METHOD_SEPARATORS_COLOR" value="333231" />
+    <option name="INFORMATION_HINT" value="2d2c2b" />
+    <option name="LINE_NUMBERS_COLOR" value="6f6e6d" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="8f8e8d" />
+    <option name="LOOKUP_COLOR" value="2d2c2b" />
+    <option name="METHOD_SEPARATORS_COLOR" value="474645" />
     <option name="MODIFIED_LINES_COLOR" value="ffd64c" />
     <option name="MODIFIED_TAB_ICON" value="ffb900" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
@@ -59,7 +63,10 @@
     <option name="NOT_CHANGED" value="939393" />
     <option name="PRESENTATION_ASSISTANT_HINT_BACKGROUND" value="2e2e2e" />
     <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="c8c8c8" />
+    <option name="PROMOTION_PANE" value="2d2c2b" />
+    <option name="QUESTION_HINT" value="2d2c2b" />
     <option name="READONLY_BACKGROUND" value="171615" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="2d2c2b" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="7d7d7d" />
     <option name="RIGHT_MARGIN_COLOR" value="333231" />
     <option name="SELECTED_INDENT_GUIDE" value="434241" />
@@ -67,28 +74,21 @@
     <option name="SELECTION_BACKGROUND" value="2d2c2b" />
     <option name="SEPARATOR_ABOVE_COLOR" value="333231" />
     <option name="SEPARATOR_BELOW_COLOR" value="333231" />
-    <option name="SOFT_WRAP_SIGN_COLOR" value="4b4b4b" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="525150" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="424140" />
     <option name="ScrollBar.Mac.thumbColor" value="2d2d2d" />
     <option name="TAB_UNDERLINE" value="ffb900" />
     <option name="TAB_UNDERLINE_INACTIVE" value="916f15" />
     <option name="TEARLINE_COLOR" value="424140" />
+    <option name="TOOLTIP" value="2d2c2b" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="232d28" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="2d2323" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="23282d" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="2d232d" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="2d2d23" />
     <option name="VISUAL_INDENT_GUIDE" value="333231" />
-    <option name="WHITESPACES" value="555555" />
+    <option name="WHITESPACES" value="6f6e6d" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4ddfea" />
-    <option name="DOCUMENTATION_COLOR" value="2d2c2b" />
-    <option name="HINT_BORDER" value="33312f" />
-    <option name="INFORMATION_HINT" value="2d2c2b" />
-    <option name="LOOKUP_COLOR" value="2d2c2b" />
-    <option name="PROMOTION_PANE" value="2d2c2b" />
-    <option name="QUESTION_HINT" value="2d2c2b" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="2d2c2b" />
-    <option name="TOOLTIP" value="2d2c2b" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
@@ -118,7 +118,7 @@
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="00b7c3" />
+        <option name="FOREGROUND" value="b7c3" />
       </value>
     </option>
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
@@ -272,8 +272,8 @@
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f9f6ef" />
-        <option name="BACKGROUND" value="242220" />
+        <option name="FOREGROUND" value="bfbebd" />
+        <option name="BACKGROUND" value="222120" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
@@ -598,7 +598,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="a4ef" />
+        <option name="FOREGROUND" value="a2ca" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
@@ -951,7 +951,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="646464" />
+        <option name="FOREGROUND" value="525150" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1069,8 +1069,8 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="f25022" />
-        <option name="ERROR_STRIPE_COLOR" value="f25022" />
+        <option name="EFFECT_COLOR" value="e81123" />
+        <option name="ERROR_STRIPE_COLOR" value="e81123" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1092,7 +1092,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="acacac" />
+        <option name="FOREGROUND" value="6f6e6d" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -1175,6 +1175,9 @@
       <value>
         <option name="FOREGROUND" value="57d1eb" />
       </value>
+    </option>
+    <option name="GRAMMAR_ERROR">
+      <value />
     </option>
     <option name="GRAPHQL_ARGUMENT">
       <value>
@@ -1375,7 +1378,7 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="EFFECT_COLOR" value="41403f" />
+        <option name="EFFECT_COLOR" value="9380ff" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -32228,7 +32231,7 @@
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="7fba00" />
-        <option name="ERROR_STRIPE_COLOR" value="87c0d0" />
+        <option name="ERROR_STRIPE_COLOR" value="ed005c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -32544,7 +32547,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="f9f6ef" />
+        <option name="FOREGROUND" value="bfbebd" />
         <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -32554,6 +32557,15 @@
         <option name="FOREGROUND" value="d5f5" />
         <option name="BACKGROUND" value="181615" />
       </value>
+    </option>
+    <option name="TEXT_STYLE_ERROR">
+      <value />
+    </option>
+    <option name="TEXT_STYLE_SUGGESTION">
+      <value />
+    </option>
+    <option name="TEXT_STYLE_WARNING">
+      <value />
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
@@ -32608,7 +32620,7 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="EFFECT_COLOR" value="737373" />
+        <option name="EFFECT_COLOR" value="787776" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -32639,7 +32651,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ed005c" />
+        <option name="EFFECT_COLOR" value="e81123" />
         <option name="ERROR_STRIPE_COLOR" value="ed005c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>

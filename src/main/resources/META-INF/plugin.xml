@@ -1,4 +1,4 @@
-<idea-plugin require-restart="false" allow-bundled-update="true">
+<idea-plugin require-restart="true" allow-bundled-update="true">
   <id>com.hiberbee.intellij.hiberbee-theme</id>
   <vendor email="vlad@hiberbee.com" url="https://github.com/hiberbee">Hiberbee</vendor>
   <name>Hiberbee Theme</name>
@@ -11,12 +11,14 @@
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json"/>
     <registryKey key="ide.tree.experimental.preferred.width" defaultValue="false" restartRequired="false"
-                 description="Enable full-width selection in project tree"/>
+                 description="Use alternative calculation of the tree preferred size (Hiberbee theme modified, IDE default: true)"/>
     <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false"
-                 description="Enable full-width selection in project tree"/>
+                 description="Enable full-width selection in project tree (Hiberbee theme modified, IDE default: true)"/>
     <registryKey key="ide.popup.rounded.corners" defaultValue="false" restartRequired="false"
-                 description="Disable border radius on popups and menus"/>
+                 description="Disable border radius on popups and menus (Hiberbee theme modified, IDE default: true)"/>
     <registryKey key="ide.wide.selection.list.ui" defaultValue="false" restartRequired="false"
-                 description="Shows a wide selection in all JBList instances. Affects Windows and Linux only."/>
+                 description="Shows a wide selection in all JBList instances. Affects Windows and Linux only. (Hiberbee theme modified, IDE default: true)"/>
+    <registryKey key="ide.window.shadow.painter" defaultValue="true" restartRequired="true"
+                 description="Enables light-weight shadows for heavy-weight child windows (Windows only). Requires an IDE restart (Hiberbee theme modified, IDE default: false)"/>
   </extensions>
 </idea-plugin>
