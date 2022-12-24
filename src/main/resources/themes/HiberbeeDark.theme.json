@@ -314,7 +314,7 @@
     "ParameterInfo": {
       "background": "dark5",
       "currentOverloadBackground": "yellow",
-      "currentParameterForeground": "blueDark",
+      "currentParameterForeground": "blue",
       "foreground": "light6",
       "infoForeground": "light2",
       "lineSeparatorColor": "dark9"
@@ -380,7 +380,7 @@
     "ProgressBar": {
       "failedColor": "red",
       "failedEndColor": "dark6",
-      "indeterminateEndColor": "blueDark",
+      "indeterminateEndColor": "yellowDark",
       "indeterminateStartColor": "yellow",
       "passedColor": "green",
       "passedEndColor": "dark6",
