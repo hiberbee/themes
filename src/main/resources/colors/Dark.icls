@@ -49,7 +49,7 @@
     <option name="HTML_TAG_TREE_LEVEL5" value="b6b3eb"/>
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1e320a"/>
     <option name="IMAGES_WHITE_CELL_COLOR" value="171615"/>
-    <option name="INDENT_GUIDE" value="333231"/>
+    <option name="INDENT_GUIDE" value="323130"/>
     <option name="INFORMATION_HINT" value="2d2c2b"/>
     <option name="LINE_NUMBERS_COLOR" value="6f6e6d"/>
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="8f8e8d"/>
@@ -69,12 +69,12 @@
     <option name="READONLY_BACKGROUND" value="121110"/>
     <option name="RECENT_LOCATIONS_SELECTION" value="2d2c2b"/>
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="7d7d7d"/>
-    <option name="RIGHT_MARGIN_COLOR" value="333231"/>
+    <option name="RIGHT_MARGIN_COLOR" value="323130"/>
     <option name="SELECTED_INDENT_GUIDE" value="434241"/>
     <option name="SELECTED_TEARLINE_COLOR" value="ffb900"/>
     <option name="SELECTION_BACKGROUND" value="2d2c2b"/>
-    <option name="SEPARATOR_ABOVE_COLOR" value="333231"/>
-    <option name="SEPARATOR_BELOW_COLOR" value="333231"/>
+    <option name="SEPARATOR_ABOVE_COLOR" value="323130"/>
+    <option name="SEPARATOR_BELOW_COLOR" value="323130"/>
     <option name="SOFT_WRAP_SIGN_COLOR" value="525150"/>
     <option name="ScrollBar.Mac.hoverThumbColor" value="424140"/>
     <option name="ScrollBar.Mac.thumbColor" value="2d2d2d"/>
@@ -207,14 +207,14 @@
     <option name="ASCIIDOC_MONO">
       <value>
         <option name="FOREGROUND" value="c8b9aa"/>
-        <option name="EFFECT_COLOR" value="333231"/>
+        <option name="EFFECT_COLOR" value="323130"/>
       </value>
     </option>
     <option name="ASCIIDOC_MONOBOLD">
       <value>
         <option name="FOREGROUND" value="c8b9aa"/>
         <option name="FONT_TYPE" value="1"/>
-        <option name="EFFECT_COLOR" value="333231"/>
+        <option name="EFFECT_COLOR" value="323130"/>
       </value>
     </option>
     <option name="ATTRIBUTE">
