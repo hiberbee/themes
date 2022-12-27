@@ -119,7 +119,7 @@
     },
     "ColorChooser": {
       "foreground": "light6",
-      "background": "dark5"
+      "background": "dark6"
     },
     "ComboBox": {
       "ArrowButton": {
@@ -130,12 +130,11 @@
       },
       "background": "dark8",
       "disabledForeground": "light2",
-      "modifiedItemForeground": "blue",
+      "modifiedItemForeground": "yellow",
       "nonEditableBackground": "dark8"
     },
     "CompletionPopup": {
       "Advertiser": {
-        "fontSizeOffset": -2,
         "borderInsets": "2,6,2,6",
         "background": "dark4",
         "foreground": "light3"
@@ -173,8 +172,8 @@
     },
     "Debugger": {
       "Variables": {
-        "changedValueForeground": "blue",
-        "evaluatingExpressionForeground": "yellow"
+        "changedValueForeground": "yellow",
+        "evaluatingExpressionForeground": "green"
       }
     },
     "DebuggerTabs": {
@@ -183,7 +182,7 @@
     "DefaultTabs": {
       "underlineHeight": 1,
       "background": "dark5",
-      "inactiveUnderlineColor": "blue",
+      "inactiveUnderlineColor": "light2",
       "underlineColor": "yellow",
       "underlinedTabBackground": "dark4"
     },
@@ -197,7 +196,7 @@
       },
       "Toolbar.borderColor": "dark6",
       "background": "dark4",
-      "shortcutForeground": "light2"
+      "shortcutForeground": "light5"
     },
     "EditorPane": {
       "inactiveBackground": "dark7",
@@ -258,7 +257,6 @@
       "pressedForeground": "yellowDark"
     },
     "List": {
-      "Button.leftRightInset": 0,
       "Button": {
         "separatorColor": "dark9"
       },
@@ -344,34 +342,27 @@
       },
       "background": "dark6",
       "lightSelectionBackground": "dark5",
-      "tagBackground": "dark4",
+      "tagBackground": "dark8",
       "tagForeground": "light10"
     },
     "Popup": {
       "Advertiser": {
         "background": "dark4",
         "borderColor": "dark8",
-        "borderInsets": "6,6,6,6",
         "foreground": "light3"
       },
       "Header": {
         "activeBackground": "dark4",
         "activeForeground": "light4",
-        "inactiveBackground": "dark5",
-        "insets": "2,6,2,6"
+        "inactiveBackground": "dark5"
       },
       "Selection": {
-        "arc": 0,
-        "innerInsets": "2,6,2,6",
-        "leftRightInset": 2
-      },
-      "separatorLabelInsets": "2,2,2,2"
+        "arc": 0
+      }
     },
     "PopupMenu": {
       "Selection": {
-        "arc": 0,
-        "innerInsets": "6,10,6,10",
-        "outerInsets": "0,0,0,0"
+        "arc": 0
       },
       "background": "dark6",
       "foreground": "light6"
@@ -450,7 +441,7 @@
     "TabbedPane": {
       "contentAreaColor": "dark7",
       "disabledForeground": "light2",
-      "disabledUnderlineColor": "blue",
+      "disabledUnderlineColor": "light2",
       "focusColor": "dark4",
       "focus": "dark9",
       "tabSelectionArc": 0,
@@ -465,7 +456,7 @@
       "focusCellForeground": "yellow",
       "lightSelectionBackground": "dark4",
       "gridColor": "dark9",
-      "sortIconColor": "blueDark",
+      "sortIconColor": "yellow",
       "stripeColor": "dark9"
     },
     "TableHeader": {
@@ -482,7 +473,7 @@
       "background": "dark8",
       "caretForeground": "yellow",
       "foreground": "light6",
-      "highlight": "blue",
+      "highlight": "yellow",
       "inactiveForeground": "light2",
       "selectionBackground": "dark4",
       "selectionForeground": "yellow"
@@ -539,7 +530,6 @@
       "hash": "dark9",
       "hoverInactiveBackground": "dark5",
       "modifiedItemForeground": "yellow",
-      "rowHeight": 24,
       "selectionInactiveBackground": "dark5"
     },
     "ScrollPane": {
@@ -559,7 +549,6 @@
       },
       "Log": {
         "Commit": {
-          "rowHeight": 24,
           "currentBranchBackground": "dark7",
           "unmatchedForeground": "light2",
           "selectionForeground": "light10",
