@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/terminal/release-1.16/doc/cascadia/profiles.schema.json",
+  "theme": "dark",
+  "useAcrylicInTabRow": true,
+  "experimental.useBackgroundImageForWindow": true,
+  "experimental.enableColorSelection": true,
+  "schemes": [
+    {
+      "background": "#171615",
+      "black": "#070605",
+      "blue": "#409CFF",
+      "brightBlack": "#171615",
+      "brightBlue": "#0078D7",
+      "brightCyan": "#57D1EB",
+      "brightGreen": "#92D923",
+      "brightPurple": "#A97CF8",
+      "brightRed": "#F25022",
+      "brightWhite": "#FFFEFD",
+      "brightYellow": "#FFB900",
+      "cursorColor": "#FFB900",
+      "cyan": "#8EDCE5",
+      "foreground": "#CFCECD",
+      "green": "#B7E66E",
+      "name": "Hiberbee",
+      "purple": "#A89FEC",
+      "red": "#EE7762",
+      "selectionBackground": "#272625",
+      "white": "#CFCECD",
+      "yellow": "#FFD866"
+    }
+  ]
+}

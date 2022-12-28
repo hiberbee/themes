@@ -12,9 +12,13 @@
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json"/>
     <registryKey key="ide.popup.rounded.corners" defaultValue="false" restartRequired="false"
                  description="Disable border radius on popups and menus (Hiberbee theme modified, IDE default: true)"/>
+    <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false"
+                 description="New UI for selected tree nodes (Hiberbee theme modified, IDE default: true)"/>
     <registryKey key="ide.window.shadow.painter" defaultValue="true" restartRequired="true"
                  description="Enables light-weight shadows for heavy-weight child windows (Windows only). Requires an IDE restart (Hiberbee theme modified, IDE default: false)"/>
-    <registryKey key="ide.link.button.focus.round.arc" defaultValue="0" restartRequired="true"
+    <registryKey key="ide.link.button.focus.round.arc" defaultValue="0" restartRequired="false"
                  description="The size of the arc to use to round off the corners of the focus rectangle (Hiberbee theme modified, IDE default: 4)"/>
+    <registryKey key="ide.splitter.chooser.info.panel.arc" defaultValue="0" restartRequired="false"
+                 description="(Hiberbee theme modified, IDE default: 10)"/>
   </extensions>
 </idea-plugin>
