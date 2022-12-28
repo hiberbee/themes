@@ -5,18 +5,21 @@
   "editorScheme": "/colors/Dark.icls",
   "icons": {
     "ColorPalette": {
-      "Actions.GreyInline.Dark": "dark10",
+      "Actions.GreyInline.Dark": "light4",
       "Checkbox.Background.Disabled.Dark": "dark6",
       "Checkbox.Background.Default.Dark": "dark8",
-      "Checkbox.Background.Selected.Dark": "accent",
+      "Checkbox.Background.Selected.Dark": "dark8",
+      "Checkbox.Focus.Thin.Selected.Dark": "dark10",
+      "Checkbox.Focus.Wide.Dark": "dark10",
+      "Checkbox.Foreground.Selected.Dark": "accent",
       "Checkbox.Border.Default.Dark": "dark9",
       "Checkbox.Border.Disabled.Dark": "dark7",
-      "Checkbox.Border.Selected.Dark": "accent",
+      "Checkbox.Border.Selected.Dark": "dark10",
       "Tree.iconColor": "accent",
       "Actions.Blue": "blue",
       "Actions.Green": "green",
       "Actions.Grey": "dark10",
-      "Actions.Red": "#e81123",
+      "Actions.Red": "red",
       "Actions.Yellow": "yellow",
       "Objects.Blue": "blue",
       "Objects.Green": "green",
@@ -43,8 +46,8 @@
     "accent": "#ffB900",
     "green": "#92D923",
     "greenDark": "#5B80218f",
-    "blueDark": "#0078D78f",
-    "blue": "#0078D7",
+    "blueDark": "#0078D7",
+    "blue": "#5EFBEF",
     "red": "#e81123",
     "redDark": "#e811238f",
     "yellow": "#ffB900",
@@ -86,8 +89,8 @@
     },
     "ActionButton": {
       "pressedBackground": "dark3",
-      "hoverBorderColor": "yellow",
-      "pressedBorderColor": "yellow"
+      "hoverBorderColor": "dark10",
+      "pressedBorderColor": "dark10"
     },
     "Button": {
       "default": {
@@ -113,8 +116,6 @@
       "color": "dark9"
     },
     "CheckBox": {
-      "disabledText": "light2",
-      "foreground": "light10",
       "select": "light10"
     },
     "ColorChooser": {
@@ -125,8 +126,8 @@
       "ArrowButton": {
         "disabledIconColor": "light2",
         "iconColor": "yellow",
-        "background": "dark6",
-        "nonEditableBackground": "dark6"
+        "background": "dark7",
+        "nonEditableBackground": "dark7"
       },
       "background": "dark8",
       "disabledForeground": "light2",
@@ -155,7 +156,7 @@
     "Component": {
       "arc": 0,
       "disabledBorderColor": "dark8",
-      "borderColor": "dark10",
+      "borderColor": "dark9",
       "errorFocusColor": "red",
       "focusColor": "dark10",
       "focusedBorderColor": "dark9",

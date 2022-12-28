@@ -46,12 +46,11 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes = "Compatibility fixes related to new UI changes in 2022.3\n" +
-    "Form components styled properly (wip)\n" +
-    "Reverted old-UI behavior on selections in lists via registry keys populated by theme\n" +
-    "Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting\n" +
-    "Text colors on components improved\n" +
-    "Minor changes to color schemas for Lua, Erlang, Rust"
+  changeNotes = """Compatibility fixes related to new UI changes in 2022.3.
+Form components styled properly (wip).
+Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting.
+Text colors on components improved.
+Minor changes to color schemas for Lua, Erlang, Rust"""
   version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION") : new Date().format("yyyy.MM.dd.HHmm")
   sinceBuild = "191"
 }
