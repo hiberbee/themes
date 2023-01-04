@@ -1,12 +1,13 @@
 plugins {
   id("idea")
   id("java")
+  id("org.jetbrains.kotlin.jvm") version "1.8.0"
   id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.7"
   id("com.github.ben-manes.versions") version "0.44.0"
   id("org.jetbrains.intellij") version "1.11.0"
 }
 
-group = "com.hiberbee.themes"
+group = "com.hiberbee"
 version = System.getenv("APP_VERSION")
 
 repositories {
@@ -16,9 +17,9 @@ repositories {
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
-  version = "LATEST-EAP-SNAPSHOT"
+  version = "2022.3"
   configureDefaultDependencies = true
-  updateSinceUntilBuild = false
+  updateSinceUntilBuild = true
   downloadSources = true
 }
 
@@ -37,6 +38,14 @@ idea {
   }
 }
 
+runIde {
+  systemProperties["idea.auto.reload.plugins"] = false
+  jvmArgs = List.of(
+    "-Xms512m",
+    "-Xmx2048m",
+  )
+}
+
 buildSearchableOptions {
   enabled = false
 }
@@ -52,5 +61,5 @@ Grey colors reorganized, simplified and improved grades and shades on selections
 Text colors on components improved.
 Minor changes to color schemas for Lua, Erlang, Rust"""
   version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION") : new Date().format("yyyy.MM.dd.HHmm")
-  sinceBuild = "191"
+  sinceBuild = "223"
 }

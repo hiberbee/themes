@@ -66,8 +66,11 @@
   "ui": {
     "*": {
       "arc": 0,
+      "underlineHeight": 1,
       "darkShadow": "dark1",
+      "inactiveMaskColor": "#070605ff",
       "shadow": "dark1",
+      "selectionInnerInsets": "0,0,0,0",
       "selectedBackground": "dark2",
       "selectionBackground": "dark3",
       "selectedInactiveBackground": "dark3",
@@ -76,8 +79,7 @@
       "background": "dark6",
       "disabledBackground": "dark7",
       "lineSeparatorColor": "dark9",
-      "separatorColor": "dark10",
-      "borderColor": "dark10",
+      "borderColor": "dark9",
       "focusedBorderColor": "dark10",
       "disabledForeground": "light1",
       "disabledText": "light2",
@@ -202,6 +204,9 @@
     "EditorPane": {
       "inactiveBackground": "dark7",
       "inactiveForeground": "light3",
+      "selectionForeground": "accent",
+      "selectionBackground": "dark3",
+      "caretForeground": "dark4",
       "splitBorder": "dark9",
       "background": "dark5"
     },
@@ -458,10 +463,11 @@
       "lightSelectionBackground": "dark4",
       "gridColor": "dark9",
       "sortIconColor": "yellow",
-      "stripeColor": "dark9"
+      "stripeColor": "dark8"
     },
     "TableHeader": {
-      "background": "dark4",
+      "background": "dark5",
+      "focusCellBackground": "dark2",
       "bottomSeparatorColor": "dark9"
     },
     "TextArea": {
@@ -469,6 +475,9 @@
       "foreground": "light6",
       "inactiveBackground": "dark7",
       "inactiveForeground": "light2"
+    },
+    "TextComponent": {
+      "selectionBackgroundInactive": "dark4"
     },
     "TextField": {
       "background": "dark8",
@@ -508,7 +517,7 @@
     },
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "dark4",
+        "selectedBackground": "dark3",
         "selectedForeground": "yellow"
       },
       "Header": {
@@ -568,10 +577,6 @@
         "background": "dark6"
       },
       "Projects": {
-        "actions": {
-          "background": "dark5",
-          "selectionBackground": "dark3"
-        },
         "background": "dark6",
         "selectionBackground": "dark3",
         "selectionInactiveBackground": "dark4"
@@ -579,9 +584,7 @@
       "SidePanel": {
         "background": "dark5"
       },
-      "background": "dark6",
-      "separatorColor": "dark9"
-    },
-    "Window.border": "1,1,1,1,525150"
+      "background": "dark6"
+    }
   }
 }
