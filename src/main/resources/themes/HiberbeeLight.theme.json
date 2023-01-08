@@ -1,8 +1,8 @@
 {
-  "name": "Hiberbee Dark",
+  "name": "Hiberbee Light",
   "author": "Vlad Volkov",
-  "dark": true,
-  "editorScheme": "/colors/Dark.icls",
+  "dark": false,
+  "editorScheme": "/colors/Light.icls",
   "icons": {
     "ColorPalette": {
       "Actions.GreyInline.Dark": "light4",
@@ -33,16 +33,16 @@
     }
   },
   "colors": {
-    "dark1": "#070605",
-    "dark2": "#121110",
-    "dark3": "#171615",
-    "dark4": "#222120",
-    "dark5": "#272625",
-    "dark6": "#323130",
-    "dark7": "#373635",
-    "dark8": "#424140",
-    "dark9": "#474645",
-    "dark10": "#525150",
+    "dark1": "#6f6e6d",
+    "dark2": "#7f7e7d",
+    "dark3": "#8f8e8d",
+    "dark4": "#9f9e9d",
+    "dark5": "#afaead",
+    "dark6": "#bfbebd",
+    "dark7": "#cfcecd",
+    "dark8": "#dfdedd",
+    "dark9": "#efeeed",
+    "dark10": "#fffefd",
     "accent": "#ffB900",
     "green": "#92D923",
     "greenDark": "#5B80218f",
@@ -52,22 +52,25 @@
     "redDark": "#e811238f",
     "yellow": "#ffB900",
     "yellowDark": "#cc9300",
-    "light1": "#6f6e6d",
-    "light2": "#7f7e7d",
-    "light3": "#8f8e8d",
-    "light4": "#9f9e9d",
-    "light5": "#afaead",
-    "light6": "#bfbebd",
-    "light7": "#cfcecd",
-    "light8": "#dfdedd",
-    "light9": "#efeeed",
-    "light10": "#fffefd"
+    "light1": "#070605",
+    "light2": "#121110",
+    "light3": "#171615",
+    "light4": "#222120",
+    "light5": "#272625",
+    "light6": "#323130",
+    "light7": "#373635",
+    "light8": "#424140",
+    "light9": "#474645",
+    "light10": "#525150"
   },
   "ui": {
     "*": {
       "arc": 0,
+      "underlineHeight": 1,
       "darkShadow": "dark1",
+      "inactiveMaskColor": "#070605ff",
       "shadow": "dark1",
+      "selectionInnerInsets": "0,0,0,0",
       "selectedBackground": "dark2",
       "selectionBackground": "dark3",
       "selectedInactiveBackground": "dark3",
@@ -76,8 +79,7 @@
       "background": "dark6",
       "disabledBackground": "dark7",
       "lineSeparatorColor": "dark9",
-      "separatorColor": "dark10",
-      "borderColor": "dark10",
+      "borderColor": "dark9",
       "focusedBorderColor": "dark10",
       "disabledForeground": "light1",
       "disabledText": "light2",
@@ -107,6 +109,7 @@
       "endBackground": "dark8",
       "endBorderColor": "dark9",
       "foreground": "light6",
+      "shadowWidth": 0,
       "disabledBorderColor": "dark8",
       "startBackground": "dark8",
       "startBorderColor": "dark9"
@@ -202,6 +205,9 @@
     "EditorPane": {
       "inactiveBackground": "dark7",
       "inactiveForeground": "light3",
+      "selectionForeground": "accent",
+      "selectionBackground": "dark3",
+      "caretForeground": "dark4",
       "splitBorder": "dark9",
       "background": "dark5"
     },
@@ -378,6 +384,11 @@
       "progressColor": "yellow",
       "trackColor": "dark6"
     },
+    "RadioButton": {
+      "background": "dark7",
+      "foreground": "light7",
+        "disabledText": "light1"
+    },
     "RadioButtonMenuItem": {
       "background": "dark9",
       "foreground": "light6",
@@ -458,10 +469,11 @@
       "lightSelectionBackground": "dark4",
       "gridColor": "dark9",
       "sortIconColor": "yellow",
-      "stripeColor": "dark9"
+      "stripeColor": "dark8"
     },
     "TableHeader": {
-      "background": "dark4",
+      "background": "dark5",
+      "focusCellBackground": "dark2",
       "bottomSeparatorColor": "dark9"
     },
     "TextArea": {
@@ -469,6 +481,9 @@
       "foreground": "light6",
       "inactiveBackground": "dark7",
       "inactiveForeground": "light2"
+    },
+    "TextComponent": {
+      "selectionBackgroundInactive": "dark4"
     },
     "TextField": {
       "background": "dark8",
@@ -508,7 +523,7 @@
     },
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "dark4",
+        "selectedBackground": "dark3",
         "selectedForeground": "yellow"
       },
       "Header": {
@@ -526,6 +541,7 @@
       "background": "dark7"
     },
     "Tree": {
+      "errorForeground": "red",
       "background": "dark7",
       "foreground": "light6",
       "hash": "dark9",
@@ -568,10 +584,6 @@
         "background": "dark6"
       },
       "Projects": {
-        "actions": {
-          "background": "dark5",
-          "selectionBackground": "dark3"
-        },
         "background": "dark6",
         "selectionBackground": "dark3",
         "selectionInactiveBackground": "dark4"
@@ -579,9 +591,7 @@
       "SidePanel": {
         "background": "dark5"
       },
-      "background": "dark6",
-      "separatorColor": "dark9"
-    },
-    "Window.border": "1,1,1,1,525150"
+      "background": "dark6"
+    }
   }
 }

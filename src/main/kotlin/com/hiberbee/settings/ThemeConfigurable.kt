@@ -24,14 +24,20 @@
 
 package com.hiberbee.settings
 
-import com.intellij.openapi.options.ConfigurationException
 import com.intellij.openapi.options.SearchableConfigurable
-import org.jetbrains.annotations.Nls
+import com.intellij.openapi.util.NlsContexts.ConfigurableName
+import org.jetbrains.annotations.Contract
+import org.jetbrains.annotations.NonNls
+import org.jetbrains.annotations.NotNull
+import org.jetbrains.annotations.Nullable
 import javax.swing.JComponent
 
+@Suppress("UnstableApiUsage")
 class ThemeConfigurable : SearchableConfigurable {
+
   private var settingsForm: ThemeSettingsForm? = null
 
+  @Nullable
   override fun createComponent(): JComponent? {
     settingsForm = settingsForm ?: ThemeSettingsForm()
     return settingsForm?.component()
@@ -41,7 +47,6 @@ class ThemeConfigurable : SearchableConfigurable {
     return settingsForm?.isModified() ?: return false
   }
 
-  @Throws(ConfigurationException::class)
   override fun apply() {
     val settings = ThemeSettings.instance
     settings.isThemeEnabled =  true
@@ -55,12 +60,12 @@ class ThemeConfigurable : SearchableConfigurable {
     settingsForm = null
   }
 
-  @Nls
+  @ConfigurableName
+  @Contract(pure = true)
   override fun getDisplayName() = "Hiberbee Theme"
 
-  override fun getId(): String = ID
+  @NotNull
+  @NonNls
+  override fun getId(): String = ThemeSettings::class.java.name
 
-  companion object {
-    const val ID = "preferences.hiberbee.theme"
-  }
 }

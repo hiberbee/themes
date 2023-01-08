@@ -5,8 +5,8 @@ import com.intellij.openapi.components.PersistentStateComponent
 import com.intellij.openapi.components.State
 import com.intellij.openapi.components.Storage
 import com.intellij.util.xmlb.XmlSerializerUtil.copyBean
+import org.jetbrains.annotations.NotNull
 import org.jetbrains.annotations.Nullable
-
 
 @State(name = "ThemeSettings", storages = [(Storage("hiberbee.xml"))])
 class ThemeSettings : PersistentStateComponent<ThemeSettings> {
@@ -18,7 +18,7 @@ class ThemeSettings : PersistentStateComponent<ThemeSettings> {
   @Nullable
   override fun getState() = this
 
-  override fun loadState(state: ThemeSettings) {
+  override fun loadState(@NotNull state: ThemeSettings) {
     copyBean(state, this)
   }
 

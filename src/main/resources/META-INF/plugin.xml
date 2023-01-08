@@ -40,9 +40,9 @@
   <version>latest</version>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-<!--    <applicationConfigurable instance="com.hiberbee.settings.ThemeConfigurable" groupId="appearance"/>-->
+<!--    <applicationConfigurable instance="com.hiberbee.settings.ThemeConfigurable" groupId="appearance" />-->
 <!--    <applicationService serviceImplementation="com.hiberbee.settings.ThemeSettings"/>-->
-    <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json"/>
+    <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json" />
 <!--    <themeProvider id="HiberbeeLight" path="/themes/HiberbeeLight.theme.json"/>-->
     <registryKey key="ide.popup.rounded.corners" defaultValue="false" restartRequired="false"
                  description="Disable border radius on popups and menus (Hiberbee theme modified, IDE default: true)"/>
