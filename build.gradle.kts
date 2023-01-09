@@ -16,13 +16,8 @@ repositories {
 
 tasks {
 
-  java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
-  }
-
   compileKotlin {
-    kotlinOptions.jvmTarget = JavaVersion.VERSION_17.toString()
+    kotlinOptions.jvmTarget = JavaVersion.VERSION_11.toString()
   }
 
 
@@ -40,7 +35,7 @@ tasks {
   }
 
   buildSearchableOptions {
-    enabled = true
+    enabled = false
   }
 
   publishPlugin {

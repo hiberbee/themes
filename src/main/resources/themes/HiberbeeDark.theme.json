@@ -28,8 +28,8 @@
       "Objects.Red": "#e81123",
       "Objects.RedStatus": "#e81123",
       "Objects.Grey": "#c9c8c7",
-      "Objects.Yellow": "#FFB900",
-      "Objects.YellowDark": "#ff8c00"
+      "Objects.Yellow": "yellow",
+      "Objects.YellowDark": "yellowDark"
     }
   },
   "colors": {
@@ -45,13 +45,13 @@
     "dark10": "#525150",
     "accent": "#ffB900",
     "green": "#92D923",
-    "greenDark": "#5B80218f",
+    "greenDark": "#3d521c",
     "blueDark": "#0078D7",
     "blue": "#5EFBEF",
     "red": "#e81123",
-    "redDark": "#e811238f",
+    "redDark": "#8c141d",
     "yellow": "#ffB900",
-    "yellowDark": "#cc9300",
+    "yellowDark": "#ff7d00",
     "light1": "#6f6e6d",
     "light2": "#7f7e7d",
     "light3": "#8f8e8d",
@@ -490,11 +490,11 @@
     },
     "ToggleButton": {
       "buttonColor": "dark9",
-      "disabledText": "light2",
+      "disabledText": "light4",
       "offBackground": "dark4",
       "offForeground": "light6",
       "onBackground": "yellow",
-      "onForeground": "dark1"
+      "onForeground": "dark2"
     },
     "ToolBar": {
       "borderHandleColor": "dark9"
@@ -512,7 +512,7 @@
         "selectedForeground": "yellow"
       },
       "Header": {
-        "background": "dark4",
+        "background": "dark5",
         "inactiveBackground": "dark5"
       },
       "HeaderTab": {
@@ -523,7 +523,7 @@
         "underlinedTabBackground": "dark2",
         "underlineColor": "yellow"
       },
-      "background": "dark7"
+      "background": "dark6"
     },
     "Tree": {
       "background": "dark7",
@@ -544,7 +544,7 @@
       "warningBorderColor": "yellow"
     },
     "VersionControl": {
-      "MarkerPopup.Toolbar.background": "dark4",
+      "MarkerPopup.Toolbar.background": "dark5",
       "FileHistory": {
         "Commit.selectedBranchBackground": "dark7"
       },
@@ -560,7 +560,7 @@
       }
     },
     "Viewport": {
-      "background": "dark7",
+      "background": "dark6",
       "foreground": "light6"
     },
     "WelcomeScreen": {
@@ -573,15 +573,13 @@
           "selectionBackground": "dark3"
         },
         "background": "dark6",
-        "selectionBackground": "dark3",
-        "selectionInactiveBackground": "dark4"
+        "selectionBackground": "dark3"
       },
       "SidePanel": {
         "background": "dark5"
       },
       "background": "dark6",
       "separatorColor": "dark9"
-    },
-    "Window.border": "1,1,1,1,525150"
+    }
   }
 }
