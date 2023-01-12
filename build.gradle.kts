@@ -8,23 +8,18 @@ plugins {
 }
 
 group = "com.hiberbee"
-version = System.getenv("APP_VERSION")
+  version = System.getenv("APP_VERSION")
 
-repositories {
-  mavenCentral()
-}
-
-tasks {
-
-  compileKotlin {
-    kotlinOptions.jvmTarget = JavaVersion.VERSION_11.toString()
+  repositories {
+    mavenCentral()
   }
+
+  tasks {
 
 
   intellij {
     type.set("IC")
     version.set("2022.3")
-    configureDefaultDependencies.set(true)
     updateSinceUntilBuild.set(true)
     downloadSources.set(true)
   }
