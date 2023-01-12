@@ -1,4 +1,11 @@
 <scheme name="Hiberbee Dark" version="142">
+  <metaInfo>
+    <property name="created">2023-01-12T06:50:36</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2022.3.2.0.0</property>
+    <property name="modified">2023-01-12T06:50:45</property>
+    <property name="originalScheme">_@user_Hiberbee Dark</property>
+  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -53,7 +60,7 @@
     <option name="INFORMATION_HINT" value="272625" />
     <option name="LINE_NUMBERS_COLOR" value="6f6e6d" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="8f8e8d" />
-    <option name="LOOKUP_COLOR" value="272625" />
+    <option name="LOOKUP_COLOR" value="323130" />
     <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="525150" />
     <option name="METHOD_SEPARATORS_COLOR" value="424140" />
     <option name="MODIFIED_LINES_COLOR" value="ffd64c" />

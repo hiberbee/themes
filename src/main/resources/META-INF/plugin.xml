@@ -37,7 +37,7 @@
     </ul>
     ]]>
   </description>
-  <version>latest</version>
+  <version >latest</version>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
 <!--    <applicationConfigurable instance="com.hiberbee.settings.ThemeConfigurable" groupId="appearance" />-->
