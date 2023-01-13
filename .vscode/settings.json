@@ -1,14 +1,16 @@
 {
-  "editor.fontSize": 12,
-  "editor.fontFamily": "Fira Code Retina",
-  "workbench.enableExperiments": true,
-  "editor.semanticHighlighting.enabled": false,
-  "workbench.colorTheme": "Hiberbee",
-  "workbench.preferredDarkColorTheme": "Hiberbee",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  }
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontVariations": true,
+  "editor.fontWeight": "normal",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "on",
+  "files.eol": "auto",
+  "workbench.colorTheme": "Hiberbee"
 }

@@ -30,3 +30,6 @@ end_of_line = crlf
 
 [{gradlew, *.sh}]
 end_of_line = lf
+
+[*.tmTheme]
+indent_style = tab

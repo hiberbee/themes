@@ -1,0 +1,13 @@
+.git
+.github
+.idea
+.gradle
+.run
+build
+gradle
+src/main
+node_modules
+src/macos
+src/windows-terminal
+**/*.gradle
+gradlew*
