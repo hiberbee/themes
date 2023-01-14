@@ -1,4 +1,4 @@
-# Hiberbee Theme
+# Hiberbee Themes
 
 ## IDE
 
