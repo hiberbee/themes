@@ -18,6 +18,9 @@ sourceSets {
     java {
       srcDirs = ["src/intellij"]
     }
+    resources {
+      srcDirs = ["src/intellij/resources"]
+    }
   }
 }
 
