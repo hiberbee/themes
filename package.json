@@ -29,12 +29,12 @@
     ]
   },
   "dependencies": {
-    "@vscode/vsce": "^2.16.0"
+    "@vscode/vsce": "^2.17.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
-    "eslint": "^8.31.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.33.0",
     "typescript": "^4.9.4"
   },
   "packageManager": "yarn@3.3.1"

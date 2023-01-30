@@ -13,6 +13,14 @@ repositories {
   mavenCentral()
 }
 
+sourceSets {
+  main {
+    java {
+      srcDirs = ["src/intellij"]
+    }
+  }
+}
+
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"

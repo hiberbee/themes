@@ -15,7 +15,6 @@
       "Checkbox.Border.Default.Dark": "dark9",
       "Checkbox.Border.Disabled.Dark": "dark7",
       "Checkbox.Border.Selected.Dark": "dark10",
-      "Tree.iconColor": "accent",
       "Actions.Blue": "blue",
       "Actions.Green": "green",
       "Actions.Grey": "dark10",
@@ -304,8 +303,8 @@
     },
     "ParameterInfo": {
       "background": "dark5",
-      "currentOverloadBackground": "yellow",
-      "currentParameterForeground": "blue",
+      "currentOverloadBackground": "dark3",
+      "currentParameterForeground": "light10",
       "foreground": "light6",
       "infoForeground": "light2",
       "lineSeparatorColor": "dark9"
