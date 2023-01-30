@@ -1,23 +1,24 @@
 {
-  "name": "hiberbee-vscode-theme",
-  "displayName": "Hiberbee Theme",
-  "version": "0.5.0",
-  "repository": {
-    "url": "https://github.com/hiberbee/jetbrains-ide-theme",
-    "type": "git",
-    "directory": "src/vscode"
-  },
-  "publisher": "Hiberbee",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
+  "name": "hiberbee",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/hiberbee/themes#readme",
+  "workspaces": [
+    "packages/*"
   ],
-  "scripts": {
-    "start": "code",
-    "build": "vsce package",
-    "publish": "vsce publish --no-git-tag-version"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiberbee/themes.git"
+  },
+  "author": {
+    "url": "https://hiberbee.com",
+    "name": "Hiberbee",
+    "email": "vlad@hiberbee.com"
+  },
+  "prettier": "@bn-digital/prettier-config",
+  "eslintConfig": {
+    "extends": "@bn-digital/eslint-config"
   },
   "contributes": {
     "themes": [
@@ -28,14 +29,27 @@
       }
     ]
   },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
   "dependencies": {
     "@vscode/vsce": "^2.17.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "@typescript-eslint/parser": "^5.49.0",
-    "eslint": "^8.33.0",
+    "@bn-digital/eslint-config": "^2.0.28",
+    "@bn-digital/prettier-config": "^2.1.9",
+    "@types/node": "^18.11.18",
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   },
-  "packageManager": "yarn@3.3.1"
+  "scripts": {
+    "vscode:start": "code",
+    "vscode:build": "vsce package",
+    "vscode:publish": "vsce publish --no-git-tag-version",
+    "eslint": "node_modules/.bin/eslint",
+    "lint": "yarn eslint  packages/*/src/**/*.{ts,tsx} && stylelint packages/*/src/**/*.less",
+    "lint:fix": "yarn eslint --fix packages/*/src/**/*.tsx && stylelint --fix packages/*/src/**/*.less && prettier --write packages/*/src/**/*"
+  },
+  "packageManager": "yarn@4.0.0-rc.37"
 }

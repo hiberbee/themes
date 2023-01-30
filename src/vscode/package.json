@@ -1,0 +1,38 @@
+{
+  "name": "hibertheme-theme-vscode",
+  "displayName": "Hiberbee Theme",
+  "version": "0.6.0",
+  "repository": {
+    "url": "https://github.com/hiberbee/jetbrains-ide-theme",
+    "type": "git",
+    "directory": "src/vscode"
+  },
+  "publisher": "Hiberbee",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "start": "code",
+    "build": "vsce package --no-yarn --out=dist/hiberbee-theme-vscode.vsix",
+    "publish": "vsce publish --no-git-tag-version"
+  },
+  "eslintConfig": {
+    "extends": "@bn-digital/eslint-config/typescript"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hiberbee",
+        "uiTheme": "vs-dark",
+        "path": "./Hiberbee.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.17.0"
+  },
+  "packageManager": "yarn@3.3.1"
+}

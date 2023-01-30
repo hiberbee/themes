@@ -1,0 +1,58 @@
+<idea-plugin require-restart="true" allow-bundled-update="true">
+  <change-notes>Compatibility fixes related to new UI changes in 2022.3.
+Form components styled properly (wip).
+Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting.
+Text colors on components improved.
+Minor changes to color schemas for Lua, Erlang, Rust</change-notes>
+  <idea-version since-build="191" />
+  <id>com.hiberbee.intellij.hiberbee-theme</id>
+  <vendor email="vlad@hiberbee.com" url="https://github.com/hiberbee">Hiberbee</vendor>
+  <name>Hiberbee Theme</name>
+  <description><![CDATA[<p>Vivid, color-intensive dark theme for Jetbrains IDE with consolidated color code for all programming languages.</p>
+    <b>Features</b>:
+    <ul>
+      <li>Unique color identity map for all language elements and constructs</li>
+      <li>Adopted both for new UI and legacy one (2020.2 and older)</li>
+      <li>Includes registry tweaks for consistent view of elements rounded corners and arcs</li>
+      <li>Part of Hiberbee UI themes collection, including Insomnia, Windows/macOS terminals, PowerShell, Starship and others. See <a
+        href="https://github.com/hiberbee/jetbrains-ide-theme" target="_blank">Github</a> for details</li>
+      <li>Design is available and maintained in Figma <a
+        href="https://www.figma.com/file/2oyhOnKUdLZCDQEkH2klNT/Hiberbee-Theme" target="_blank">template</a>
+        color palette
+      </li>
+    </ul>
+    <b>Upcoming in next releases:</b>
+    <ul>
+      <li>Light theme</li>
+      <li>Settings page with colors map tuning</li>
+      <li>More tweaks and improvements on colors map consistency</li>
+      <li>VSCode & Fleet theme adaptation</li>
+    </ul>
+    <p>
+      Appreciate for all community members feedback and <a href="https://bndigital.co" target="_blank">bndigital</a> fellows for
+      UX/UI advisory and assist.
+    </p>
+    <b>Recommended companion plugins:</b>
+    <ul>
+      <li><a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons" target="_blank">Atom Material Icons</a></li>
+      <li><a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets" target="_blank">Rainbow Brackets</a></li>
+      <li><a href="https://plugins.jetbrains.com/plugin/8251-power-mode-ii" target="_blank">Power Mode II</a></li>
+      <li><a href="https://plugins.jetbrains.com/plugin/9746-ideolog" target="_blank">IdeoLog</a></li>
+      <li><a href="https://plugins.jetbrains.com/plugin/7125-grep-console" target="_blank">Grep Console</a></li>
+    </ul>]]></description>
+  <version>2023.01.30.2220</version>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <!--    <applicationConfigurable instance="com.hiberbee.settings.ThemeConfigurable" groupId="appearance" />-->
+    <!--    <applicationService serviceImplementation="com.hiberbee.settings.ThemeSettings"/>-->
+    <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json" />
+    <!--    <themeProvider id="HiberbeeLight" path="/themes/HiberbeeLight.theme.json"/>-->
+    <registryKey key="ide.popup.rounded.corners" defaultValue="false" restartRequired="false" description="Disable border radius on popups and menus (Hiberbee theme modified, IDE default: true)" />
+    <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false" description="New UI for selected tree nodes (Hiberbee theme modified, IDE default: true)" />
+    <!--    <registryKey key="ide.window.shadow.painter" defaultValue="true" restartRequired="true"-->
+    <!--                 description="Enables light-weight shadows for heavy-weight child windows (Windows only). (Hiberbee theme modified, IDE default: false)"/>-->
+    <registryKey key="ide.link.button.focus.round.arc" defaultValue="0" restartRequired="false" description="The size of the arc to use to round off the corners of the focus rectangle (Hiberbee theme modified, IDE default: 4)" />
+    <registryKey key="ide.splitter.chooser.info.panel.arc" defaultValue="0" restartRequired="false" description="(Hiberbee theme modified, IDE default: 10)" />
+    <registryKey key="ide.tree.experimental.preferred.width" defaultValue="false" restartRequired="false" description="Use alternative calculation of the tree preferred size (Hiberbee theme modified, IDE default: true)" />
+  </extensions>
+</idea-plugin>

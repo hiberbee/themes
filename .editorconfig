@@ -1,35 +1,20 @@
 root = true
 
 [*]
-charset = utf-8
-indent_size = tab
-indent_style = space
-insert_final_newline = true
 max_line_length = 120
 tab_width = 2
+indent_style = space
+insert_final_newline = true
 trim_trailing_whitespace = true
+ij_any_keep_line_breaks = false
 
-ij_any_align_multiline_chained_methods = true
-ij_any_array_initializer_right_brace_on_new_line = false
-ij_any_block_brace_style = end_of_line
-ij_any_spaces_within_braces = true
-ij_any_keep_line_breaks = true
-ij_any_method_call_chain_wrap = on_every_item
-ij_continuation_indent_size = 2
-ij_formatter_off_tag = @formatter:off
-ij_formatter_on_tag = @formatter:on
-ij_formatter_tags_enabled = true
-ij_smart_tabs = false
-ij_wrap_on_typing = false
+[*.{tsx,ts}]
+ij_typescript_import_merge_members = true
+ij_typescript_import_sort_members = true
+ij_typescript_import_sort_module_name = true
+ij_typescript_import_prefer_absolute_path = true
+ij_typescript_blank_lines_after_imports = 1
 
-[{*.neon, .gitmodules, Caddyfile, .gitconfig, ssh_config}]
+[*.{plist,tmTheme}]
 indent_style = tab
-
-[gradlew.bat]
-end_of_line = crlf
-
-[{gradlew, *.sh}]
-end_of_line = lf
-
-[*.tmTheme]
-indent_style = tab
+tab_width = 4

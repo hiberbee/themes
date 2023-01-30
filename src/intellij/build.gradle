@@ -1,7 +1,6 @@
 plugins {
   id("idea")
   id("java")
-  id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.7"
   id("com.github.ben-manes.versions") version "0.44.0"
   id("org.jetbrains.intellij") version "1.12.0"
 }
@@ -13,39 +12,13 @@ repositories {
   mavenCentral()
 }
 
-sourceSets {
-  main {
-    java {
-      srcDirs = ["src/intellij"]
-    }
-    resources {
-      srcDirs = ["src/intellij/resources"]
-    }
-  }
-}
-
 intellij {
   pluginName = "Hiberbee theme"
   type = "IC"
-  version = "2022.3"
+  version = "LATEST-EAP-SNAPSHOT"
   configureDefaultDependencies = true
   updateSinceUntilBuild = false
   downloadSources = true
-}
-
-idea {
-  project {
-    settings {
-      copyright {
-        useDefault = "MIT"
-        profiles {
-          MIT {
-            notice = file("LICENSE").readLines().join("\n")
-          }
-        }
-      }
-    }
-  }
 }
 
 runIde {

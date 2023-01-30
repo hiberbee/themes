@@ -1,0 +1,14 @@
+
+------------------------------------------------------------
+: Project Dependency Updates (report to plain text file)
+------------------------------------------------------------
+
+The following dependencies are using the latest milestone version:
+ - com.github.ben-manes.versions:com.github.ben-manes.versions.gradle.plugin:0.44.0
+ - org.jetbrains.intellij:org.jetbrains.intellij.gradle.plugin:1.12.0
+
+Failed to determine the latest version for the following dependencies (use --info for details):
+ - com.jetbrains:ideaIC
+
+Gradle release-candidate updates:
+ - Gradle: [7.6 -> 8.0-rc-2]

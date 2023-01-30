@@ -1,0 +1,43 @@
+{
+  "name": "@hiberbee/insomnia-theme",
+  "description": "Hiberbee color palette for Insomnia app",
+  "keywords": [
+    "hiberbee-theme",
+    "insomnia-plugin",
+    "insomnia-theme"
+  ],
+  "main": "main.js",
+  "version": "1.1.9",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiberbee/themes",
+    "directory": "src/insomnia"
+  },
+  "author": {
+    "name": "Vlad Volkov",
+    "url": "https://github.com/vladyslavvolkov",
+    "email": "vlad@hiberbee.com"
+  },
+  "maintainers": [
+    {
+      "name": "Vlad Volkov",
+      "url": "https://github.com/vladyslavvolkov",
+      "email": "vlad@hiberbee.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "release": "npm run build && npm publish"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "insomnia": {
+    "name": "hiberbee-theme",
+    "description": "Vibrant color scheme for Insomnia app with same color identity as other Hiberbee UI configurations"
+  }
+}
