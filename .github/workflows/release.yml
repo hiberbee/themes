@@ -22,5 +22,5 @@ jobs:
           distribution: adopt
 
       - name: Publish to JetBrains marketplace
-        run: ./gradlew publishPlugin
+        run: sh gradlew publishPlugin
         working-directory: src/intellij
