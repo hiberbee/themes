@@ -1,7 +1,7 @@
 {
   "name": "Hiberbee Light",
   "author": "Vlad Volkov",
-  "dark": false,
+  "dark": true,
   "editorScheme": "/colors/Light.icls",
   "icons": {
     "ColorPalette": {
@@ -531,7 +531,6 @@
         "inactiveBackground": "dark5"
       },
       "HeaderTab": {
-        "underlineHeight": 1,
         "hoverInactiveBackground": "dark5",
         "inactiveUnderlineColor": "yellowDark",
         "underlinedTabInactiveBackground": "dark3",

@@ -606,7 +606,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="a2ca" />
+        <option name="FOREGROUND" value="57d1eb" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
@@ -985,8 +985,8 @@
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="f5187" />
-        <option name="ERROR_STRIPE_COLOR" value="78d7" />
+        <option name="BACKGROUND" value="252f4d" />
+        <option name="ERROR_STRIPE_COLOR" value="409cff" />
       </value>
     </option>
     <option name="DJANGO_ID">

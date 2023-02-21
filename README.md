@@ -23,3 +23,8 @@
 ### Windows Terminal
 
 See [official documentation](https://learn.microsoft.com/en-us/windows/terminal/custom-terminal-gallery/custom-schemes) and checkout the content of [settings.json](https://github.com/hiberbee/jetbrains-ide-theme/raw/latest/src/windows-terminal/settings.json)
+
+
+## Resources
+
+- [Figma](https://www.figma.com/file/2oyhOnKUdLZCDQEkH2klNT/Hiberbee-Theme)

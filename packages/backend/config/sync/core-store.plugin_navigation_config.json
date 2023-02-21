@@ -1,0 +1,21 @@
+{
+  "key": "plugin_navigation_config",
+  "value": {
+    "additionalFields": [],
+    "contentTypes": [],
+    "contentTypesNameFields": {},
+    "contentTypesPopulate": {},
+    "allowedLevels": 2,
+    "gql": {
+      "navigationItemRelated": []
+    },
+    "i18nEnabled": false,
+    "slugify": {},
+    "pruneObsoleteI18nNavigations": false,
+    "pathDefaultFields": {},
+    "cascadeMenuAttached": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

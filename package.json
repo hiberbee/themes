@@ -20,36 +20,21 @@
   "eslintConfig": {
     "extends": "@bn-digital/eslint-config"
   },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Hiberbee",
-        "uiTheme": "vs-dark",
-        "path": "./src/vscode/Hiberbee.json"
-      }
-    ]
-  },
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "dependencies": {
-    "@vscode/vsce": "^2.17.0"
-  },
   "devDependencies": {
-    "@bn-digital/eslint-config": "^2.0.28",
-    "@bn-digital/prettier-config": "^2.1.9",
-    "@types/node": "^18.11.18",
-    "prettier": "^2.8.3",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "@bn-digital/eslint-config": "^2.0.31",
+    "@bn-digital/prettier-config": "^2.1.11",
+    "@bn-digital/typescript-config": "^1.2.1",
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "vscode:start": "code",
     "vscode:build": "vsce package",
     "vscode:publish": "vsce publish --no-git-tag-version",
     "eslint": "node_modules/.bin/eslint",
-    "lint": "yarn eslint  packages/*/src/**/*.{ts,tsx} && stylelint packages/*/src/**/*.less",
-    "lint:fix": "yarn eslint --fix packages/*/src/**/*.tsx && stylelint --fix packages/*/src/**/*.less && prettier --write packages/*/src/**/*"
+    "prettier": "node_modules/.bin/prettier",
+    "lint": "yarn eslint  packages/*/src/**/*.{ts,tsx} && yarn prettier --check packages/*/src",
+    "lint:fix": "yarn eslint --fix packages/*/src/**/*.tsx && yarn prettier --write packages/*/src"
   },
   "packageManager": "yarn@4.0.0-rc.37"
 }

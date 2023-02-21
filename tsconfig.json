@@ -1,5 +1,20 @@
 {
+  "extends": "@bn-digital/typescript-config/standard",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true
-  }
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "./src/insomnia/tsconfig.json"
+    },
+    {
+      "path": "./packages/website/tsconfig.json"
+    },
+    {
+      "path": "./packages/backend/tsconfig.json"
+    },
+    {
+      "path": "./packages/converter/tsconfig.json"
+    }
+  ]
 }

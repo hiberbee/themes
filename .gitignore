@@ -2,3 +2,5 @@
 .DS_Store
 colorSchemeTool.log
 node_modules
+tsconfig.tsbuildinfo
+.yarn/install-state.gz

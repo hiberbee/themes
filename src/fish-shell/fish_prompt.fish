@@ -6,7 +6,7 @@ function fish_prompt
     starship init fish | source
   end
 
-  set black 333333
+  set black 323130
   set red EE7762
   set green A9DC76
   set yellow FFD866

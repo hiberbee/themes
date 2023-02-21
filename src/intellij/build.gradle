@@ -1,8 +1,9 @@
 plugins {
   id("idea")
   id("java")
-  id("com.github.ben-manes.versions") version "0.44.0"
-  id("org.jetbrains.intellij") version "1.12.0"
+  id("org.jetbrains.kotlin.jvm") version "1.8.10"
+  id("com.github.ben-manes.versions") version "0.45.0"
+  id("org.jetbrains.intellij") version "1.13.0"
 }
 
 group = "com.hiberbee"
@@ -12,8 +13,19 @@ repositories {
   mavenCentral()
 }
 
+java {
+  sourceCompatibility JavaVersion.VERSION_17
+  targetCompatibility JavaVersion.VERSION_17
+}
+
+kotlin {
+  compileKotlin {
+    kotlinOptions.jvmTarget = JavaVersion.VERSION_17
+  }
+}
+
 intellij {
-  pluginName = "Hiberbee theme"
+  pluginName = "Hiberbee Theme"
   type = "IC"
   version = "LATEST-EAP-SNAPSHOT"
   configureDefaultDependencies = true
@@ -22,10 +34,7 @@ intellij {
 }
 
 runIde {
-  jvmArgs = List.of(
-    "-Xms512m",
-    "-Xmx2048m",
-  )
+  jvmArgs = List.of("-Xms512m", "-Xmx2048m")
 }
 
 buildSearchableOptions {
@@ -37,11 +46,7 @@ publishPlugin {
 }
 
 patchPluginXml {
-  changeNotes = """Compatibility fixes related to new UI changes in 2022.3.
-Form components styled properly (wip).
-Grey colors reorganized, simplified and improved grades and shades on selections, components and elements highlighting.
-Text colors on components improved.
-Minor changes to color schemas for Lua, Erlang, Rust"""
-  version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION") : new Date().format("yyyy.MM.dd.HHmm")
-  sinceBuild = "191"
+  changeNotes = """Compatibility fixes related to new UI changes in 2023.1."""
+  version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION") : new Date().format("yyyy.M.d.HHmm")
+  sinceBuild = "231"
 }

@@ -7,6 +7,7 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 ij_any_keep_line_breaks = false
+indent_size = tab
 
 [*.{tsx,ts}]
 ij_typescript_import_merge_members = true

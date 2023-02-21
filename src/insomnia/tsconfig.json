@@ -3,6 +3,7 @@
   "exclude": ["node_modules"],
   "compilerOptions": {
     "allowJs": true,
+    "composite": true,
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "module": "CommonJS",

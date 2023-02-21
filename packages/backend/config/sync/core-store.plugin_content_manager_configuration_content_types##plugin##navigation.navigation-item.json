@@ -1,0 +1,318 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::plugin::navigation.navigation-item",
+  "value": {
+    "uid": "plugin::navigation.navigation-item",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "uiRouterKey",
+      "defaultSortBy": "uiRouterKey",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "path": {
+        "edit": {
+          "label": "path",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "path",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "externalPath": {
+        "edit": {
+          "label": "externalPath",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "externalPath",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "uiRouterKey": {
+        "edit": {
+          "label": "uiRouterKey",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "uiRouterKey",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "menuAttached": {
+        "edit": {
+          "label": "menuAttached",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "menuAttached",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "order": {
+        "edit": {
+          "label": "order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "collapsed": {
+        "edit": {
+          "label": "collapsed",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "collapsed",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "related": {
+        "edit": {
+          "label": "related",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "related_id"
+        },
+        "list": {
+          "label": "related",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "parent": {
+        "edit": {
+          "label": "parent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "uiRouterKey"
+        },
+        "list": {
+          "label": "parent",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "master": {
+        "edit": {
+          "label": "master",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "localeCode"
+        },
+        "list": {
+          "label": "master",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "audience": {
+        "edit": {
+          "label": "audience",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "audience",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "additionalFields": {
+        "edit": {
+          "label": "additionalFields",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "additionalFields",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "type",
+        "path"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "type",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "path",
+            "size": 6
+          },
+          {
+            "name": "externalPath",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "uiRouterKey",
+            "size": 6
+          },
+          {
+            "name": "menuAttached",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "order",
+            "size": 4
+          },
+          {
+            "name": "collapsed",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "related",
+            "size": 6
+          },
+          {
+            "name": "parent",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "master",
+            "size": 6
+          },
+          {
+            "name": "audience",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "additionalFields",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,182 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::plugin::navigation.navigation",
+  "value": {
+    "uid": "plugin::navigation.navigation",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "localeCode",
+      "defaultSortBy": "localeCode",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "visible": {
+        "edit": {
+          "label": "visible",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "visible",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "items": {
+        "edit": {
+          "label": "items",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "uiRouterKey"
+        },
+        "list": {
+          "label": "items",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "localizations": {
+        "edit": {
+          "label": "localizations",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "localeCode"
+        },
+        "list": {
+          "label": "localizations",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "localeCode": {
+        "edit": {
+          "label": "localeCode",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "localeCode",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "slug",
+        "visible"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "visible",
+            "size": 4
+          },
+          {
+            "name": "items",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "localizations",
+            "size": 6
+          },
+          {
+            "name": "localeCode",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
