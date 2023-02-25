@@ -41,8 +41,8 @@
   <version>latest</version>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-<!--    <applicationConfigurable instance="com.hiberbee.jetbrains.settings.ThemeConfigurable" displayName="Hiberbee Theme" groupId="appearance"/>-->
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json"/>
+<!--    <applicationConfigurable instance="com.hiberbee.jetbrains.settings.ThemeConfigurable" displayName="Hiberbee Theme" groupId="appearance"/>-->
 <!--    <applicationService serviceImplementation="com.hiberbee.jetbrains.settings.ThemeSettings"/>-->
 <!--    <postStartupActivity implementation="com.hiberbee.jetbrains.activities.ThemeStartupActivity"/>-->
 <!--    <notificationGroup displayType="BALLOON" id="Hiberbee Theme" isLogByDefault="true" />-->

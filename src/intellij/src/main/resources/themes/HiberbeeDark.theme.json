@@ -45,10 +45,10 @@
     "accent": "#ffb900",
     "green": "#92D923",
     "greenDark": "#3d521b",
-    "blueDark": "#131926",
+    "blueDark": "#253047a0",
     "blue": "#409cff",
     "red": "#e81123",
-    "redDark": "#260b08",
+    "redDark": "#260b08a0",
     "yellow": "#ffb900",
     "yellowLight": "#FFB900",
     "yellowDark": "#4d2f19",
@@ -94,7 +94,7 @@
       "pressedBorderColor": "dark7"
     },
     "Button": {
-      "arc": 6,
+      "arc": 8,
       "default": {
         "endBackground": "dark8",
         "endBorderColor": "dark10",
@@ -114,8 +114,8 @@
       "startBorderColor": "dark10"
     },
     "Borders": {
-      "ContrastBorderColor": "dark9",
-      "color": "dark8"
+      "ContrastBorderColor": "dark10",
+      "color": "dark9"
     },
     "CheckBox": {
       "select": "light10"
@@ -285,7 +285,7 @@
     "Notification": {
       "ToolWindow": {
         "errorBackground": "dark5",
-        "errorBorderColor": "red",
+        "errorBorderColor": "dark10",
         "errorForeground": "light6",
         "informativeBackground": "blueDark",
         "informativeBorderColor": "blue",
@@ -294,7 +294,7 @@
         "warningBorderColor": "yellow",
         "warningForeground": "light6"
       },
-      "borderColor": "#409cff",
+      "borderColor": "dark10",
       "background": "blueDark",
       "arc": 12,
       "Button.background": "dark8",
@@ -303,7 +303,7 @@
       "linkForeground": "accent",
       "Button.foreground": "light10",
       "errorBackground": "redDark",
-      "errorBorderColor": "red",
+      "errorBorderColor": "dark10",
       "MoreButton.foreground": "light6",
       "errorForeground": "light10",
       "foreground": "light10"
