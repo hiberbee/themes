@@ -1,44 +1,35 @@
+import org.jetbrains.intellij.tasks.RunPluginVerifierTask
+
 plugins {
-  id("idea")
   id("java")
-  id("org.jetbrains.kotlin.jvm") version "1.8.10"
-  id("com.github.ben-manes.versions") version "0.45.0"
-  id("org.jetbrains.intellij") version "1.13.0"
+  id("org.jetbrains.intellij") version "1.13.3"
+  id("com.github.ben-manes.versions") version "0.46.0"
 }
 
-group = "com.hiberbee"
-version = System.getenv("APP_VERSION")
+group = "com.hiberbee.intellij"
+version = System.getenv("APP_VERSION") ?: "2023.3.30.121"
 
 repositories {
   mavenCentral()
 }
 
-java {
-  sourceCompatibility JavaVersion.VERSION_17
-  targetCompatibility JavaVersion.VERSION_17
-}
-
-kotlin {
-  compileKotlin {
-    kotlinOptions.jvmTarget = JavaVersion.VERSION_17
-  }
-}
-
 intellij {
-  pluginName = "Hiberbee Theme"
+  pluginName ="Hiberbee Theme"
   type = "IC"
   version = "LATEST-EAP-SNAPSHOT"
-  configureDefaultDependencies = true
-  updateSinceUntilBuild = false
-  downloadSources = true
 }
 
-runIde {
-  jvmArgs = List.of("-Xms512m", "-Xmx2048m")
+java {
+  sourceCompatibility = "17"
+  targetCompatibility = "17"
 }
 
 buildSearchableOptions {
   enabled = false
+}
+
+runPluginVerifier {
+  failureLevel = [RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN]
 }
 
 publishPlugin {
@@ -47,6 +38,5 @@ publishPlugin {
 
 patchPluginXml {
   changeNotes = """Compatibility fixes related to new UI changes in 2023.1."""
-  version = System.getenv("APP_VERSION") ? System.getenv("APP_VERSION") : new Date().format("yyyy.M.d.HHmm")
-  sinceBuild = "231"
+  version = project.version
 }

@@ -1,11 +1,4 @@
 <scheme name="Hiberbee Dark" version="142">
-  <metaInfo>
-    <property name="created">2023-01-12T06:50:36</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2022.3.2.0.0</property>
-    <property name="modified">2023-01-12T06:50:45</property>
-    <property name="originalScheme">_@user_Hiberbee Dark</property>
-  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -943,6 +936,8 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
+        <option name="FOREGROUND" value="efeeed" />
+        <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -32568,7 +32563,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="efeeed" />
+        <option name="FOREGROUND" value="dddedf" />
         <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
