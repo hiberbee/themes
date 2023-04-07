@@ -4,39 +4,71 @@
 ## Modified by honhimW
 # URL: https://github.com/honhimW/hiberbee-themes
 
-"type" = "blue"
-"constant" = "purple"
-"constant.numeric" = "purple"
-"constant.character.escape" = "orange"
-"string" = "yellow"
-"comment" = "grey"
-"variable" = "fg"
-"variable.builtin" = "orange"
-"variable.parameter" = "fg"
-"variable.other.member" = "fg"
-"label" = "orange"
-"punctuation" = "grey"
-"punctuation.delimiter" = "grey"
-"punctuation.bracket" = "fg"
-"keyword" = "red"
-"operator" = "orange"
-"function" = "green"
-"function.builtin" = "blue"
-"function.macro" = "purple"
-"tag" = "yellow"
-"namespace" = "blue"
 "attribute" = "purple"
-"constructor" = "blue"
+
+## type
+"type" = "blue"
+"type.builtin" = "red"
+"type.enum.variant" = "orange"
+
+# "constructor" = ""
+
+## constant
+"constant" = "orange2"
+"constant.builtin" = "red"
+"constant.numeric" = "orange2"
+"constant.character.escape" = "orange"
+
+## string
+"string" = "yellow"
+"string.regexp" = "yellow"
+#"string.special" = "yellow"
+
+## comment
+"comment" = "grey"
+#"comment.line" = "grey"
+#"comment.block" = "grey"
+
+## variable
+"variable" = "purple2"
+"variable.builtin" = "purple2"
+"variable.parameter" = "orange3"
+"variable.other.member" = "red2"
+
+## label
+"label" = "blue2"
+
+## punctuation
+"punctuation" = "light1"
+#"punctuation.delimiter" = "grey"
+#"punctuation.bracket" = ""
+#"punctuation.special" = ""
+
+## keyword
+"keyword" = "red"
+
+## operator
+"operator" = "blue"
+
+## function
+"function" = "green"
+#"function.builtin" = "blue"
+"function.macro" = "purple"
+
+
+"tag" = "green"
+"namespace" = "blue"
 "module" = "blue"
 "special" = "orange"
 
+## markup
 "markup.heading.marker" = "grey"
 "markup.heading.1" = { fg = "red", modifiers = ["bold"] }
 "markup.heading.2" = { fg = "orange", modifiers = ["bold"] }
 "markup.heading.3" = { fg = "yellow", modifiers = ["bold"] }
 "markup.heading.4" = { fg = "green", modifiers = ["bold"] }
 "markup.heading.5" = { fg = "blue", modifiers = ["bold"] }
-"markup.heading.6" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "light10", modifiers = ["bold"] }
 "markup.list" = "red"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
@@ -45,63 +77,44 @@
 "markup.quote" = "grey"
 "markup.raw" = "green"
 
+## version control changes
 "diff.plus" = "green"
 "diff.delta" = "orange"
 "diff.minus" = "red"
 
-"ui.background" = { bg = "bg0" }
+## ui
+"ui.background" = { bg = "dark3" }
 "ui.cursor" = { modifiers = ['reversed'] }
 "ui.cursor.match" = { fg = "orange", bg = "diff_yellow" }
-"ui.cursor.insert" = { fg = "black", bg = "grey" }
-"ui.cursor.select" = { fg = "bg0", bg = "blue" }
-"ui.selection" = { bg = "bg4" }
-"ui.linenr" = "grey"
-"ui.linenr.selected" = "fg"
-"ui.cursorline.primary" = { bg = "bg1" }
-"ui.statusline" = { fg = "fg", bg = "bg3" }
-"ui.statusline.inactive" = { fg = "grey", bg = "bg1" }
-"ui.popup" = { fg = "grey", bg = "bg2" }
-"ui.window" = { fg = "grey", bg = "bg0" }
-"ui.help" = { fg = "fg", bg = "bg1" }
-"ui.text" = "fg"
-"ui.text.focus" = "green"
-"ui.menu" = { fg = "fg", bg = "bg2" }
-"ui.menu.selected" = { fg = "bg0", bg = "green" }
+"ui.cursor.insert" = { fg = "dark0", bg = "dark6" }
+"ui.cursor.select" = { fg = "dark1", bg = "blue" }
+"ui.selection" = { bg = "dark4" }
+"ui.linenr" = "light1"
+"ui.linenr.selected" = "light7"
+"ui.cursorline.primary" = { bg = "light3" }
+"ui.statusline" = { fg = "light6", bg = "dark6" }
+"ui.statusline.inactive" = { fg = "light10", bg = "dark6" }
+"ui.popup" = { fg = "light3", bg = "dark6" }
+"ui.window" = { fg = "light6", bg = "dark6" }
+"ui.help" = { fg = "light6", bg = "dark6" }
+"ui.text" = "light6"
+"ui.text.focus" = { fg = "light3", bg = "dark1" }
+"ui.menu" = { fg = "light7", bg = "dark6" }
+"ui.menu.selected" = { fg = "dark1", bg = "yellow" }
 "ui.virtual.whitespace" = { fg = "grey_dim" }
 "ui.virtual.ruler" = { bg = "grey_dim" }
 
-info = { fg = 'green', bg = 'bg2' }
-hint = { fg = 'blue', bg = 'bg2', modifiers = ['bold'] }
-warning = { fg = 'yellow', bg = 'bg2', modifiers = ['bold'] }
-error = { fg = 'red', bg = 'bg2', modifiers = ['bold'] }
+info = { fg = 'green', bg = 'dark6' }
+hint = { fg = 'blue', bg = 'dark6', modifiers = ['bold'] }
+warning = { fg = 'yellow', bg = 'dark6', modifiers = ['bold'] }
+error = { fg = 'red', bg = 'dark6', modifiers = ['bold'] }
 diagnostic = { modifiers = ['underlined'] }
 
 
 
 [palette]
 
-black = "#181819"
-bg0 = "#2c2e34"
-bg1 = "#33353f"
-bg2 = "#363944"
-bg3 = "#3b3e48"
-bg4 = "#545862"
-bg_red = "#ff6077"
-diff_red = "#55393d"
-bg_green = "#a7df78"
-diff_green = "#394634"
-bg_blue = "#85d3f2"
-diff_blue = "#354157"
 diff_yellow = "#4e432f"
-fg = "#e2e2e3"
-red = "#fc5d7c"
-orange = "#f39660"
-yellow = "#e7c664"
-green = "#9ed072"
-cyan = "#8dd0b6" # added for compatibility with `edge` scheme
-blue = "#76cce0"
-purple = "#b39df3"
-grey = "#7f8490"
 grey_dim = "#595f6f"
 
 "dark1" = "#070605"
@@ -114,12 +127,15 @@ grey_dim = "#595f6f"
 "dark8" = "#424140"
 "dark9" = "#474645"
 "dark10" = "#525150"
+"grey" = "#ccbfaf"
 "accent" = "#ffb900"
 "green" = "#92D923"
 "greenDark" = "#3d521b"
 "blueDark" = "#253047a0"
 "blue" = "#409cff"
-"red" = "#e81123"
+"blue2" = "#00b7c3"
+"red" = "#ee7762"
+"red2" = "#ed005c"
 "redDark" = "#260b08a0"
 "yellow" = "#ffb900"
 "yellowLight" = "#f5d277"
@@ -134,3 +150,8 @@ grey_dim = "#595f6f"
 "light8" = "#dfdedd"
 "light9" = "#efeeed"
 "light10" = "#fffefd"
+"purple" = "#9380ff"
+"purple2" = "#c16a97"
+"orange" = "#f59762"
+"orange2" = "#f25022"
+"orange3" = "#ee9b70"
