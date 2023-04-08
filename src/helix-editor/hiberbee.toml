@@ -98,7 +98,7 @@
 "ui.window" = { fg = "light6", bg = "dark6" }
 "ui.help" = { fg = "light6", bg = "dark6" }
 "ui.text" = "light6"
-"ui.text.focus" = { fg = "light3", bg = "dark1" }
+"ui.text.focus" = { fg = "light10", bg = "dark1" }
 "ui.menu" = { fg = "light7", bg = "dark6" }
 "ui.menu.selected" = { fg = "dark1", bg = "yellow" }
 "ui.virtual.whitespace" = { fg = "grey_dim" }
