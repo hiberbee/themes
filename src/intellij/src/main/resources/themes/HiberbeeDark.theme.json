@@ -65,6 +65,7 @@
   },
   "ui": {
     "*": {
+      "borderInsets": "1,1,1,1",
       "arc": 4,
       "background": "dark6",
       "borderColor": "dark8",
@@ -274,17 +275,16 @@
       "usedBackground": "redDark"
     },
     "Menu": {
-      "borderColor": "dark10",
+      "borderColor": "dark9",
       "background": "dark7",
-      "borderInsets": "0,0,0,0",
       "separatorColor": "dark8",
       "disabledBackground": "dark8",
       "selectionBackground": "dark5",
       "acceleratorSelectionForeground": "light10",
       "Selection": {
         "arc": 0,
-        "innerInsets": "2,8,2,8",
-        "outerInsets": "2,4,2,4"
+        "innerInsets": "4,8,4,8",
+        "outerInsets": "2,1,2,1"
       },
       "acceleratorForeground": "light10"
     },
@@ -359,18 +359,17 @@
     },
     "Popup": {
       "borderColor": "dark9",
+      "paintBorder": true,
       "inactiveBorderColor": "dark8",
       "innerBorderColor": "dark9",
-      "Body": {
-        "bottomInsetNoAd": 4
-      },
+      "Body": { "topInsetNoHeader": 4, "bottomInsetNoAd": 4 },
       "Advertiser": {
         "background": "dark4",
         "borderColor": "dark7",
         "foreground": "light4"
       },
       "Header": {
-        "insets": "4,0,4,0",
+        "insets": "4,1,4,1",
         "activeBackground": "dark5",
         "activeForeground": "light5",
         "inactiveForeground": "light6",
@@ -385,7 +384,7 @@
     "PopupMenu": {
       "background": "dark7",
       "borderWidth": 1,
-      "borderInsets": "4,1,4,1",
+      "borderInsets": "1,1,1,1",
       "foreground": "light7",
       "Selection": {
         "arc": 0,
