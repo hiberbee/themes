@@ -65,7 +65,7 @@
   },
   "ui": {
     "*": {
-      "arc": 6,
+      "arc": 4,
       "background": "dark6",
       "borderColor": "dark8",
       "disabledBackground": "dark7",
@@ -94,7 +94,6 @@
       "pressedBorderColor": "dark7"
     },
     "Button": {
-      "arc": 6,
       "default": {
         "endBackground": "dark8",
         "endBorderColor": "dark10",
@@ -151,13 +150,12 @@
       }
     },
     "Component": {
-      "arc": 6,
       "disabledBorderColor": "dark8",
       "borderColor": "dark9",
       "errorFocusColor": "red",
       "iconColor": "accent",
       "focusColor": "dark10",
-      "focusedBorderColor": "dark10",
+      "focusedBorderColor": "dark9",
       "inactiveErrorFocusColor": "redDark",
       "inactiveWarningFocusColor": "yellowDark",
       "infoForeground": "light3",
@@ -192,12 +190,12 @@
       "areaForeground": "light4"
     },
     "Editor": {
-      "SearchField.borderInsets": "6,2,6,2",
+      "SearchField.borderInsets": "0,0,0,0",
       "SearchField": {
-        "background": "dark8"
+        "background": "dark7"
       },
       "Toolbar.borderColor": "dark8",
-      "background": "dark4",
+      "background": "dark5",
       "shortcutForeground": "light5"
     },
     "EditorPane": {
@@ -269,19 +267,25 @@
       "hoverInactiveBackground": "dark6",
       "hoverBackground": "dark5",
       "selectionBackground": "dark4",
-      "selectionInactiveBackground": "dark6"
+      "selectionInactiveBackground": "dark5"
     },
     "MemoryIndicator": {
       "allocatedBackground": "dark7",
       "usedBackground": "redDark"
     },
     "Menu": {
+      "borderColor": "dark10",
       "background": "dark7",
+      "borderInsets": "0,0,0,0",
       "separatorColor": "dark8",
       "disabledBackground": "dark8",
       "selectionBackground": "dark5",
       "acceleratorSelectionForeground": "light10",
-      "Selection.arc": 6,
+      "Selection": {
+        "arc": 0,
+        "innerInsets": "2,8,2,8",
+        "outerInsets": "2,4,2,4"
+      },
       "acceleratorForeground": "light10"
     },
     "Notification": {
@@ -355,26 +359,38 @@
     },
     "Popup": {
       "borderColor": "dark9",
-      "Selection.arc": 6,
-      "Selection.innerInsets": 0,
+      "inactiveBorderColor": "dark8",
+      "innerBorderColor": "dark9",
+      "Body": {
+        "bottomInsetNoAd": 4
+      },
       "Advertiser": {
         "background": "dark4",
         "borderColor": "dark7",
         "foreground": "light4"
       },
       "Header": {
+        "insets": "4,0,4,0",
         "activeBackground": "dark5",
         "activeForeground": "light5",
         "inactiveForeground": "light6",
         "inactiveBackground": "dark6"
       },
-      "separatorColor": "dark9"
+      "Selection": {
+        "arc": 0,
+        "leftRightInset": 4
+      },
+      "separatorColor": "dark8"
     },
     "PopupMenu": {
       "background": "dark7",
+      "borderWidth": 1,
+      "borderInsets": "4,1,4,1",
       "foreground": "light7",
       "Selection": {
-        "arc": 6
+        "arc": 0,
+        "innerInsets": "2,8,2,8",
+        "outerInsets": "2,1,2,1"
       }
     },
     "ProgressBar": {
@@ -395,7 +411,8 @@
     },
     "RunWidget": {
       "background": "dark6",
-      "pressedBackground": "dark4","runModeIconColor": "light10",
+      "pressedBackground": "dark4",
+      "runModeIconColor": "light10",
       "runningBackground": "dark5"
     },
     "ScrollBar": {
@@ -534,9 +551,11 @@
       },
       "background": "dark7"
     },
-    "GotItTooltip.arc": 6,
+    "GotItTooltip.arc": 4,
     "Tree": {
-      "Selection.arc": 6,
+      "Selection": {
+        "arc": 4
+      },
       "background": "dark7",
       "errorForeground": "red",
       "foreground": "light7",
@@ -586,10 +605,10 @@
       "Projects": {
         "background": "dark6",
         "selectionBackground": "dark4",
-        "selectionInactiveBackground": "dark6"
+        "selectionInactiveBackground": "dark5"
       },
       "SidePanel": {
-        "background": "dark5"
+        "background": "dark7"
       },
       "footerBackground": "dark4",
       "headerBackground": "dark5",

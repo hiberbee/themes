@@ -39,9 +39,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vscode/vsce@npm:^2.17.0":
-  version: 2.17.0
-  resolution: "@vscode/vsce@npm:2.17.0"
+"@vscode/vsce@npm:^2.18.0":
+  version: 2.18.0
+  resolution: "@vscode/vsce@npm:2.18.0"
   dependencies:
     azure-devops-node-api: "npm:^11.0.1"
     chalk: "npm:^2.4.2"
@@ -49,6 +49,7 @@ __metadata:
     commander: "npm:^6.1.0"
     glob: "npm:^7.0.6"
     hosted-git-info: "npm:^4.0.2"
+    jsonc-parser: "npm:^3.2.0"
     keytar: "npm:^7.7.0"
     leven: "npm:^3.1.0"
     markdown-it: "npm:^12.3.2"
@@ -68,7 +69,7 @@ __metadata:
       optional: true
   bin:
     vsce: vsce
-  checksum: 6d08315775b560ba86dbd4988b1451d035b09f0fddd51a58420a0f9a064129cab87a3a235de9f7cb24ea55797b2e7015e793f459dc6079464e906733917b58ca
+  checksum: 8d97510d3fddac1cc734fe18f977538b7fec7ae7656d7b1e27a5af55834209141ef7ea5855c193fa3da588699876ac4269718a54514877eaf522cd6d89ef6040
   languageName: node
   linkType: hard
 
@@ -685,7 +686,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hibertheme-theme-vscode@workspace:."
   dependencies:
-    "@vscode/vsce": "npm:^2.17.0"
+    "@vscode/vsce": "npm:^2.18.0"
   languageName: unknown
   linkType: soft
 
@@ -833,6 +834,13 @@ __metadata:
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
   checksum: b37fe0a7983c0c151c7b31ca716405aaea190ac9cd6ef3f79355f4afb043ed4d3182a6addd73b20df7a0b229269737ad0daf64116821a048bfbe6b8fb7eb842c
+  languageName: node
+  linkType: hard
+
+"jsonc-parser@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "jsonc-parser@npm:3.2.0"
+  checksum: dffa53dd8b8aa897575bcd31b767f1a5c90a0229902e4fcf7aaae73d11a2a343eee6f852d432f7f9328b14520f487805014c2284fbe358e904c41f004964b54a
   languageName: node
   linkType: hard
 

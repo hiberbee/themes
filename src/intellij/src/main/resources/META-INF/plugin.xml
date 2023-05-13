@@ -40,18 +40,10 @@
   </description>
   <version>latest</version>
   <depends>com.intellij.modules.lang</depends>
-  <idea-version since-build="231.8109"/>
+  <idea-version since-build="231"/>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json"/>
-<!--    <applicationConfigurable instance="com.hiberbee.intellij.settings.ThemeConfigurable" displayName="Hiberbee Theme" groupId="appearance"/>-->
-<!--    <applicationService serviceImplementation="com.hiberbee.intellij.settings.ThemeSettings"/>-->
-<!--    <postStartupActivity implementation="com.hiberbee.intellij.activities.ThemeStartupActivity"/>-->
-<!--    <notificationGroup displayType="BALLOON" id="hiberbee-theme" isLogByDefault="true" />-->
     <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false"
                  description="New UI for selected tree nodes (Hiberbee theme modified, IDE default: true)"/>
-
-    <!--    <themeProvider id="HiberbeeLight" path="/themes/HiberbeeLight.theme.json"/>-->
-    <!--    <registryKey key="ide.window.shadow.painter" defaultValue="true" restartRequired="true"-->
-    <!--                 description="Enables light-weight shadows for heavy-weight child windows (Windows only). (Hiberbee theme modified, IDE default: false)"/>-->
   </extensions>
 </idea-plugin>

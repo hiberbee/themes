@@ -1634,7 +1634,7 @@
     </option>
     <option name="LESS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="4ddfea" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
@@ -32802,6 +32802,21 @@
       <value>
         <option name="FOREGROUND" value="78dce8" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CSS.URL">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
+      </value>
+    </option>
+    <option name="LESS_PROPERTY_VALUE">
+      <value>
+        <option name="FOREGROUND" value="ffd866" />
+      </value>
+    </option>
+    <option name="LESS_URL">
+      <value>
+        <option name="FOREGROUND" value="ffb900" />
       </value>
     </option>
   </attributes>
