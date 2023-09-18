@@ -96,7 +96,7 @@
       "selectionInactiveBackground": "dark6",
       "separatorColor": "dark10",
       "shortcutForeground": "light10"
-    },
+    },"FormattedTextField.selectionBackground": "dark4",
     "ActionButton": {
       "hoverBorderColor": "dark10",
       "separatorColor": "dark10",

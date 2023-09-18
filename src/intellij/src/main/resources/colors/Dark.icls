@@ -1,14 +1,10 @@
 <scheme name="Hiberbee Dark" version="142">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2023-09-18T15:25:39</property>
-    <property name="ide">idea</property>
+    <property name="created">2023-09-18T15:42:49</property>
+    <property name="ide">Rider</property>
     <property name="ideVersion">2023.2.2.0.0</property>
-    <property name="modified">2023-09-18T15:25:57</property>
+    <property name="modified">2023-09-18T15:43:00</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Fira Code Retina" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.3" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -49,7 +45,6 @@
     <option name="FILESTATUS_SUPPRESSED" value="727072" />
     <option name="FILESTATUS_SWITCHED" value="ab9df2" />
     <option name="FILESTATUS_UNKNOWN" value="ffd866" />
-    <option name="GRID_STRIPE_COLOR" value="373635" />
     <option name="GUTTER_BACKGROUND" value="272625" />
     <option name="HINT_BORDER" value="525150" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ed6b88" />
@@ -84,7 +79,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="323130" />
     <option name="SELECTED_INDENT_GUIDE" value="424140" />
     <option name="SELECTED_TEARLINE_COLOR" value="ffb900" />
-    <option name="SELECTION_BACKGROUND" value="474645" />
+    <option name="SELECTION_BACKGROUND" value="272625" />
     <option name="SEPARATOR_ABOVE_COLOR" value="323130" />
     <option name="SEPARATOR_BELOW_COLOR" value="323130" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="424140" />
@@ -952,6 +947,8 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
+        <option name="FOREGROUND" value="efeeed" />
+        <option name="BACKGROUND" value="171615" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1199,11 +1196,6 @@
     <option name="GRAPHQL_FRAGMENT_DEFINITION">
       <value>
         <option name="FOREGROUND" value="589df6" />
-      </value>
-    </option>
-    <option name="GRAPHQL_FRAGMENT_SPREAD">
-      <value>
-        <option name="FOREGROUND" value="b6b3eb" />
       </value>
     </option>
     <option name="GRAPHQL_OBJECT_FIELD">
@@ -1582,12 +1574,12 @@
     </option>
     <option name="KOTLIN_KEYWORD_VAL">
       <value>
-        <option name="FOREGROUND" value="ee7762" />
+        <option name="FOREGROUND" value="ed005c" />
       </value>
     </option>
     <option name="KOTLIN_KEYWORD_VAR">
       <value>
-        <option name="FOREGROUND" value="ee7762" />
+        <option name="FOREGROUND" value="ed005c" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
@@ -1618,7 +1610,7 @@
     </option>
     <option name="KOTLIN_SMART_CAST_RECEIVER">
       <value>
-        <option name="FOREGROUND" value="b7e66e" />
+        <option name="FOREGROUND" value="d3eeb1" />
       </value>
     </option>
     <option name="KOTLIN_SMART_CAST_VALUE">
@@ -1628,7 +1620,7 @@
     </option>
     <option name="KOTLIN_SMART_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ed005c" />
+        <option name="FOREGROUND" value="ffbf80" />
       </value>
     </option>
     <option name="KOTLIN_TYPE_PARAMETER">
@@ -1663,7 +1655,7 @@
     </option>
     <option name="LESS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="4ddfea" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
@@ -32337,10 +32329,34 @@
         <option name="FOREGROUND" value="ab9df2" />
       </value>
     </option>
-    <option name="ReSharper.DELEGATE_IDENTIFIER">
+    <option name="ReSharper.CSHARP_ATTRIBUTE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="ffb900" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_DELEGATE_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="409cff" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_EVENT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_NAMESPACE_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="409cff" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_STATIC_FIELD_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="9896ff" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="9896ff" />
       </value>
     </option>
     <option name="ReSharper.ENUM_IDENTIFIER">
@@ -32614,7 +32630,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffbdce" />
+        <option name="FOREGROUND" value="bdbebd" />
       </value>
     </option>
     <option name="TS.ENUM">
