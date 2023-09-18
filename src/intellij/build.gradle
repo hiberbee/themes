@@ -1,4 +1,3 @@
-import org.jetbrains.intellij.tasks.RunPluginVerifierTask
 
 plugins {
   id("java")
@@ -7,7 +6,7 @@ plugins {
 }
 
 group = "com.hiberbee.intellij"
-version = System.getenv("APP_VERSION") ?: "2023.3.30.121"
+version = System.getenv("APP_VERSION") ?: java.time.OffsetDateTime.now().format("YYYY.M.d.Hm")
 
 repositories {
   mavenCentral()
@@ -15,7 +14,7 @@ repositories {
 
 intellij {
   pluginName ="Hiberbee Theme"
-  type = "IC"
+  type = "IU"
   version = "LATEST-EAP-SNAPSHOT"
 }
 
@@ -28,10 +27,6 @@ buildSearchableOptions {
   enabled = false
 }
 
-runPluginVerifier {
-  failureLevel = [RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN]
-}
-
 publishPlugin {
   setToken(System.getenv("JETBRAINS_TOKEN"))
 }
@@ -39,4 +34,5 @@ publishPlugin {
 patchPluginXml {
   changeNotes = """Compatibility fixes related to new UI changes in 2023.1."""
   version = project.version
+  sinceBuild = "191"
 }

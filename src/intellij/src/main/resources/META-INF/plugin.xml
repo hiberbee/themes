@@ -40,7 +40,6 @@
   </description>
   <version>latest</version>
   <depends>com.intellij.modules.lang</depends>
-  <idea-version since-build="231"/>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json"/>
     <registryKey key="ide.experimental.ui.tree.selection" defaultValue="false" restartRequired="false"

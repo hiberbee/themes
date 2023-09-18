@@ -5,21 +5,12 @@
   "editorScheme": "/colors/Dark.icls",
   "icons": {
     "ColorPalette": {
-      "#2b2d30": "#323130",
-      "#3574f0": "#ffb900",
-      "#3c3f41": "#323130",
-      "#43494a": "#424140",
-      "#6B6B6B": "#525150",
-      "#134d80": "#202635",
-      "#a1a3a4": "light7",
-      "#A7A7A7": "light4",
-      "#3D6185": "#ffb900",
       "Actions.GreyInline.Dark": "light4",
       "Checkbox.Background.Disabled.Dark": "#323130",
       "Checkbox.Background.Default.Dark": "#424140",
       "Checkbox.Background.Selected.Dark": "#424140",
-      "Checkbox.Focus.Thin.Selected.Dark": "#525150",
-      "Checkbox.Focus.Wide.Dark": "#525150",
+      "Checkbox.Focus.Thin.Selected.Dark": "dark10",
+      "Checkbox.Focus.Wide.Dark": "dark10",
       "Checkbox.Foreground.Selected.Dark": "#ffb900",
       "Checkbox.Border.Selected": "#ffb900",
       "Checkbox.Border.Default.Dark": "dark9",
@@ -27,21 +18,30 @@
       "Checkbox.Border.Selected.Dark": "dark10",
       "Actions.Blue": "blue",
       "Actions.Green": "green",
-      "Actions.Grey": "dark10",
+      "Actions.Grey": "light6",
       "Actions.Red": "red",
       "Actions.Yellow": "yellow",
       "Objects.Blue": "blue",
       "Objects.Green": "green",
       "Objects.Pink": "#ff6188",
       "Objects.Purple": "#9380ff",
-      "Objects.Red": "#e81123",
-      "Objects.RedStatus": "#e81123",
-      "Objects.Grey": "#c9c8c7",
-      "Objects.Yellow": "#FFB900",
+      "Objects.Red": "red",
+      "Objects.RedStatus": "red",
+      "Objects.Grey": "light6",
+      "Objects.Yellow": "yellow",
       "Objects.YellowDark": "#ff8c00"
     }
   },
   "colors": {
+    "#2b2d30": "#323130",
+    "#3574f0": "#ffb900",
+    "#3c3f41": "#323130",
+    "#43494a": "#424140",
+    "#6B6B6B": "#525150",
+    "#134d80": "#202635",
+    "#a1a3a4": "light7",
+    "#A7A7A7": "light4",
+    "#3D6185": "#ffb900",
     "dark1": "#070605",
     "dark2": "#121110",
     "dark3": "#171615",
@@ -55,10 +55,10 @@
     "accent": "#ffb900",
     "green": "#92D923",
     "greenDark": "#92D923a0",
-    "blueDark": "#253047a0",
+    "blueDark": "#253047e0",
     "blue": "#409cff",
     "red": "#d70751",
-    "redDark": "#260b08a0",
+    "redDark": "#400020f0",
     "yellow": "#ffb900",
     "yellowLight": "#f5d277",
     "yellowDark": "#ffb900a0",
@@ -75,6 +75,7 @@
   },
   "ui": {
     "*": {
+      "darkShadow": "dark10",
       "background": "dark6",
       "borderColor": "dark8",
       "disabledBackground": "dark7",
@@ -283,39 +284,37 @@
       "usedBackground": "redDark"
     },
     "Menu": {
-      "borderColor": "dark9",
+      "borderColor": "dark10",
       "background": "dark7",
-      "separatorColor": "dark8",
+      "separatorColor": "dark9",
       "disabledBackground": "dark8",
       "selectionBackground": "dark5",
       "acceleratorSelectionForeground": "light10",
-      "acceleratorForeground": "light10"
+      "acceleratorForeground": "light7"
     },
     "Notification": {
       "ToolWindow": {
-        "errorBackground": "dark5",
-        "errorBorderColor": "dark10",
-        "errorForeground": "light6",
+        "errorBackground": "redDark",
+        "errorBorderColor": "red",
+        "errorForeground": "light8",
         "informativeBackground": "blueDark",
         "informativeBorderColor": "blue",
-        "informativeForeground": "light6",
+        "informativeForeground": "light4",
         "warningBackground": "yellowDark",
         "warningBorderColor": "yellow",
         "warningForeground": "light6"
       },
-      "borderColor": "dark10",
+      "borderColor": "dark9",
       "background": "blueDark",
-      "arc": 12,
       "Button.background": "dark8",
-
       "Button.borderColor": "dark10",
       "linkForeground": "accent",
       "Button.foreground": "light10",
       "errorBackground": "redDark",
-      "errorBorderColor": "dark10",
+      "errorBorderColor": "red",
       "MoreButton.foreground": "light6",
-      "errorForeground": "light10",
-      "foreground": "light10"
+      "errorForeground": "light8",
+      "foreground": "light8"
     },
     "NotificationsToolwindow": {
       "newNotification.background": "dark5",
@@ -328,11 +327,11 @@
     },
     "ParameterInfo": {
       "background": "dark5",
-      "currentOverloadBackground": "light7",
-      "currentParameterForeground": "light5",
+      "currentOverloadBackground": "dark7",
+      "currentParameterForeground": "light7",
       "foreground": "light6",
       "infoForeground": "light3",
-      "lineSeparatorColor": "dark9"
+      "lineSeparatorColor": "dark8"
     },
     "PasswordField": {
       "capsLockIconColor": "red",
@@ -546,9 +545,6 @@
     },
     "GotItTooltip.arc": 4,
     "Tree": {
-      "Selection": {
-        "arc": 4
-      },
       "background": "dark7",
       "errorForeground": "red",
       "foreground": "light7",
