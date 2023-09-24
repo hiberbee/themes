@@ -56,9 +56,11 @@
     "green": "#92D923",
     "greenDark": "#92D923a0",
     "blueDark": "#253047e0",
+    "redDark": "#3b0115e0",
     "blue": "#409cff",
-    "red": "#d70751",
-    "redDark": "#400020f0",
+    "redLight": "#cf7d67",
+    "red": "#EE7762",
+    "pink": "#d70751",
     "yellow": "#ffb900",
     "yellowLight": "#f5d277",
     "yellowDark": "#ffb900a0",
@@ -96,12 +98,31 @@
       "selectionInactiveBackground": "dark6",
       "separatorColor": "dark10",
       "shortcutForeground": "light10"
-    },"FormattedTextField.selectionBackground": "dark4",
+    },
+    "FormattedTextField.selectionBackground": "dark4",
     "ActionButton": {
       "hoverBorderColor": "dark10",
       "separatorColor": "dark10",
       "pressedBackground": "dark4",
       "pressedBorderColor": "dark7"
+    },
+    "Banner": {
+      "errorBackground": "dark4",
+      "infoBackground": "dark4",
+      "warningBackground": "dark4",
+      "warningBorderColor": "yellow",
+      "errorBorderColor": "red",
+      "infoBorderColor": "blue",
+      "successBackground": "dark4",
+      "successBorderColor": "green"
+    },
+    "UnattendedHostStatus": {
+      "warningBackground": "dark4",
+      "warningForeground": "yellow",
+      "dangerBackground": "dark4",
+      "dangerForeground": "red",
+      "normalBackground": "dark4",
+      "normalForeground": "blue"
     },
     "Button": {
       "default": {
@@ -126,8 +147,13 @@
       "ContrastBorderColor": "dark10",
       "color": "dark9"
     },
-    "CheckBox": { "select": "light10" },
-    "CheckBoxMenuItem": { "background": "dark7", "selectionBackground": "dark4" },
+    "CheckBox": {
+      "select": "light10"
+    },
+    "CheckBoxMenuItem": {
+      "background": "dark7",
+      "selectionBackground": "dark4"
+    },
     "ColorChooser": {
       "foreground": "light6",
       "background": "dark6"
@@ -163,13 +189,15 @@
       "disabledBorderColor": "dark8",
       "borderColor": "dark9",
       "errorFocusColor": "red",
+      "errorForeground": "red",
       "iconColor": "accent",
       "focusColor": "dark10",
       "focusedBorderColor": "dark9",
-      "inactiveErrorFocusColor": "redDark",
+      "inactiveErrorFocusColor": "red",
       "inactiveWarningFocusColor": "yellowDark",
       "infoForeground": "light3",
-      "warningFocusColor": "yellow"
+      "warningFocusColor": "yellow",
+      "warningForeground": "yellow"
     },
     "Counter": {
       "background": "dark4",
@@ -281,7 +309,7 @@
     },
     "MemoryIndicator": {
       "allocatedBackground": "dark7",
-      "usedBackground": "redDark"
+      "usedBackground": "#ED005C"
     },
     "Menu": {
       "borderColor": "dark10",
@@ -294,15 +322,15 @@
     },
     "Notification": {
       "ToolWindow": {
-        "errorBackground": "redDark",
-        "errorBorderColor": "red",
+        "errorBackground": "#3b0115",
+        "errorBorderColor": "pink",
         "errorForeground": "light8",
         "informativeBackground": "blueDark",
         "informativeBorderColor": "blue",
         "informativeForeground": "light4",
-        "warningBackground": "yellowDark",
+        "warningBackground": "dark3",
         "warningBorderColor": "yellow",
-        "warningForeground": "light6"
+        "warningForeground": "yellow"
       },
       "borderColor": "dark9",
       "background": "blueDark",
@@ -455,7 +483,7 @@
     },
     "SplitPane": {
       "background": "dark",
-      "highlight": "yellow"
+      "highlight": "accent"
     },
     "TabbedPane": {
       "contentAreaColor": "dark7",
@@ -559,9 +587,9 @@
       "foreground": "light6"
     },
     "ValidationTooltip": {
-      "errorBackground": "redDark",
+      "errorBackground": "dark4",
       "errorBorderColor": "red",
-      "warningBackground": "yellowDark",
+      "warningBackground": "dark4",
       "warningBorderColor": "yellow"
     },
     "VersionControl": {
