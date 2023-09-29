@@ -1,12 +1,13 @@
+import java.time.OffsetDateTime
 
 plugins {
   id("java")
-  id("org.jetbrains.intellij") version "1.13.3"
-  id("com.github.ben-manes.versions") version "0.46.0"
+  id("org.jetbrains.intellij") version "1.15.0"
+  id("com.github.ben-manes.versions") version "0.48.0"
 }
 
-group = "com.hiberbee.intellij"
-version = System.getenv("APP_VERSION") ?: java.time.OffsetDateTime.now().format("YYYY.M.d.Hm")
+group = "com.hiberbee"
+version = System.getenv("APP_VERSION") ?: OffsetDateTime.now().format("YYYY.M.d.Hm")
 
 repositories {
   mavenCentral()
@@ -16,11 +17,12 @@ intellij {
   pluginName ="Hiberbee Theme"
   type = "IU"
   version = "LATEST-EAP-SNAPSHOT"
+  updateSinceUntilBuild = false
 }
 
 java {
-  sourceCompatibility = "17"
-  targetCompatibility = "17"
+  sourceCompatibility = JavaVersion.VERSION_17
+  targetCompatibility = JavaVersion.VERSION_17
 }
 
 buildSearchableOptions {
@@ -31,8 +33,13 @@ publishPlugin {
   setToken(System.getenv("JETBRAINS_TOKEN"))
 }
 
+runIdePerformanceTest {
+ testDataDir = rootProject.files("src/test/java").getAsPath()
+}
+
 patchPluginXml {
   changeNotes = """Compatibility fixes related to new UI changes in 2023.1."""
   version = project.version
-  sinceBuild = "191"
+  sinceBuild = "191.*"
+  untilBuild = "234.*"
 }

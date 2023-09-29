@@ -7,29 +7,29 @@ function fish_prompt
   end
 
   set black 323130
-  set red EE7762
-  set green A9DC76
-  set yellow FFD866
-  set blue 409CFF
-  set purple a89fec
-  set cyan 70D7FF
-  set white F9F6EF
-  set grey 646464
+  set red ff638a
+  set green b7e66e
+  set yellow ffd866
+  set blue 409cff
+  set purple b6b3eb
+  set cyan 8edce5
+  set white dfdedd
+  set grey 8f8e8d
   set orange EE9B70
-  set bright_pink ED005C
-  set bright_orange FD971F
+  set bright_pink ed005c
+  set bright_red f25022
+  set bright_orange ff8c00
   set bright_black b3b3b3
-  set bright_red F25022
-  set bright_green 92D923
-  set bright_yellow FFB900
-  set bright_blue 00A4EF
-  set bright_purple 9478F6
-  set bright_cyan 4DDFEA
-  set bright_white FFFFFF
-  set background 191919
-  set foreground E1E1E1
-  set cursor_color ED005C
-  set selection_background 1E3C50
+  set bright_green 92d923
+  set bright_yellow ffb900
+  set bright_cyan 57d1eb
+  set bright_blue 0078d7
+  set bright_purple 9380ff
+  set bright_white fffefd
+  set background 171615
+  set foreground cfcecd
+  set cursor_color 00b294
+  set selection_background 525150
 
   set fish_color_autosuggestion $yellow
   set fish_color_cancel $white

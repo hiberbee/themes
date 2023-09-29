@@ -1,14 +1,10 @@
 <scheme name="Hiberbee Dark" version="142">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2023-09-24T22:29:17</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2023.2.2.0.0</property>
     <property name="modified">2023-09-24T22:29:34</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Fira Code Retina" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.3" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -926,9 +922,6 @@
         <option name="FOREGROUND" value="edc777" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="DEFAULT_SEMICOLON">
-      <value />
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>

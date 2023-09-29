@@ -21,11 +21,11 @@
     "extends": "@bn-digital/eslint-config"
   },
   "devDependencies": {
-    "@bn-digital/eslint-config": "^2.2.4",
-    "@bn-digital/prettier-config": "^2.3.8",
-    "@bn-digital/typescript-config": "^1.3.4",
-    "@types/node": "^20.1.4",
-    "typescript": "^5.0.4"
+    "@bn-digital/eslint-config": "^2.5.0",
+    "@bn-digital/prettier-config": "^2.4.1",
+    "@bn-digital/typescript-config": "^1.4.0",
+    "@types/node": "^20.6.5",
+    "typescript": "^5.2.2"
   },
   "scripts": {
     "vscode:start": "code",
