@@ -2,9 +2,9 @@
   "name": "hiberbee-vscode-theme",
   "displayName": "Hiberbee Theme",
   "icon": "icon.png",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "repository": {
-    "url": "https://github.com/hiberbee/jetbrains-ide-theme",
+    "url": "https://github.com/hiberbee/themes",
     "type": "git",
     "directory": "src/vscode"
   },
@@ -33,7 +33,6 @@
     ]
   },
   "dependencies": {
-    "@vscode/vsce": "^2.18.0"
-  },
-  "packageManager": "yarn@3.3.1"
+    "@vscode/vsce": "^2.21.1"
+  }
 }
