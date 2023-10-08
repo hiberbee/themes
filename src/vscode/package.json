@@ -1,7 +1,8 @@
 {
-  "name": "hibertheme-theme-vscode",
+  "name": "hiberbee-vscode-theme",
   "displayName": "Hiberbee Theme",
-  "version": "0.6.0",
+  "icon": "icon.png",
+  "version": "0.7.0",
   "repository": {
     "url": "https://github.com/hiberbee/jetbrains-ide-theme",
     "type": "git",

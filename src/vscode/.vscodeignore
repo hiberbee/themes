@@ -6,8 +6,6 @@
 build
 gradle
 src/main
-node_modules
-src/macos
-src/windows-terminal
-**/*.gradle
-gradlew*
+node_modules/**
+src/**
+packages/**
