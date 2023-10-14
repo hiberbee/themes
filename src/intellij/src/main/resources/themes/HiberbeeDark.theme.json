@@ -3,6 +3,7 @@
   "author": "Vlad Volkov",
   "dark": true,
   "editorScheme": "/colors/Dark.xml",
+  "icons": {},
   "colors": {
     "dark1": "#070605",
     "dark2": "#121110",
@@ -132,7 +133,8 @@
       "errorFocusColor": "red",
       "iconColor": "accent",
       "focusColor": "dark10",
-      "focusedBorderColor": "dark9",
+      "focusWidth": 2,
+      "focusedBorderColor": "dark10",
       "inactiveErrorFocusColor": "redDark",
       "inactiveWarningFocusColor": "yellowDark",
       "infoForeground": "light3",
@@ -198,7 +200,7 @@
     },
     "Focus": {
       "color": "dark10",
-      "width": "1"
+      "width": 1
     },
     "FormattedTextField": {
       "background": "dark8",
@@ -270,10 +272,10 @@
         "errorBackground": "redDark",
         "errorBorderColor": "red",
         "errorForeground": "light8",
-        "informativeBackground": "blueDark",
+        "informativeBackground": "yellowDark",
         "informativeBorderColor": "blue",
         "informativeForeground": "light4",
-        "warningBackground": "yellowDark",
+        "warningBackground": "dark4",
         "warningBorderColor": "yellow",
         "warningForeground": "light6"
       },
@@ -536,9 +538,9 @@
       "selectionInactiveBackground": "dark6"
     },
     "ValidationTooltip": {
-      "errorBackground": "redDark",
+      "errorBackground": "dark4",
       "errorBorderColor": "red",
-      "warningBackground": "yellowDark",
+      "warningBackground": "dark4",
       "warningBorderColor": "yellow"
     },
     "VersionControl": {
