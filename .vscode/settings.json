@@ -1,7 +1,5 @@
 {
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
@@ -11,7 +9,7 @@
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "on",
-
   "files.eol": "auto",
-  "workbench.colorTheme": "Hiberbee"
+  "workbench.colorTheme": "Hiberbee",
+  "editor.colorDecorators": true
 }

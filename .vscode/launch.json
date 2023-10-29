@@ -7,7 +7,7 @@
       "request": "launch",
       "runtimeExecutable": "${execPath}",
       "preLaunchTask": "npm",
-      "args": ["--extensionDevelopmentPath=${workspaceRoot}"]
+      "args": ["--extensionDevelopmentPath=${workspaceRoot}"],
     }
   ]
 }
