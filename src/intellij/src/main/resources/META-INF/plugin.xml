@@ -43,15 +43,5 @@
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json" />
     <bundledColorScheme id="Hiberbee Dark" path="/colors/Dark"/>
-    <fileIconProvider
-            id="genericFileIconProvider"
-            order="first"
-            implementation="com.hiberbee.ExtraIconProvider"/>
-        <!--suppress PluginXmlValidity (can't find third-party plugins, but it's OK) -->
-        <iconProvider
-            id="extraIconsIconProvider"
-            order="first"
-            implementation="com.hiberbee.ExtraIconProvider"/>
-
   </extensions>
 </idea-plugin>
