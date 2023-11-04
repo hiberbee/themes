@@ -38,7 +38,13 @@ runIdePerformanceTest {
 }
 
 patchPluginXml {
-  changeNotes = """Compatibility fixes related to new UI changes in 2023.1."""
+  changeNotes = """
+- Rust theme support.
+- 2023.3 regression fixes.
+- Debugger color alignment.
+- Console background color darkened.
+Git diff backgrounds updates
+"""
   version = project.version
   sinceBuild = "191.*"
   untilBuild = "234.*"

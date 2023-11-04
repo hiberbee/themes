@@ -1,9 +1,9 @@
 <scheme name="Hiberbee Dark" version="142">
   <metaInfo>
-    <property name="created">2023-10-29T18:10:54</property>
+    <property name="created">2023-11-04T18:33:50</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2023.3.0.0</property>
-    <property name="modified">2023-10-29T18:11:52</property>
+    <property name="modified">2023-11-04T18:34:02</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="92d923" />
@@ -23,7 +23,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="262626" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="323130" />
-    <option name="ERROR_HINT" value="401408"  />
+    <option name="ERROR_HINT" value="401408" />
     <option name="FILESTATUS_ADDED" value="a9dc76" />
     <option name="FILESTATUS_CHANGELIST_CONFLICT" value="f65f87" />
     <option name="FILESTATUS_COPIED" value="a9dc76" />
@@ -611,7 +611,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="8edce5" />
+        <option name="EFFECT_COLOR" value="409cff" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
@@ -740,24 +740,24 @@
     </option>
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
-        <option name="FOREGROUND" value="a89fec" />
+        <option name="FOREGROUND" value="b6b3eb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
       <value>
-        <option name="FOREGROUND" value="ed6b88" />
+        <option name="FOREGROUND" value="ff638a" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
-        <option name="FOREGROUND" value="f9d778" />
+        <option name="FOREGROUND" value="ffd866" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="b7c3" />
+        <option name="FOREGROUND" value="b294" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -773,12 +773,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="5efbef" />
+        <option name="FOREGROUND" value="57d1eb" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="4ac7be" />
+        <option name="FOREGROUND" value="5efbef" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -798,7 +798,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="ee9b70" />
+        <option name="FOREGROUND" value="ffb900" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -873,7 +873,7 @@
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="FOREGROUND" value="b7c3" />
+        <option name="FOREGROUND" value="b294" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -894,7 +894,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="b294" />
+        <option name="FOREGROUND" value="ffbdce" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -1080,18 +1080,18 @@
     </option>
     <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
-        <option name="BACKGROUND" value="191e23" />
+        <option name="FOREGROUND" value="5efbef" />
+        <option name="BACKGROUND" value="191817" />
       </value>
     </option>
     <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="57d1eb" />
+        <option name="FOREGROUND" value="8edce5" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="a3219" />
+        <option name="BACKGROUND" value="242b24" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -1254,9 +1254,6 @@
       <value>
         <option name="FOREGROUND" value="92d923" />
       </value>
-    </option>
-    <option name="HTML_CODE">
-      <value />
     </option>
     <option name="HTML_TAG_NAME">
       <value>
@@ -1442,6 +1439,11 @@
       </value>
     </option>
     <option name="JS.DEBUGGER_STMT">
+      <value>
+        <option name="FOREGROUND" value="ff6188" />
+      </value>
+    </option>
+    <option name="JS.DOC_TYPE">
       <value>
         <option name="FOREGROUND" value="ff6188" />
       </value>
@@ -1967,6 +1969,9 @@
       <value>
         <option name="FOREGROUND" value="ffb900" />
       </value>
+    </option>
+    <option name="MARKDOWN_HTML_BLOCK">
+      <value />
     </option>
     <option name="MARKDOWN_ITALIC">
       <value>
@@ -31797,8 +31802,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
+        <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="ffb900" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -32056,6 +32061,17 @@
         <option name="FOREGROUND" value="ee7762" />
       </value>
     </option>
+    <option name="POWER_SHELL_COMMAND_NAME">
+      <value>
+        <option name="FOREGROUND" value="92d923" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="POWER_SHELL_COMMAND_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ee9b70" />
+      </value>
+    </option>
     <option name="POWER_SHELL_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ff6188" />
@@ -32223,11 +32239,6 @@
     <option name="ROUND_BRACKETS_RAINBOW_COLOR4">
       <value>
         <option name="FOREGROUND" value="ed005c" />
-      </value>
-    </option>
-    <option name="RUBY_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="57d1eb" />
       </value>
     </option>
     <option name="RUBY_HEREDOC_ID">
@@ -32664,7 +32675,7 @@
     </option>
     <option name="TS.TYPE.ALIAS">
       <value>
-        <option name="FOREGROUND" value="409cff" />
+        <option name="FOREGROUND" value="78d7" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
@@ -32807,6 +32818,12 @@
         <option name="FOREGROUND" value="ff6188" />
       </value>
     </option>
+    <option name="org.rust.CRATE">
+      <value>
+        <option name="FOREGROUND" value="ff8c00" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="org.rust.DOC_EMPHASIS">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -32821,8 +32838,13 @@
     </option>
     <option name="org.rust.MODULE">
       <value>
-        <option name="FOREGROUND" value="ff8c00" />
+        <option name="FOREGROUND" value="5efbef" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="org.rust.PRIMITIVE_TYPE">
+      <value>
+        <option name="FOREGROUND" value="ff638a" />
       </value>
     </option>
     <option name="org.rust.STRUCT">
@@ -32832,8 +32854,7 @@
     </option>
     <option name="org.rust.TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="ed005c" />
       </value>
     </option>
     <option name="org.rust.UNSAFE_CODE">
