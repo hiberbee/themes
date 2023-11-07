@@ -1,16 +1,17 @@
 name: Release
 on:
-  release:
-    types: [ published ]
+  push:
+    tags:
+    - "*.*.*.*"
 
-env:
-  APP_VERSION: ${{ github.event.release.tag_name }}
-  JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
+
 
 jobs:
   publish:
     name: Publish to Jetbrains Marketplace
     runs-on: ubuntu-22.04
+    env:
+      APP_VERSION: ${{ github.ref_name }}
     steps:
       - name: Checkout sources
         uses: actions/checkout@v3
@@ -20,7 +21,19 @@ jobs:
         with:
           java-version: 17
           distribution: adopt
+          cache: 'gradle'
+
+      - name: Build plugin
+        run: sh gradlew buildPlugin --no-daemon
+        working-directory: src/intellij
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: src/intellij/build/libs/intellij-${{ env.APP_VERSION }}.jar
 
       - name: Publish to JetBrains marketplace
-        run: sh gradlew publishPlugin
+        run: sh gradlew publishPlugin --no-daemon
         working-directory: src/intellij
+        env:
+          JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
