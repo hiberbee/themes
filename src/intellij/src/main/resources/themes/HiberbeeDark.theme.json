@@ -21,16 +21,16 @@
     "blueDark": "#253047CC",
     "blue": "#409cff",
     "red": "#ff5454",
-    "redDark": "#401408",
+    "redDark": "#320f0f",
     "yellow": "#ffb900",
     "yellowLight": "#f5d277",
     "yellowDark": "#ffb900a0",
-    "redBg": "#401408CC",
-    "violetBg": "#302030CC",
-    "orangeBg": "#403018CC",
-    "yellowBg": "#303018CC",
-    "blueBg": "#253047CC",
-    "greenBg": "#203020CC",
+    "redBg": "#320f0f",
+    "violetBg": "#302030",
+    "orangeBg": "#403018",
+    "yellowBg": "#303018",
+    "blueBg": "#253047",
+    "greenBg": "#203020",
     "light1": "#6f6e6d",
     "light2": "#7f7e7d",
     "light3": "#8f8e8d",
@@ -282,7 +282,7 @@
     },
     "Menu": {
       "Selection.arc": 0,
-      "Selection.outerInsets": "2,0,2,0",
+      "Selection.outerInsets": "1,0,1,0",
       "Selection.innerInsets": "4,4,4,4",
       "background": "dark6",
       "borderColor": "dark9",
@@ -383,21 +383,22 @@
         "bottomInsetBeforeAd": 2,
         "bottomInsetNoAd": 2
       },
-      "separatorInsets": "4,0,4,0",
+      "separatorInsets": "2,0,2,0",
       "Selection": {
         "arc": 0,
         "innerInsets": "4,8,4,8",
         "leftRightInset": 1
       },
+      "innerBorderColor": "dark9",
       "separatorColor": "dark8"
     },
     "PopupMenu": {
-      "borderWidth": 1,
+      "borderWidth": 0,
       "Selection.arc": 0,
-      "Selection.innerInsets": "4,4,4,4",
-      "Selection.outerInsets": "4,0,4,0",
+      "Selection.innerInsets": "4,8,4,8",
+      "Selection.outerInsets": "2,0,2,0",
       "background": "dark6",
-      "borderInsets": "1,4,1,4",
+      "borderInsets": "1,1,1,1",
       "foreground": "light6"
     },
     "PopupMenuSeparator": {
@@ -424,7 +425,7 @@
       "hoverBackground": "dark4",
       "stopBackground": "redBg",
       "iconColor": "accent",
-      "runIconColor": "greenBg",
+      "runIconColor": "greenDark",
       "runningIconColor": "light10",
       "runningBackground": "dark5"
     },
@@ -507,15 +508,16 @@
       "focusCellBackground": "dark4",
       "focusCellForeground": "yellow",
       "gridColor": "dark9",
-      "lightSelectionBackground": "dark6",
+      "lightSelectionBackground": "dark8",
       "sortIconColor": "yellow",
+      "selectionBackground": "dark4",
       "stripeColor": "dark9"
     },
     "TableHeader": {
       "background": "dark5",
       "separatorColor": "dark9",
       "cellBorder": "dark8",
-      "focusCellBackground": "dark3",
+      "focusCellBackground": "dark4",
       "bottomSeparatorColor": "dark9"
     },
     "TextArea": {
@@ -537,7 +539,7 @@
       "background": "dark6",
       "inactiveBackground": "dark7",
       "inactiveForeground": "light3",
-      "selectionBackground": "dark4"
+      "selectionBackground": "dark5"
     },
     "TitlePane": {
       "background": "dark5"
@@ -592,6 +594,7 @@
       "hoverInactiveBackground": "dark5",
       "modifiedItemForeground": "blue",
       "selectionBackground": "dark5",
+      "Selection.arc": 0,
       "selectionInactiveBackground": "dark6"
     },
     "ValidationTooltip": {
@@ -628,6 +631,7 @@
       },
       "Projects": {
         "actions.selectionBackground": "dark5",
+        "actions.background": "dark6",
         "background": "dark7",
         "actions.selectionBorderColor": "dark10",
         "selectionBackground": "dark5",
