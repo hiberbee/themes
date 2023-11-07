@@ -39,11 +39,8 @@ runIdePerformanceTest {
 
 patchPluginXml {
   changeNotes = """
-- Rust theme support.
-- 2023.3 regression fixes.
-- Debugger color alignment.
-- Console background color darkened.
-- Git diff backgrounds updates
+- New release workflow
+- Disabled transparency on run widget (#109)
 """
   version = project.version
   sinceBuild = "191.*"
