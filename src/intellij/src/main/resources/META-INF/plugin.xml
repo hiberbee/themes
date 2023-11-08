@@ -42,6 +42,6 @@
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="HiberbeeDark" path="/themes/HiberbeeDark.theme.json" />
-    <bundledColorScheme id="HiberbeeDark" path="/colors/Dark.xml"/>
+    <bundledColorScheme path="/colors/Dark"/>
   </extensions>
 </idea-plugin>

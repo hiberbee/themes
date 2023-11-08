@@ -39,8 +39,7 @@ runIdePerformanceTest {
 
 patchPluginXml {
   changeNotes = """
-- New release workflow
-- Disabled transparency on run widget (#109)
+- Fixed mess up around color scheme provided (#108)
 """
   version = project.version
   sinceBuild = "191.*"
