@@ -1,4 +1,4 @@
-<scheme name="Hiberbee Dark" version="142">
+<scheme name="Hiberbee Dark" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2023-11-08T01:17:57</property>
     <property name="ide">idea</property>

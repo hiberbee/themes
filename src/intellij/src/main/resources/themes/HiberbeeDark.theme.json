@@ -2,7 +2,8 @@
   "name": "Hiberbee Dark",
   "author": "Vlad Volkov",
   "dark": true,
-  "editorScheme": "/colors/Dark.xml",
+  "parentTheme": "Darcula",
+  "editorScheme": "Hiberbee Dark",
   "colors": {
     "dark1": "#070605",
     "dark2": "#121110",

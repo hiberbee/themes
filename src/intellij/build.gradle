@@ -17,7 +17,7 @@ intellij {
   pluginName ="Hiberbee Theme"
   type = "IU"
   version = "LATEST-EAP-SNAPSHOT"
-  updateSinceUntilBuild = true
+  updateSinceUntilBuild = false
 }
 
 java {
@@ -42,6 +42,4 @@ patchPluginXml {
 - Fixed mess up around color scheme provided (#108)
 """
   version = project.version
-  sinceBuild = "191.*"
-  untilBuild = "234.*"
 }
